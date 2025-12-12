@@ -1,0 +1,8 @@
+2025-11-15 12:10:22,213 - __main__ - INFO - Starting keyframe extraction system in train mode
+2025-11-15 12:10:22,213 - __main__ - INFO - Using device: cuda:0
+2025-11-15 12:10:22,213 - __main__ - INFO - Cache directory: .cache
+2025-11-15 12:10:22,213 - __main__ - INFO - ============================================================
+2025-11-15 12:10:22,213 - __main__ - INFO - STEP 2: TRAINING STUDENT MODEL
+2025-11-15 12:10:22,213 - __main__ - INFO - ============================================================
+2025-11-15 12:10:22,213 - __main__ - INFO - Starting student model training...
+2025-11-15 12:14:20,884 - keyframe_extraction.teacher_model - INFO - Loading teacher model from /data/share/qwen/Qwen2.5-VL-7B-Instruct

@@ -1,0 +1,66 @@
+2025-11-15 14:35:39,517 - __main__ - INFO - Starting keyframe extraction system in train mode
+2025-11-15 14:35:39,517 - __main__ - INFO - Using device: cuda:0
+2025-11-15 14:35:39,517 - __main__ - INFO - Cache directory: .cache
+2025-11-15 14:35:39,517 - __main__ - INFO - ============================================================
+2025-11-15 14:35:39,517 - __main__ - INFO - STEP 2: TRAINING STUDENT MODEL
+2025-11-15 14:35:39,517 - __main__ - INFO - ============================================================
+2025-11-15 14:35:39,517 - __main__ - INFO - Starting student model training...
+2025-11-15 14:35:39,517 - __main__ - INFO - Loading frames for 8 videos...
+2025-11-15 14:35:39,517 - __main__ - INFO - Loading frames for video 1/8
+2025-11-15 14:35:39,534 - __main__ - INFO - Loading frames for video 2/8
+2025-11-15 14:35:39,544 - __main__ - INFO - Loading frames for video 3/8
+2025-11-15 14:35:39,559 - __main__ - INFO - Loading frames for video 4/8
+2025-11-15 14:35:39,569 - __main__ - INFO - Loading frames for video 5/8
+2025-11-15 14:35:39,584 - __main__ - INFO - Loading frames for video 6/8
+2025-11-15 14:35:39,595 - __main__ - INFO - Loading frames for video 7/8
+2025-11-15 14:35:39,608 - __main__ - INFO - Loading frames for video 8/8
+2025-11-15 14:35:39,619 - __main__ - INFO - Successfully loaded 8 videos with frames
+2025-11-15 14:35:39,619 - keyframe_extraction.teacher_model - INFO - Loading teacher model from /data/share/qwen/Qwen2.5-VL-7B-Instruct
+2025-11-15 14:35:47,414 - keyframe_extraction.teacher_model - INFO - Teacher model loaded successfully
+2025-11-15 14:35:47,421 - keyframe_extraction.student_model - INFO - Student trainer initialized
+2025-11-15 14:35:47,421 - keyframe_extraction.student_model - INFO - Extracting training features...
+2025-11-15 14:35:47,421 - keyframe_extraction.student_model - INFO - Processing video: Style Code Live: Rose Gold Beauty | Nails...
+2025-11-15 14:35:47,421 - keyframe_extraction.student_model - INFO - Frames shape: (48, 480, 854, 3), dtype: uint8
+2025-11-15 14:35:47,429 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:36:04,251 - keyframe_extraction.student_model - INFO - Detected actual vision feature dimension: 3584
+2025-11-15 14:36:04,251 - keyframe_extraction.student_model - INFO - Updating student model vision dimension from 1024 to 3584
+2025-11-15 14:36:04,270 - keyframe_extraction.student_model - INFO - Processing video: Code Blue - D/Code Antiperspirant Stick...
+2025-11-15 14:36:04,270 - keyframe_extraction.student_model - INFO - Frames shape: (31, 480, 854, 3), dtype: uint8
+2025-11-15 14:36:04,276 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:36:14,743 - keyframe_extraction.student_model - INFO - Processing video: Dead Down Wind Field Spray (12 oz Sprayer + 32 oz ...
+2025-11-15 14:36:14,744 - keyframe_extraction.student_model - INFO - Frames shape: (48, 404, 720, 3), dtype: uint8
+2025-11-15 14:36:14,750 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:36:25,541 - keyframe_extraction.student_model - INFO - Processing video: Dove Antiperspirant Deodorant, Original Clean, 2.6...
+2025-11-15 14:36:25,542 - keyframe_extraction.student_model - INFO - Frames shape: (32, 480, 480, 3), dtype: uint8
+2025-11-15 14:36:25,545 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:36:31,178 - keyframe_extraction.student_model - INFO - Processing video: Back off mongoose!...
+2025-11-15 14:36:31,178 - keyframe_extraction.student_model - INFO - Frames shape: (48, 480, 854, 3), dtype: uint8
+2025-11-15 14:36:31,186 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:36:47,411 - keyframe_extraction.student_model - INFO - Processing video: Osprey Packs Kestrel 38 Backpack...
+2025-11-15 14:36:47,412 - keyframe_extraction.student_model - INFO - Frames shape: (48, 404, 720, 3), dtype: uint8
+2025-11-15 14:36:47,418 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:36:58,216 - keyframe_extraction.student_model - INFO - Processing video: Xootr Kick Scooters - "First Class"...
+2025-11-15 14:36:58,241 - keyframe_extraction.student_model - INFO - Frames shape: (48, 480, 854, 3), dtype: uint8
+2025-11-15 14:36:58,249 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:37:14,487 - keyframe_extraction.student_model - INFO - Processing video: 10A NFL Proline - Amazon...
+2025-11-15 14:37:14,487 - keyframe_extraction.student_model - INFO - Frames shape: (48, 404, 720, 3), dtype: uint8
+2025-11-15 14:37:14,493 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:37:25,354 - keyframe_extraction.student_model - INFO - Extracted features for 351 frames
+2025-11-15 14:37:25,356 - keyframe_extraction.student_model - INFO - Starting training for 10 epochs...
+2025-11-15 14:37:25,493 - keyframe_extraction.student_model - INFO - Epoch 1/10: Train Loss: 0.1922, Val Loss: 0.1544, Train MSE: 0.1828, Val MSE: 0.1460
+2025-11-15 14:37:25,560 - keyframe_extraction.student_model - INFO - Epoch 2/10: Train Loss: 0.2217, Val Loss: 0.2711, Train MSE: 0.2167, Val MSE: 0.2671
+2025-11-15 14:37:25,619 - keyframe_extraction.student_model - INFO - Epoch 3/10: Train Loss: 0.1565, Val Loss: 0.1571, Train MSE: 0.1514, Val MSE: 0.1510
+2025-11-15 14:37:25,687 - keyframe_extraction.student_model - INFO - Epoch 4/10: Train Loss: 0.1531, Val Loss: 0.1806, Train MSE: 0.1457, Val MSE: 0.1710
+2025-11-15 14:37:25,751 - keyframe_extraction.student_model - INFO - Epoch 5/10: Train Loss: 0.1520, Val Loss: 0.1829, Train MSE: 0.1470, Val MSE: 0.1760
+2025-11-15 14:37:25,813 - keyframe_extraction.student_model - INFO - Epoch 6/10: Train Loss: 0.1547, Val Loss: 0.1913, Train MSE: 0.1483, Val MSE: 0.1827
+2025-11-15 14:37:25,879 - keyframe_extraction.student_model - INFO - Epoch 7/10: Train Loss: 0.1512, Val Loss: 0.1520, Train MSE: 0.1463, Val MSE: 0.1425
+2025-11-15 14:37:25,941 - keyframe_extraction.student_model - INFO - Epoch 8/10: Train Loss: 0.1668, Val Loss: 0.1893, Train MSE: 0.1601, Val MSE: 0.1857
+2025-11-15 14:37:26,005 - keyframe_extraction.student_model - INFO - Epoch 9/10: Train Loss: 0.1534, Val Loss: 0.1664, Train MSE: 0.1488, Val MSE: 0.1591
+2025-11-15 14:37:26,067 - keyframe_extraction.student_model - INFO - Epoch 10/10: Train Loss: 0.1582, Val Loss: 0.2134, Train MSE: 0.1523, Val MSE: 0.2095
+2025-11-15 14:37:26,068 - keyframe_extraction.student_model - INFO - Training completed!
+2025-11-15 14:37:26,785 - keyframe_extraction.student_model - INFO - Model saved to .cache/student_model.pth
+2025-11-15 14:37:26,805 - __main__ - INFO - Student model saved to .cache/student_model.pth
+2025-11-15 14:37:26,805 - __main__ - INFO - Training history saved to .cache/training_history.json
+2025-11-15 14:37:26,808 - __main__ - INFO - ============================================================
+2025-11-15 14:37:26,808 - __main__ - INFO - KEYFRAME EXTRACTION SYSTEM COMPLETED SUCCESSFULLY!
+2025-11-15 14:37:26,809 - __main__ - INFO - ============================================================

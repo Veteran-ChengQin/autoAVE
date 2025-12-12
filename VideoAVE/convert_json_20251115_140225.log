@@ -1,0 +1,55 @@
+2025-11-15 14:02:25,247 - INFO - Creating backup: ./keyframe_extraction/.cache/teacher_supervision_data.json.backup
+2025-11-15 14:04:46,457 - INFO - Starting conversion...
+2025-11-15 14:04:46,458 - INFO - Converting large JSON file: ./keyframe_extraction/.cache/teacher_supervision_data.json
+2025-11-15 14:04:46,458 - INFO - File size: 8.24 GB
+2025-11-15 14:04:46,458 - INFO - Loading JSON file into memory (this may take several minutes for large files)...
+2025-11-15 14:06:11,358 - INFO - Loaded 8 records from JSON
+2025-11-15 14:06:11,359 - INFO - Processing record 1/8
+2025-11-15 14:06:11,359 - INFO -   Converting frames list to numpy array...
+2025-11-15 14:06:17,438 - INFO -   Saving frames to .cache/supervision_frames/video_0_frames.npy
+2025-11-15 14:06:17,507 - INFO -   Video 0: (48, 480, 854, 3) frames saved
+2025-11-15 14:06:17,507 - INFO - Processing record 2/8
+2025-11-15 14:06:17,508 - INFO -   Converting frames list to numpy array...
+2025-11-15 14:06:21,393 - INFO -   Saving frames to .cache/supervision_frames/video_1_frames.npy
+2025-11-15 14:06:21,868 - INFO -   Video 1: (31, 480, 854, 3) frames saved
+2025-11-15 14:06:21,868 - INFO - Processing record 3/8
+2025-11-15 14:06:21,868 - INFO -   Converting frames list to numpy array...
+2025-11-15 14:06:26,125 - INFO -   Saving frames to .cache/supervision_frames/video_2_frames.npy
+2025-11-15 14:06:26,175 - INFO -   Video 2: (48, 404, 720, 3) frames saved
+2025-11-15 14:06:26,176 - INFO - Processing record 4/8
+2025-11-15 14:06:26,176 - INFO -   Converting frames list to numpy array...
+2025-11-15 14:06:28,329 - INFO -   Saving frames to .cache/supervision_frames/video_3_frames.npy
+2025-11-15 14:06:28,344 - INFO -   Video 3: (32, 480, 480, 3) frames saved
+2025-11-15 14:06:28,344 - INFO - Processing record 5/8
+2025-11-15 14:06:28,345 - INFO -   Converting frames list to numpy array...
+2025-11-15 14:06:34,145 - INFO -   Saving frames to .cache/supervision_frames/video_4_frames.npy
+2025-11-15 14:06:34,206 - INFO -   Video 4: (48, 480, 854, 3) frames saved
+2025-11-15 14:06:34,206 - INFO - Processing record 6/8
+2025-11-15 14:06:34,207 - INFO -   Converting frames list to numpy array...
+2025-11-15 14:06:38,462 - INFO -   Saving frames to .cache/supervision_frames/video_5_frames.npy
+2025-11-15 14:06:38,491 - INFO -   Video 5: (48, 404, 720, 3) frames saved
+2025-11-15 14:06:38,491 - INFO - Processing record 7/8
+2025-11-15 14:06:38,491 - INFO -   Converting frames list to numpy array...
+2025-11-15 14:06:44,425 - INFO -   Saving frames to .cache/supervision_frames/video_6_frames.npy
+2025-11-15 14:06:44,496 - INFO -   Video 6: (48, 480, 854, 3) frames saved
+2025-11-15 14:06:44,496 - INFO - Processing record 8/8
+2025-11-15 14:06:44,497 - INFO -   Converting frames list to numpy array...
+2025-11-15 14:06:48,614 - INFO -   Saving frames to .cache/supervision_frames/video_7_frames.npy
+2025-11-15 14:06:48,667 - INFO -   Video 7: (48, 404, 720, 3) frames saved
+2025-11-15 14:06:48,667 - INFO - Saving supervision data...
+2025-11-15 14:06:48,668 - INFO - Conversion completed successfully!
+2025-11-15 14:06:48,668 - INFO - Supervision data saved to: .cache/teacher_supervision_data.json
+2025-11-15 14:06:48,668 - INFO - Frame data saved to: .cache/supervision_frames
+2025-11-15 14:06:48,668 - INFO - 
+============================================================
+2025-11-15 14:06:48,668 - INFO - SIZE COMPARISON
+2025-11-15 14:06:48,668 - INFO - ============================================================
+2025-11-15 14:06:48,668 - INFO - Original JSON file: 8441.2 MB
+2025-11-15 14:06:48,668 - INFO - New supervision JSON: 0.0 MB
+2025-11-15 14:06:48,668 - INFO - Frames directory: 346.2 MB
+2025-11-15 14:06:48,668 - INFO - Total new size: 346.2 MB
+2025-11-15 14:06:48,668 - INFO - JSON size reduction: 100.0%
+2025-11-15 14:06:48,668 - INFO - ============================================================
+2025-11-15 14:06:53,279 - INFO - ✅ Conversion completed successfully!
+2025-11-15 14:06:53,280 - INFO - You can now delete the original large JSON file: ./keyframe_extraction/.cache/teacher_supervision_data.json
+2025-11-15 14:06:53,280 - INFO - The new format is stored in: .cache

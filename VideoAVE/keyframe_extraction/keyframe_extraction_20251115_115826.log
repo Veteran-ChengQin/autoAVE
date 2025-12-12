@@ -1,0 +1,7 @@
+2025-11-15 11:58:26,084 - __main__ - INFO - Starting keyframe extraction system in train mode
+2025-11-15 11:58:26,084 - __main__ - INFO - Using device: cuda:0
+2025-11-15 11:58:26,084 - __main__ - INFO - Cache directory: .cache
+2025-11-15 11:58:26,084 - __main__ - INFO - ============================================================
+2025-11-15 11:58:26,084 - __main__ - INFO - STEP 2: TRAINING STUDENT MODEL
+2025-11-15 11:58:26,084 - __main__ - INFO - ============================================================
+2025-11-15 11:58:26,085 - __main__ - INFO - Starting student model training...

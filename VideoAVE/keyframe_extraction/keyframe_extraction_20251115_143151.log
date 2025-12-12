@@ -1,0 +1,26 @@
+2025-11-15 14:31:51,066 - __main__ - INFO - Starting keyframe extraction system in train mode
+2025-11-15 14:31:51,066 - __main__ - INFO - Using device: cuda:0
+2025-11-15 14:31:51,066 - __main__ - INFO - Cache directory: .cache
+2025-11-15 14:31:51,066 - __main__ - INFO - ============================================================
+2025-11-15 14:31:51,066 - __main__ - INFO - STEP 2: TRAINING STUDENT MODEL
+2025-11-15 14:31:51,066 - __main__ - INFO - ============================================================
+2025-11-15 14:31:51,066 - __main__ - INFO - Starting student model training...
+2025-11-15 14:31:51,066 - __main__ - INFO - Loading frames for 8 videos...
+2025-11-15 14:31:51,066 - __main__ - INFO - Loading frames for video 1/8
+2025-11-15 14:31:51,079 - __main__ - INFO - Loading frames for video 2/8
+2025-11-15 14:31:51,089 - __main__ - INFO - Loading frames for video 3/8
+2025-11-15 14:31:51,099 - __main__ - INFO - Loading frames for video 4/8
+2025-11-15 14:31:51,105 - __main__ - INFO - Loading frames for video 5/8
+2025-11-15 14:31:51,120 - __main__ - INFO - Loading frames for video 6/8
+2025-11-15 14:31:51,131 - __main__ - INFO - Loading frames for video 7/8
+2025-11-15 14:31:51,147 - __main__ - INFO - Loading frames for video 8/8
+2025-11-15 14:31:51,159 - __main__ - INFO - Successfully loaded 8 videos with frames
+2025-11-15 14:31:51,159 - keyframe_extraction.teacher_model - INFO - Loading teacher model from /data/share/qwen/Qwen2.5-VL-7B-Instruct
+2025-11-15 14:31:58,893 - keyframe_extraction.teacher_model - INFO - Teacher model loaded successfully
+2025-11-15 14:31:58,899 - keyframe_extraction.student_model - INFO - Student trainer initialized
+2025-11-15 14:31:58,900 - keyframe_extraction.student_model - INFO - Extracting training features...
+2025-11-15 14:31:58,900 - keyframe_extraction.student_model - INFO - Processing video: Style Code Live: Rose Gold Beauty | Nails...
+2025-11-15 14:31:58,900 - keyframe_extraction.student_model - INFO - Frames shape: (48, 480, 854, 3), dtype: uint8
+2025-11-15 14:31:58,907 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:32:15,965 - keyframe_extraction.student_model - INFO - Detected actual vision feature dimension: 3584
+2025-11-15 14:32:15,965 - __main__ - ERROR - Error in keyframe extraction system: 'StudentTrainer' object has no attribute 'student'

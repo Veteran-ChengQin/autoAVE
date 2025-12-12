@@ -1,0 +1,905 @@
+{
+  "overall": {
+    "precision": 1.0,
+    "recall": 0.1957,
+    "f1": 0.3273,
+    "tp": 63,
+    "fp": 0,
+    "fn": 259,
+    "total_products": 99,
+    "total_attributes": 322
+  },
+  "per_product": {
+    "B07JLCR327": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B078PBMZ72": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B00UB79B66": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B01LFUCWKO": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B0BDG3W7J5": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 4
+    },
+    "B01J9URU18": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B08S3VDQT4": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B098TYK4KZ": {
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 3
+    },
+    "B01L81YIJ8": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 4
+    },
+    "B07MLDPJQ3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B0B6WVQXF2": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B085FY5RZ7": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 3
+    },
+    "B07GKS5RC4": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B07FQDZ6WD": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B07HCYV2HY": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 4
+    },
+    "B07HY15WKK": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B07K5W8DHQ": {
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 3
+    },
+    "B00JAG6TB4": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B09B8442YJ": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B07FMKZTCR": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B00IJC5E5M": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "attr_count": 5
+    },
+    "B00SXOG5CW": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 3
+    },
+    "B01AGY72SC": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B074Y6VL3H": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B06XKJQDD7": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B01L0T6JNG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "attr_count": 2
+    },
+    "B0BQSDN5S7": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B08YSYHXTC": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B078HGLTQ9": {
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 3
+    },
+    "B08BGND1Z6": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 3
+    },
+    "B008DW6NVC": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 3
+    },
+    "B07BZQCRRY": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 4
+    },
+    "B010PPM94E": {
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 3
+    },
+    "B001IY0YOO": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B01N7BIQSL": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 4
+    },
+    "B06XHWFR2X": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 3
+    },
+    "B07FTZX1RF": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B07B4CF79P": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B07GYM1SX1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B0739HDVNN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 6,
+      "attr_count": 6
+    },
+    "B07FDQF129": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B07NXY9HKL": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B004AJ5DMC": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B0BW2TZVH3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B007JWJSBE": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B07CJW3RT3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B07LF4ZH7J": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "attr_count": 2
+    },
+    "B07VNY4B66": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B01MS84I7L": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B00QYOSD00": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 3
+    },
+    "B07ZGBN4NH": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B0040T4N7S": {
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333,
+      "tp": 1,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 5
+    },
+    "B00TPR5FEA": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B09BZ8K4DF": {
+      "precision": 1.0,
+      "recall": 0.4286,
+      "f1": 0.6,
+      "tp": 3,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 7
+    },
+    "B07CZ8JGTX": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B00CS708M8": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B0085ROS4Y": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B013SRBONI": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 3
+    },
+    "B00IOVOHBU": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714,
+      "tp": 2,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 5
+    },
+    "B0899M2ZNY": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B07DK66ZHL": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B0786RPGNB": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714,
+      "tp": 2,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 5
+    },
+    "B07C9ND7H7": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B07CV97T9P": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B01N0O7EHN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B07KFCR7LD": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B07GKLPTL6": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B009WI43LI": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B0BNC5ZF3T": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "attr_count": 5
+    },
+    "B08JQP6QD1": {
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 3
+    },
+    "B0CDPFQFB7": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B0C92JS5N2": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 2,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 4
+    },
+    "B0788B1HZX": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B0CBX58J4F": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "attr_count": 5
+    },
+    "B004Y9M8SA": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "attr_count": 5
+    },
+    "B0BQ89FCJ1": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571,
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 4
+    },
+    "B017U12680": {
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333,
+      "tp": 1,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 5
+    },
+    "B077JDPKDL": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 3
+    },
+    "B0752KCTDV": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B07648LBLR": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "attr_count": 5
+    },
+    "B07XF6Y3F4": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B08669WGPS": {
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 3
+    },
+    "B07FMV34QR": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B07JBJW2R3": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571,
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 4
+    },
+    "B084G8F71B": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B0BL2CRG8K": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 2,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 4
+    },
+    "B09W7QH189": {
+      "precision": 1.0,
+      "recall": 0.125,
+      "f1": 0.2222,
+      "tp": 1,
+      "fp": 0,
+      "fn": 7,
+      "attr_count": 8
+    },
+    "B00OUKGNJI": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B09W422P5C": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B0BR7N5QXG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B0796QFQ15": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B07W8TQ2QL": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    },
+    "B08DC1JGX7": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B08T5T4RQQ": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 4
+    },
+    "B01EVHDEKU": {
+      "precision": 1.0,
+      "recall": 0.4286,
+      "f1": 0.6,
+      "tp": 3,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 7
+    },
+    "B01N9OBPGB": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B0B6WLTK4H": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B074K4BP71": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "attr_count": 4
+    },
+    "B017BQAFRI": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "attr_count": 2
+    }
+  }
+}

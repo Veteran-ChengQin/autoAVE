@@ -1,0 +1,48 @@
+2025-11-15 14:28:57,215 - __main__ - INFO - Starting keyframe extraction system in train mode
+2025-11-15 14:28:57,215 - __main__ - INFO - Using device: cuda:0
+2025-11-15 14:28:57,215 - __main__ - INFO - Cache directory: .cache
+2025-11-15 14:28:57,215 - __main__ - INFO - ============================================================
+2025-11-15 14:28:57,215 - __main__ - INFO - STEP 2: TRAINING STUDENT MODEL
+2025-11-15 14:28:57,215 - __main__ - INFO - ============================================================
+2025-11-15 14:28:57,215 - __main__ - INFO - Starting student model training...
+2025-11-15 14:28:57,215 - __main__ - INFO - Loading frames for 8 videos...
+2025-11-15 14:28:57,216 - __main__ - INFO - Loading frames for video 1/8
+2025-11-15 14:28:57,229 - __main__ - INFO - Loading frames for video 2/8
+2025-11-15 14:28:57,238 - __main__ - INFO - Loading frames for video 3/8
+2025-11-15 14:28:57,251 - __main__ - INFO - Loading frames for video 4/8
+2025-11-15 14:28:57,258 - __main__ - INFO - Loading frames for video 5/8
+2025-11-15 14:28:57,272 - __main__ - INFO - Loading frames for video 6/8
+2025-11-15 14:28:57,283 - __main__ - INFO - Loading frames for video 7/8
+2025-11-15 14:28:57,297 - __main__ - INFO - Loading frames for video 8/8
+2025-11-15 14:28:57,308 - __main__ - INFO - Successfully loaded 8 videos with frames
+2025-11-15 14:28:57,308 - keyframe_extraction.teacher_model - INFO - Loading teacher model from /data/share/qwen/Qwen2.5-VL-7B-Instruct
+2025-11-15 14:29:04,916 - keyframe_extraction.teacher_model - INFO - Teacher model loaded successfully
+2025-11-15 14:29:04,923 - keyframe_extraction.student_model - INFO - Student trainer initialized
+2025-11-15 14:29:04,923 - keyframe_extraction.student_model - INFO - Extracting training features...
+2025-11-15 14:29:04,923 - keyframe_extraction.student_model - INFO - Processing video: Style Code Live: Rose Gold Beauty | Nails...
+2025-11-15 14:29:04,923 - keyframe_extraction.student_model - INFO - Frames shape: (48, 480, 854, 3), dtype: uint8
+2025-11-15 14:29:04,931 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:29:39,379 - keyframe_extraction.student_model - INFO - Processing video: Code Blue - D/Code Antiperspirant Stick...
+2025-11-15 14:29:39,379 - keyframe_extraction.student_model - INFO - Frames shape: (31, 480, 854, 3), dtype: uint8
+2025-11-15 14:29:39,385 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:29:49,930 - keyframe_extraction.student_model - INFO - Processing video: Dead Down Wind Field Spray (12 oz Sprayer + 32 oz ...
+2025-11-15 14:29:49,931 - keyframe_extraction.student_model - INFO - Frames shape: (48, 404, 720, 3), dtype: uint8
+2025-11-15 14:29:49,936 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:30:00,970 - keyframe_extraction.student_model - INFO - Processing video: Dove Antiperspirant Deodorant, Original Clean, 2.6...
+2025-11-15 14:30:00,971 - keyframe_extraction.student_model - INFO - Frames shape: (32, 480, 480, 3), dtype: uint8
+2025-11-15 14:30:00,974 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:30:06,790 - keyframe_extraction.student_model - INFO - Processing video: Back off mongoose!...
+2025-11-15 14:30:06,791 - keyframe_extraction.student_model - INFO - Frames shape: (48, 480, 854, 3), dtype: uint8
+2025-11-15 14:30:06,799 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:30:23,123 - keyframe_extraction.student_model - INFO - Processing video: Osprey Packs Kestrel 38 Backpack...
+2025-11-15 14:30:23,124 - keyframe_extraction.student_model - INFO - Frames shape: (48, 404, 720, 3), dtype: uint8
+2025-11-15 14:30:23,129 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:30:34,056 - keyframe_extraction.student_model - INFO - Processing video: Xootr Kick Scooters - "First Class"...
+2025-11-15 14:30:34,056 - keyframe_extraction.student_model - INFO - Frames shape: (48, 480, 854, 3), dtype: uint8
+2025-11-15 14:30:34,064 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:30:50,473 - keyframe_extraction.student_model - INFO - Processing video: 10A NFL Proline - Amazon...
+2025-11-15 14:30:50,473 - keyframe_extraction.student_model - INFO - Frames shape: (48, 404, 720, 3), dtype: uint8
+2025-11-15 14:30:50,479 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:31:01,468 - keyframe_extraction.student_model - INFO - Extracted features for 351 frames
+2025-11-15 14:31:01,518 - keyframe_extraction.student_model - INFO - Starting training for 10 epochs...
+2025-11-15 14:31:01,710 - __main__ - ERROR - Error in keyframe extraction system: mat1 and mat2 shapes cannot be multiplied (8x3585 and 1025x512)

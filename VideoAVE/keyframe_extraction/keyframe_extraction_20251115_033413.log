@@ -1,0 +1,128 @@
+2025-11-15 03:34:13,255 - __main__ - INFO - Starting keyframe extraction system in supervision mode
+2025-11-15 03:34:13,255 - __main__ - INFO - Using device: cuda:0
+2025-11-15 03:34:13,255 - __main__ - INFO - Cache directory: .cache
+2025-11-15 03:34:13,255 - __main__ - INFO - ============================================================
+2025-11-15 03:34:13,255 - __main__ - INFO - STEP 1: GENERATING TEACHER SUPERVISION
+2025-11-15 03:34:13,255 - __main__ - INFO - ============================================================
+2025-11-15 03:34:13,255 - __main__ - INFO - Starting teacher supervision generation...
+2025-11-15 03:34:13,255 - keyframe_extraction.teacher_model - INFO - Loading teacher model from /data/share/qwen/Qwen2.5-VL-7B-Instruct
+2025-11-15 03:34:21,717 - keyframe_extraction.teacher_model - INFO - Teacher model loaded successfully
+2025-11-15 03:34:21,884 - keyframe_extraction.frame_scoring - INFO - Loaded 31527 samples from beauty domain
+2025-11-15 03:34:21,884 - keyframe_extraction.frame_scoring - INFO - Limited to 5 samples for prototyping
+2025-11-15 03:34:22,064 - keyframe_extraction.frame_scoring - INFO - Loaded 32824 samples from sports domain
+2025-11-15 03:34:22,064 - keyframe_extraction.frame_scoring - INFO - Limited to 5 samples for prototyping
+2025-11-15 03:34:22,068 - keyframe_extraction.frame_scoring - INFO - Loaded total 9 videos from 2 domains
+2025-11-15 03:34:22,071 - __main__ - INFO - Loaded 9 videos for supervision generation
+2025-11-15 03:34:22,073 - keyframe_extraction.frame_scoring - INFO - Computing frame importance scores for https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ab1b0dd9-52c7-5cc0-a58e-c1852fe65ff8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4
+2025-11-15 03:34:22,092 - keyframe_extraction.video_loader - INFO - Loaded cached frames for https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ab1b0dd9-52c7-5cc0-a58e-c1852fe65ff8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4
+2025-11-15 03:34:22,299 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpb80potty.mp4', total_frames=16, video_fps=2.0, time=0.048s
+2025-11-15 03:34:40,838 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmplt5xnypb.mp4', total_frames=17, video_fps=2.0, time=0.048s
+2025-11-15 03:34:56,751 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmph_f52og9.mp4', total_frames=16, video_fps=2.0, time=0.043s
+2025-11-15 03:35:09,669 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp0xb2i06o.mp4', total_frames=17, video_fps=2.0, time=0.038s
+2025-11-15 03:35:25,816 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp4yw1crun.mp4', total_frames=16, video_fps=2.0, time=0.037s
+2025-11-15 03:35:38,770 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpzhyggbrx.mp4', total_frames=17, video_fps=2.0, time=0.049s
+2025-11-15 03:35:55,053 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmplxvmkcal.mp4', total_frames=16, video_fps=2.0, time=0.051s
+2025-11-15 03:36:07,902 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpt6wzggh1.mp4', total_frames=17, video_fps=2.0, time=0.038s
+2025-11-15 03:36:25,173 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpli2v9wty.mp4', total_frames=16, video_fps=2.0, time=0.057s
+2025-11-15 03:36:37,460 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpx70ni_q9.mp4', total_frames=17, video_fps=2.0, time=0.056s
+2025-11-15 03:36:55,240 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmph_j9t8j5.mp4', total_frames=16, video_fps=2.0, time=0.055s
+2025-11-15 03:37:08,112 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpiva7ykr6.mp4', total_frames=17, video_fps=2.0, time=0.040s
+2025-11-15 03:37:24,332 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpdo3hb2o5.mp4', total_frames=16, video_fps=2.0, time=0.050s
+2025-11-15 03:37:37,157 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpkgqwvduk.mp4', total_frames=17, video_fps=2.0, time=0.060s
+2025-11-15 03:37:53,099 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpl9uwiav7.mp4', total_frames=16, video_fps=2.0, time=0.040s
+2025-11-15 03:38:05,935 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp5lliim4a.mp4', total_frames=17, video_fps=2.0, time=0.041s
+2025-11-15 03:38:22,043 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp5g_23x2e.mp4', total_frames=16, video_fps=2.0, time=0.050s
+2025-11-15 03:38:34,984 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp63x1ctno.mp4', total_frames=17, video_fps=2.0, time=0.045s
+2025-11-15 03:38:51,681 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpfwyl1k3k.mp4', total_frames=16, video_fps=2.0, time=0.045s
+2025-11-15 03:39:04,482 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpcycob_mx.mp4', total_frames=17, video_fps=2.0, time=0.045s
+2025-11-15 03:39:20,800 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp3j306xse.mp4', total_frames=16, video_fps=2.0, time=0.042s
+2025-11-15 03:39:33,851 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpngtq__91.mp4', total_frames=17, video_fps=2.0, time=0.051s
+2025-11-15 03:39:50,010 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp3diog_3p.mp4', total_frames=16, video_fps=2.0, time=0.036s
+2025-11-15 03:40:02,957 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp_7yafq05.mp4', total_frames=17, video_fps=2.0, time=0.064s
+2025-11-15 03:40:19,389 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpvsdc6z11.mp4', total_frames=16, video_fps=2.0, time=0.048s
+2025-11-15 03:40:32,164 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpo22xjgrx.mp4', total_frames=17, video_fps=2.0, time=0.047s
+2025-11-15 03:40:44,801 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpykuxrflr.mp4', total_frames=16, video_fps=2.0, time=0.048s
+2025-11-15 03:40:56,434 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpq911ey6r.mp4', total_frames=17, video_fps=2.0, time=0.047s
+2025-11-15 03:41:08,944 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpd4t92c7_.mp4', total_frames=16, video_fps=2.0, time=0.046s
+2025-11-15 03:41:24,256 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmprfpsnasj.mp4', total_frames=17, video_fps=2.0, time=0.046s
+2025-11-15 03:41:37,083 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpqozlz3pk.mp4', total_frames=16, video_fps=2.0, time=0.052s
+2025-11-15 03:41:51,775 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp0grigy_c.mp4', total_frames=17, video_fps=2.0, time=0.043s
+2025-11-15 03:42:04,015 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp_7uzdbrw.mp4', total_frames=16, video_fps=2.0, time=0.041s
+2025-11-15 03:42:20,602 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpnf3uu8v8.mp4', total_frames=17, video_fps=2.0, time=0.046s
+2025-11-15 03:42:33,419 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpmp0q4l9s.mp4', total_frames=16, video_fps=2.0, time=0.042s
+2025-11-15 03:42:49,822 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp93s2qgx1.mp4', total_frames=17, video_fps=2.0, time=0.047s
+2025-11-15 03:43:02,681 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpz439v_n2.mp4', total_frames=16, video_fps=2.0, time=0.034s
+2025-11-15 03:43:18,839 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp3140f9__.mp4', total_frames=17, video_fps=2.0, time=0.047s
+2025-11-15 03:43:31,657 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpvrv5fvb9.mp4', total_frames=16, video_fps=2.0, time=0.049s
+2025-11-15 03:43:48,159 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp8z8b96fj.mp4', total_frames=17, video_fps=2.0, time=0.041s
+2025-11-15 03:44:00,993 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpwgte4v8m.mp4', total_frames=16, video_fps=2.0, time=0.043s
+2025-11-15 03:44:13,716 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp4ddz5vbr.mp4', total_frames=17, video_fps=2.0, time=0.040s
+2025-11-15 03:44:25,544 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpd4l4yi06.mp4', total_frames=16, video_fps=2.0, time=0.059s
+2025-11-15 03:44:38,104 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpitnivefu.mp4', total_frames=17, video_fps=2.0, time=0.048s
+2025-11-15 03:44:53,412 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpy2yrbw7_.mp4', total_frames=16, video_fps=2.0, time=0.041s
+2025-11-15 03:45:05,354 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp9pyl2ynu.mp4', total_frames=17, video_fps=2.0, time=0.039s
+2025-11-15 03:45:23,318 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp134pdwbk.mp4', total_frames=16, video_fps=2.0, time=0.066s
+2025-11-15 03:45:36,165 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpezml4u58.mp4', total_frames=17, video_fps=2.0, time=0.043s
+2025-11-15 03:45:52,400 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp9e2cuj25.mp4', total_frames=16, video_fps=2.0, time=0.041s
+2025-11-15 03:46:05,207 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpjpmlcwbt.mp4', total_frames=17, video_fps=2.0, time=0.042s
+2025-11-15 03:46:21,537 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp6dmlqmjd.mp4', total_frames=16, video_fps=2.0, time=0.057s
+2025-11-15 03:46:34,451 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmprqto4oni.mp4', total_frames=17, video_fps=2.0, time=0.044s
+2025-11-15 03:46:51,369 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpjr_r5idm.mp4', total_frames=16, video_fps=2.0, time=0.045s
+2025-11-15 03:47:04,189 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp6vka6xlr.mp4', total_frames=17, video_fps=2.0, time=0.038s
+2025-11-15 03:47:20,425 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpv6sc2oiy.mp4', total_frames=16, video_fps=2.0, time=0.049s
+2025-11-15 03:47:33,221 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp22iu6_me.mp4', total_frames=17, video_fps=2.0, time=0.053s
+2025-11-15 03:47:50,083 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpknt5imn6.mp4', total_frames=16, video_fps=2.0, time=0.041s
+2025-11-15 03:48:02,965 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpwcp1zx4g.mp4', total_frames=17, video_fps=2.0, time=0.042s
+2025-11-15 03:48:19,567 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpa5_t9s3q.mp4', total_frames=16, video_fps=2.0, time=0.047s
+2025-11-15 03:48:32,382 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpuyi4b5r4.mp4', total_frames=17, video_fps=2.0, time=0.050s
+2025-11-15 03:48:49,300 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp8_u3gvh1.mp4', total_frames=16, video_fps=2.0, time=0.049s
+2025-11-15 03:49:02,165 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpl143m497.mp4', total_frames=17, video_fps=2.0, time=0.066s
+2025-11-15 03:49:18,306 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpdg2roufb.mp4', total_frames=16, video_fps=2.0, time=0.036s
+2025-11-15 03:49:31,170 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpgaqj6hcr.mp4', total_frames=17, video_fps=2.0, time=0.057s
+2025-11-15 03:49:47,968 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmplevq_0gi.mp4', total_frames=16, video_fps=2.0, time=0.062s
+2025-11-15 03:50:00,783 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpp1iox13n.mp4', total_frames=17, video_fps=2.0, time=0.042s
+2025-11-15 03:50:17,283 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpfe68pk1u.mp4', total_frames=16, video_fps=2.0, time=0.044s
+2025-11-15 03:50:30,112 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpv_904q15.mp4', total_frames=17, video_fps=2.0, time=0.046s
+2025-11-15 03:50:46,668 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp9izf4wy2.mp4', total_frames=16, video_fps=2.0, time=0.053s
+2025-11-15 03:50:59,506 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpys3klo4w.mp4', total_frames=17, video_fps=2.0, time=0.042s
+2025-11-15 03:51:15,732 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp8_r42ypc.mp4', total_frames=16, video_fps=2.0, time=0.050s
+2025-11-15 03:51:28,581 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmph4frnfm5.mp4', total_frames=17, video_fps=2.0, time=0.057s
+2025-11-15 03:51:45,227 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp2irgkhtk.mp4', total_frames=16, video_fps=2.0, time=0.045s
+2025-11-15 03:51:58,016 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp65kyjok0.mp4', total_frames=17, video_fps=2.0, time=0.042s
+2025-11-15 03:52:14,479 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp209bshjl.mp4', total_frames=16, video_fps=2.0, time=0.051s
+2025-11-15 03:52:27,419 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpto7hbeil.mp4', total_frames=17, video_fps=2.0, time=0.047s
+2025-11-15 03:52:43,832 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpa9h92f3v.mp4', total_frames=16, video_fps=2.0, time=0.044s
+2025-11-15 03:52:56,618 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpbhg2x4dh.mp4', total_frames=17, video_fps=2.0, time=0.055s
+2025-11-15 03:53:13,993 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpbfn4wp1b.mp4', total_frames=16, video_fps=2.0, time=0.047s
+2025-11-15 03:53:26,717 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpnv25u83l.mp4', total_frames=17, video_fps=2.0, time=0.047s
+2025-11-15 03:53:44,260 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpq6wwgc4m.mp4', total_frames=16, video_fps=2.0, time=0.045s
+2025-11-15 03:53:57,168 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpgxwe8ywv.mp4', total_frames=17, video_fps=2.0, time=0.055s
+2025-11-15 03:54:13,810 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp0u0ty_rv.mp4', total_frames=16, video_fps=2.0, time=0.046s
+2025-11-15 03:54:26,581 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpy3ye3d07.mp4', total_frames=17, video_fps=2.0, time=0.040s
+2025-11-15 03:54:43,728 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpgkpuabss.mp4', total_frames=16, video_fps=2.0, time=0.045s
+2025-11-15 03:54:56,588 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpqccb42hn.mp4', total_frames=17, video_fps=2.0, time=0.049s
+2025-11-15 03:55:13,259 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpbgu9f64s.mp4', total_frames=16, video_fps=2.0, time=0.040s
+2025-11-15 03:55:26,081 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp_05dtzuu.mp4', total_frames=17, video_fps=2.0, time=0.036s
+2025-11-15 03:55:42,548 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpmsdylwqd.mp4', total_frames=16, video_fps=2.0, time=0.051s
+2025-11-15 03:55:55,320 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpj9xisq1p.mp4', total_frames=17, video_fps=2.0, time=0.044s
+2025-11-15 03:56:13,936 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpj25ian66.mp4', total_frames=16, video_fps=2.0, time=0.049s
+2025-11-15 03:56:27,018 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpkfrukmvo.mp4', total_frames=17, video_fps=2.0, time=0.042s
+2025-11-15 03:56:42,528 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmppsjo7500.mp4', total_frames=16, video_fps=2.0, time=0.038s
+2025-11-15 03:56:55,501 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpy4cefe1q.mp4', total_frames=17, video_fps=2.0, time=0.046s
+2025-11-15 03:57:11,606 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpd0ls2v8i.mp4', total_frames=16, video_fps=2.0, time=0.047s
+2025-11-15 03:57:24,413 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpd5awjtkt.mp4', total_frames=17, video_fps=2.0, time=0.039s
+2025-11-15 03:57:40,935 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpxv5nrgdl.mp4', total_frames=16, video_fps=2.0, time=0.041s
+2025-11-15 03:57:53,665 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp1z9xx2p_.mp4', total_frames=17, video_fps=2.0, time=0.042s
+2025-11-15 03:58:06,311 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpgqs5r2mc.mp4', total_frames=16, video_fps=2.0, time=0.057s
+2025-11-15 03:58:18,035 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpkgeah72r.mp4', total_frames=17, video_fps=2.0, time=0.052s
+2025-11-15 03:58:30,687 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp3i0x51ul.mp4', total_frames=16, video_fps=2.0, time=0.045s
+2025-11-15 03:58:45,724 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpiz1mdyrn.mp4', total_frames=17, video_fps=2.0, time=0.043s
+2025-11-15 03:58:57,916 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpaw4gsjih.mp4', total_frames=16, video_fps=2.0, time=0.040s
+2025-11-15 03:59:13,083 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpf_smlxvx.mp4', total_frames=17, video_fps=2.0, time=0.067s
+2025-11-15 03:59:25,856 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp73bgde2h.mp4', total_frames=16, video_fps=2.0, time=0.041s
+2025-11-15 03:59:37,447 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmphfynm2ld.mp4', total_frames=17, video_fps=2.0, time=0.045s
+2025-11-15 03:59:52,421 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmprdf7bxrg.mp4', total_frames=16, video_fps=2.0, time=0.039s
+2025-11-15 04:00:05,134 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmp85k_uuvx.mp4', total_frames=17, video_fps=2.0, time=0.027s
+2025-11-15 04:00:17,625 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpogjrhebm.mp4', total_frames=16, video_fps=2.0, time=0.060s
+2025-11-15 04:00:29,881 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpn5gw_j2l.mp4', total_frames=17, video_fps=2.0, time=0.035s
+2025-11-15 04:00:41,798 - qwen_vl_utils.vision_process - INFO - decord:  video_path='/tmp/tmpjjty1zrz.mp4', total_frames=16, video_fps=2.0, time=0.038s

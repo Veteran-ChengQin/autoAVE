@@ -1,0 +1,25 @@
+2025-11-15 14:27:11,596 - __main__ - INFO - Starting keyframe extraction system in train mode
+2025-11-15 14:27:11,596 - __main__ - INFO - Using device: cuda:0
+2025-11-15 14:27:11,596 - __main__ - INFO - Cache directory: .cache
+2025-11-15 14:27:11,596 - __main__ - INFO - ============================================================
+2025-11-15 14:27:11,596 - __main__ - INFO - STEP 2: TRAINING STUDENT MODEL
+2025-11-15 14:27:11,596 - __main__ - INFO - ============================================================
+2025-11-15 14:27:11,596 - __main__ - INFO - Starting student model training...
+2025-11-15 14:27:11,596 - __main__ - INFO - Loading frames for 8 videos...
+2025-11-15 14:27:11,596 - __main__ - INFO - Loading frames for video 1/8
+2025-11-15 14:27:11,614 - __main__ - INFO - Loading frames for video 2/8
+2025-11-15 14:27:11,626 - __main__ - INFO - Loading frames for video 3/8
+2025-11-15 14:27:11,639 - __main__ - INFO - Loading frames for video 4/8
+2025-11-15 14:27:11,649 - __main__ - INFO - Loading frames for video 5/8
+2025-11-15 14:27:11,668 - __main__ - INFO - Loading frames for video 6/8
+2025-11-15 14:27:11,682 - __main__ - INFO - Loading frames for video 7/8
+2025-11-15 14:27:11,700 - __main__ - INFO - Loading frames for video 8/8
+2025-11-15 14:27:11,714 - __main__ - INFO - Successfully loaded 8 videos with frames
+2025-11-15 14:27:11,714 - keyframe_extraction.teacher_model - INFO - Loading teacher model from /data/share/qwen/Qwen2.5-VL-7B-Instruct
+2025-11-15 14:27:59,126 - keyframe_extraction.teacher_model - INFO - Teacher model loaded successfully
+2025-11-15 14:27:59,134 - keyframe_extraction.student_model - INFO - Student trainer initialized
+2025-11-15 14:27:59,134 - keyframe_extraction.student_model - INFO - Extracting training features...
+2025-11-15 14:27:59,134 - keyframe_extraction.student_model - INFO - Processing video: Style Code Live: Rose Gold Beauty | Nails...
+2025-11-15 14:27:59,134 - keyframe_extraction.student_model - INFO - Frames shape: (48, 480, 854, 3), dtype: uint8
+2025-11-15 14:27:59,151 - keyframe_extraction.student_model - INFO - Frame value range: 0 - 255
+2025-11-15 14:27:59,409 - __main__ - ERROR - Error in keyframe extraction system: Qwen2_5_VisionTransformerPretrainedModel.forward() got an unexpected keyword argument 'input_ids'

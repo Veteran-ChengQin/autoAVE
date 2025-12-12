@@ -1,0 +1,10 @@
+2025-11-15 14:16:07,214 - __main__ - INFO - Starting keyframe extraction system in train mode
+2025-11-15 14:16:07,214 - __main__ - INFO - Using device: cuda:0
+2025-11-15 14:16:07,215 - __main__ - INFO - Cache directory: .cache
+2025-11-15 14:16:07,215 - __main__ - INFO - ============================================================
+2025-11-15 14:16:07,215 - __main__ - INFO - STEP 2: TRAINING STUDENT MODEL
+2025-11-15 14:16:07,215 - __main__ - INFO - ============================================================
+2025-11-15 14:16:07,215 - __main__ - INFO - Starting student model training...
+2025-11-15 14:16:07,215 - __main__ - INFO - Loading frames for 8 videos...
+2025-11-15 14:16:07,215 - __main__ - INFO - Loading frames for video 1/8
+2025-11-15 14:16:07,215 - __main__ - ERROR - Error in keyframe extraction system: name 'np' is not defined

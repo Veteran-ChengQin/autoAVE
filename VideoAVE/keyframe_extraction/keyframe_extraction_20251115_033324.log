@@ -1,0 +1,9 @@
+2025-11-15 03:33:24,109 - __main__ - INFO - Starting keyframe extraction system in supervision mode
+2025-11-15 03:33:24,109 - __main__ - INFO - Using device: cuda:0
+2025-11-15 03:33:24,109 - __main__ - INFO - Cache directory: .cache
+2025-11-15 03:33:24,109 - __main__ - INFO - ============================================================
+2025-11-15 03:33:24,109 - __main__ - INFO - STEP 1: GENERATING TEACHER SUPERVISION
+2025-11-15 03:33:24,109 - __main__ - INFO - ============================================================
+2025-11-15 03:33:24,109 - __main__ - INFO - Starting teacher supervision generation...
+2025-11-15 03:33:24,109 - keyframe_extraction.teacher_model - INFO - Loading teacher model from /data/share/qwen/Qwen2.5-VL-7B-Instruct
+2025-11-15 03:33:24,109 - __main__ - ERROR - Error in keyframe extraction system: name 'auto' is not defined

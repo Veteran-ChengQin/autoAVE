@@ -1,0 +1,22 @@
+2025-11-15 14:16:28,292 - __main__ - INFO - Starting keyframe extraction system in train mode
+2025-11-15 14:16:28,292 - __main__ - INFO - Using device: cuda:0
+2025-11-15 14:16:28,292 - __main__ - INFO - Cache directory: .cache
+2025-11-15 14:16:28,292 - __main__ - INFO - ============================================================
+2025-11-15 14:16:28,292 - __main__ - INFO - STEP 2: TRAINING STUDENT MODEL
+2025-11-15 14:16:28,292 - __main__ - INFO - ============================================================
+2025-11-15 14:16:28,292 - __main__ - INFO - Starting student model training...
+2025-11-15 14:16:28,292 - __main__ - INFO - Loading frames for 8 videos...
+2025-11-15 14:16:28,292 - __main__ - INFO - Loading frames for video 1/8
+2025-11-15 14:16:28,310 - __main__ - INFO - Loading frames for video 2/8
+2025-11-15 14:16:28,322 - __main__ - INFO - Loading frames for video 3/8
+2025-11-15 14:16:28,336 - __main__ - INFO - Loading frames for video 4/8
+2025-11-15 14:16:28,346 - __main__ - INFO - Loading frames for video 5/8
+2025-11-15 14:16:28,365 - __main__ - INFO - Loading frames for video 6/8
+2025-11-15 14:16:28,379 - __main__ - INFO - Loading frames for video 7/8
+2025-11-15 14:16:28,398 - __main__ - INFO - Loading frames for video 8/8
+2025-11-15 14:16:28,412 - __main__ - INFO - Successfully loaded 8 videos with frames
+2025-11-15 14:16:28,412 - keyframe_extraction.teacher_model - INFO - Loading teacher model from /data/share/qwen/Qwen2.5-VL-7B-Instruct
+2025-11-15 14:16:34,309 - accelerate.utils.modeling - INFO - Device 5 seems unavailable, Proceeding to check subsequent devices.
+2025-11-15 14:16:34,352 - accelerate.utils.modeling - INFO - Based on the current allocation process, no modules could be assigned to the following devices due to insufficient memory:
+  - 3: 466115712 bytes required
+These minimum requirements are specific to this allocation attempt and may vary. Consider increasing the available memory for these devices to at least the specified minimum, or adjusting the model config.

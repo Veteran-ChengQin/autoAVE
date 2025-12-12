@@ -1,0 +1,21 @@
+{
+  "product_id": "demo_product_001",
+  "attr_name": "Color",
+  "num_keyframes": 3,
+  "indices": [
+    0,
+    8,
+    6
+  ],
+  "timestamps": [
+    0.0,
+    8.0,
+    6.0
+  ],
+  "scores": [
+    1.0,
+    1.0,
+    0.9331245422363281
+  ],
+  "saved_at": "2025-11-30T02:06:18.491833"
+}

@@ -1,0 +1,5820 @@
+[
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "white",
+    "label": "White",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      7,
+      10,
+      14,
+      16,
+      20,
+      22
+    ]
+  },
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Short",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      7,
+      10,
+      14,
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown",
+    "label": "Ginity",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      7,
+      10,
+      14,
+      16,
+      20,
+      22
+    ]
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Red",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      5,
+      8,
+      12,
+      16,
+      19,
+      23,
+      25
+    ]
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown",
+    "label": "ZLiME",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      5,
+      7,
+      12,
+      16,
+      19,
+      23,
+      25
+    ]
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": "Battery",
+    "label": "Corded Electric",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      5,
+      8,
+      12,
+      16,
+      19,
+      23,
+      25
+    ]
+  },
+  {
+    "product_id": "B00UB79B66",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Gillette",
+    "label": "Procter & Gamble",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      17,
+      33,
+      47,
+      67,
+      79,
+      96,
+      109
+    ]
+  },
+  {
+    "product_id": "B00UB79B66",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "blue",
+    "label": "Blue",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      16,
+      33,
+      47,
+      67,
+      79,
+      96,
+      109
+    ]
+  },
+  {
+    "product_id": "B01LFUCWKO",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Osensia",
+    "label": "Osensia",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      9,
+      16,
+      21,
+      25,
+      31,
+      33
+    ]
+  },
+  {
+    "product_id": "B01LFUCWKO",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Jar",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      9,
+      16,
+      21,
+      25,
+      31,
+      33
+    ]
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "lipstick",
+    "label": "Stick",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      32,
+      66,
+      98,
+      135,
+      162,
+      192,
+      226
+    ]
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Classic Ivory",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      39,
+      66,
+      98,
+      135,
+      162,
+      192,
+      227
+    ]
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Dry",
+    "label": "Oily",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      39,
+      66,
+      98,
+      128,
+      162,
+      196,
+      230
+    ]
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "matte",
+    "label": "Radiant",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      39,
+      66,
+      98,
+      128,
+      162,
+      192,
+      226
+    ]
+  },
+  {
+    "product_id": "B01J9URU18",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "black",
+    "label": "natural",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      6,
+      7,
+      11,
+      13,
+      17,
+      18
+    ]
+  },
+  {
+    "product_id": "B01J9URU18",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "human hair",
+    "label": "Human Hair",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      6,
+      7,
+      11,
+      13,
+      17,
+      18
+    ]
+  },
+  {
+    "product_id": "B01J9URU18",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Human",
+    "label": "Curly",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      6,
+      7,
+      11,
+      13,
+      17,
+      20
+    ]
+  },
+  {
+    "product_id": "B08S3VDQT4",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "TopDirect",
+    "label": "Pretty memory",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      26,
+      33,
+      46,
+      57,
+      71,
+      80
+    ]
+  },
+  {
+    "product_id": "B08S3VDQT4",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "Individual",
+    "label": "Stainless Steel",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      26,
+      33,
+      44,
+      57,
+      71,
+      82
+    ]
+  },
+  {
+    "product_id": "B08S3VDQT4",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Individual",
+    "label": "Wand",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      26,
+      33,
+      46,
+      57,
+      71,
+      80
+    ]
+  },
+  {
+    "product_id": "B098TYK4KZ",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown brand",
+    "label": "Premi\u00e8re Classe Skincare",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      5,
+      9,
+      12,
+      17,
+      19,
+      26,
+      27
+    ]
+  },
+  {
+    "product_id": "B098TYK4KZ",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "rose gold",
+    "label": "Rose Gold",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      5,
+      9,
+      12,
+      17,
+      19,
+      26,
+      27
+    ]
+  },
+  {
+    "product_id": "B098TYK4KZ",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal",
+    "label": "Dry",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      5,
+      9,
+      12,
+      17,
+      19,
+      24,
+      27
+    ]
+  },
+  {
+    "product_id": "B01L81YIJ8",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Alana Mitchell",
+    "label": "Alana Mitchell",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      10,
+      22,
+      26,
+      35,
+      46,
+      57,
+      61
+    ]
+  },
+  {
+    "product_id": "B01L81YIJ8",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "citrus scent",
+    "label": "Light citrus",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      10,
+      22,
+      26,
+      35,
+      46,
+      57,
+      61
+    ]
+  },
+  {
+    "product_id": "B01L81YIJ8",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Moisturizer",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      10,
+      22,
+      26,
+      34,
+      46,
+      57,
+      61
+    ]
+  },
+  {
+    "product_id": "B01L81YIJ8",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "United States",
+    "label": "USA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      10,
+      22,
+      26,
+      35,
+      46,
+      57,
+      61
+    ]
+  },
+  {
+    "product_id": "B07MLDPJQ3",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Philips",
+    "label": "Gxcdizx",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      10,
+      22,
+      24,
+      38,
+      53,
+      59,
+      71
+    ]
+  },
+  {
+    "product_id": "B07MLDPJQ3",
+    "category": "beauty",
+    "attr_name": "Head Type",
+    "pred": "Single head",
+    "label": "Rotary",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      10,
+      22,
+      32,
+      38,
+      52,
+      59,
+      71
+    ]
+  },
+  {
+    "product_id": "B0B6WVQXF2",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "black",
+    "label": "Washable Black",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      9,
+      11,
+      19,
+      23,
+      29,
+      34,
+      41
+    ]
+  },
+  {
+    "product_id": "B0B6WVQXF2",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "L'oreal Paris",
+    "label": "L'Or\u00e9al Paris",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      9,
+      11,
+      19,
+      23,
+      29,
+      34,
+      41
+    ]
+  },
+  {
+    "product_id": "B0B6WVQXF2",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Liquid",
+    "label": "Wax",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      9,
+      11,
+      19,
+      23,
+      29,
+      34,
+      41
+    ]
+  },
+  {
+    "product_id": "B085FY5RZ7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "TheChicNatural",
+    "label": "ToyoTree",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      10,
+      15,
+      22,
+      24,
+      28,
+      35
+    ]
+  },
+  {
+    "product_id": "B085FY5RZ7",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "Synthetic hair",
+    "label": "Synthetic",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      10,
+      15,
+      22,
+      24,
+      28,
+      35
+    ]
+  },
+  {
+    "product_id": "B085FY5RZ7",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Crochet hair",
+    "label": "Straight",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      10,
+      14,
+      22,
+      24,
+      28,
+      35
+    ]
+  },
+  {
+    "product_id": "B07GKS5RC4",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "Acrylic",
+    "label": "Acrylic",
+    "num_keyframes": 7,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "product_id": "B07GKS5RC4",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Bellerina Nails",
+    "label": "KISSBUTY",
+    "num_keyframes": 7,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "product_id": "B07FQDZ6WD",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "VOYOR",
+    "label": "VOYOR",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      17,
+      31,
+      42,
+      52,
+      70,
+      79,
+      95
+    ]
+  },
+  {
+    "product_id": "B07FQDZ6WD",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "kit",
+    "label": "Pen",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      17,
+      31,
+      42,
+      52,
+      70,
+      79,
+      95
+    ]
+  },
+  {
+    "product_id": "B07FQDZ6WD",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "White",
+    "label": "White",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      17,
+      31,
+      38,
+      52,
+      70,
+      79,
+      95
+    ]
+  },
+  {
+    "product_id": "B07FQDZ6WD",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal skin",
+    "label": "Sensitive",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      17,
+      31,
+      42,
+      52,
+      70,
+      79,
+      95
+    ]
+  },
+  {
+    "product_id": "B07HCYV2HY",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown",
+    "label": "Dularf",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      7,
+      11,
+      14,
+      16,
+      18
+    ]
+  },
+  {
+    "product_id": "B07HCYV2HY",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "straight",
+    "label": "Wavy",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      7,
+      10,
+      14,
+      16,
+      18
+    ]
+  },
+  {
+    "product_id": "B07HCYV2HY",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "plastic",
+    "label": "Ceramic",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      7,
+      11,
+      14,
+      16,
+      18
+    ]
+  },
+  {
+    "product_id": "B07HCYV2HY",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Pink",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      7,
+      11,
+      14,
+      16,
+      18
+    ]
+  },
+  {
+    "product_id": "B07HY15WKK",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Juice Beauty",
+    "label": "INNA ORGANIC",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      8,
+      9,
+      12,
+      14,
+      16
+    ]
+  },
+  {
+    "product_id": "B07HY15WKK",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "Not specified",
+    "label": "Fragrance Free",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      8,
+      9,
+      12,
+      14,
+      16
+    ]
+  },
+  {
+    "product_id": "B07HY15WKK",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Pump",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      8,
+      9,
+      12,
+      14,
+      16
+    ]
+  },
+  {
+    "product_id": "B07K5W8DHQ",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Aya",
+    "label": "Aya Natural",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      23,
+      39,
+      41,
+      58,
+      67,
+      80,
+      101
+    ]
+  },
+  {
+    "product_id": "B07K5W8DHQ",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "The scent is floral.",
+    "label": "Natural",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      23,
+      39,
+      41,
+      58,
+      67,
+      80,
+      96
+    ]
+  },
+  {
+    "product_id": "B07K5W8DHQ",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "cream",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      23,
+      39,
+      41,
+      58,
+      67,
+      80,
+      90
+    ]
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "eyeshadow",
+    "label": "Powder",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      28,
+      57,
+      87,
+      117,
+      135,
+      167,
+      188
+    ]
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "matte",
+    "label": "Matte",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      28,
+      57,
+      87,
+      117,
+      135,
+      167,
+      188
+    ]
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "oily",
+    "label": "Sensitive",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      28,
+      57,
+      87,
+      117,
+      134,
+      167,
+      188
+    ]
+  },
+  {
+    "product_id": "B09B8442YJ",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Ebanel",
+    "label": "TreeActiv",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      5,
+      11,
+      18,
+      24,
+      28,
+      39,
+      41
+    ]
+  },
+  {
+    "product_id": "B09B8442YJ",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal, dry, combination, oily",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      7,
+      11,
+      18,
+      24,
+      26,
+      39,
+      41
+    ]
+  },
+  {
+    "product_id": "B07FMKZTCR",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "human hair",
+    "label": "Human Hair",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      10,
+      11,
+      14
+    ]
+  },
+  {
+    "product_id": "B07FMKZTCR",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Human",
+    "label": "Curly",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      4,
+      6,
+      7,
+      10,
+      11,
+      13
+    ]
+  },
+  {
+    "product_id": "B07FMKZTCR",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown",
+    "label": "FASHION PLUS",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      10,
+      11,
+      13
+    ]
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Style Code Live",
+    "label": "Jouer",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      8,
+      20,
+      21,
+      34,
+      37,
+      45,
+      52
+    ]
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Riviera",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      8,
+      20,
+      21,
+      31,
+      37,
+      45,
+      52
+    ]
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "dark",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      8,
+      20,
+      21,
+      34,
+      37,
+      45,
+      52
+    ]
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "lip gloss",
+    "label": "Oil",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      8,
+      20,
+      21,
+      31,
+      37,
+      45,
+      52
+    ]
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "shiny",
+    "label": "Sheer",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      8,
+      20,
+      21,
+      34,
+      37,
+      45,
+      52
+    ]
+  },
+  {
+    "product_id": "B00SXOG5CW",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "JS Sloane",
+    "label": "Colonel Conk",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      9,
+      14,
+      21,
+      29,
+      36,
+      43,
+      52
+    ]
+  },
+  {
+    "product_id": "B00SXOG5CW",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "bottle",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      9,
+      14,
+      21,
+      29,
+      36,
+      43,
+      52
+    ]
+  },
+  {
+    "product_id": "B00SXOG5CW",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      9,
+      14,
+      26,
+      29,
+      36,
+      43,
+      52
+    ]
+  },
+  {
+    "product_id": "B01AGY72SC",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Raya",
+    "label": "Raya",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      15,
+      26,
+      27,
+      37,
+      46,
+      57,
+      65
+    ]
+  },
+  {
+    "product_id": "B01AGY72SC",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "jar",
+    "label": "Mask",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      15,
+      26,
+      27,
+      37,
+      46,
+      57,
+      65
+    ]
+  },
+  {
+    "product_id": "B074Y6VL3H",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "black",
+    "label": "Pink",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      14,
+      24,
+      37,
+      40,
+      54,
+      57,
+      67
+    ]
+  },
+  {
+    "product_id": "B074Y6VL3H",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Tattly",
+    "label": "Cosplay Tats",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      14,
+      24,
+      30,
+      40,
+      54,
+      58,
+      67
+    ]
+  },
+  {
+    "product_id": "B06XKJQDD7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Beauty Junkees",
+    "label": "Beauty Junkees",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      8,
+      12,
+      15,
+      21,
+      28,
+      32,
+      41
+    ]
+  },
+  {
+    "product_id": "B06XKJQDD7",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "green",
+    "label": "Pink",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      8,
+      12,
+      15,
+      21,
+      28,
+      32,
+      41
+    ]
+  },
+  {
+    "product_id": "B06XKJQDD7",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "foam",
+    "label": "Hydrophilic Polyurethane Foam",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      8,
+      12,
+      15,
+      21,
+      28,
+      32,
+      41
+    ]
+  },
+  {
+    "product_id": "B01L0T6JNG",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Dermasil Labs",
+    "label": "Dermasil",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      6,
+      8,
+      10,
+      14,
+      19,
+      22,
+      25
+    ]
+  },
+  {
+    "product_id": "B01L0T6JNG",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Lotion",
+    "label": "Lotion",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      6,
+      8,
+      10,
+      14,
+      19,
+      22,
+      26
+    ]
+  },
+  {
+    "product_id": "B0BQSDN5S7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Schick",
+    "label": "INTUITION",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      7,
+      12,
+      15,
+      18,
+      25,
+      30,
+      31
+    ]
+  },
+  {
+    "product_id": "B0BQSDN5S7",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal",
+    "label": "Normal",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      7,
+      12,
+      15,
+      18,
+      25,
+      30,
+      31
+    ]
+  },
+  {
+    "product_id": "B08YSYHXTC",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Schick",
+    "label": "Skintimate",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      12,
+      15,
+      21,
+      24,
+      29,
+      32
+    ]
+  },
+  {
+    "product_id": "B08YSYHXTC",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Sensitive Skin",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      12,
+      15,
+      21,
+      24,
+      29,
+      32
+    ]
+  },
+  {
+    "product_id": "B08YSYHXTC",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "United States",
+    "label": "USA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      12,
+      16,
+      21,
+      24,
+      29,
+      32
+    ]
+  },
+  {
+    "product_id": "B078HGLTQ9",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Colorina",
+    "label": "COLORINA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      17,
+      27,
+      41,
+      55,
+      70,
+      78,
+      94
+    ]
+  },
+  {
+    "product_id": "B078HGLTQ9",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "box",
+    "label": "Gel",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      17,
+      27,
+      41,
+      55,
+      70,
+      78,
+      94
+    ]
+  },
+  {
+    "product_id": "B078HGLTQ9",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "all skin types",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      17,
+      27,
+      41,
+      55,
+      70,
+      78,
+      94
+    ]
+  },
+  {
+    "product_id": "B08BGND1Z6",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Epilady",
+    "label": "Braun",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      10,
+      25,
+      29,
+      39,
+      52,
+      55,
+      63
+    ]
+  },
+  {
+    "product_id": "B08BGND1Z6",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "silver",
+    "label": "Gold",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      10,
+      25,
+      29,
+      39,
+      52,
+      55,
+      64
+    ]
+  },
+  {
+    "product_id": "B08BGND1Z6",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "United States",
+    "label": "China",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      10,
+      23,
+      27,
+      39,
+      52,
+      59,
+      64
+    ]
+  },
+  {
+    "product_id": "B008DW6NVC",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Circcell",
+    "label": "CIRCCELL",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      15,
+      16,
+      24,
+      55,
+      66,
+      84,
+      103
+    ]
+  },
+  {
+    "product_id": "B008DW6NVC",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "mandarin",
+    "label": "Lily",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      15,
+      39,
+      43,
+      55,
+      66,
+      85,
+      103
+    ]
+  },
+  {
+    "product_id": "B008DW6NVC",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "jar",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      15,
+      38,
+      43,
+      55,
+      66,
+      84,
+      103
+    ]
+  },
+  {
+    "product_id": "B07BZQCRRY",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Liquid",
+    "label": "Liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      6,
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  {
+    "product_id": "B07BZQCRRY",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "Ivory",
+    "label": "Buff",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      6,
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  {
+    "product_id": "B07BZQCRRY",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal",
+    "label": "Combination",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      6,
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  {
+    "product_id": "B07BZQCRRY",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "matte",
+    "label": "Natural",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      6,
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  {
+    "product_id": "B010PPM94E",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "brown",
+    "label": "Dark Brown",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      4,
+      10,
+      13,
+      20,
+      23,
+      30,
+      34
+    ]
+  },
+  {
+    "product_id": "B010PPM94E",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Just for Men",
+    "label": "Just for Men",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      13,
+      14,
+      20,
+      23,
+      30,
+      34
+    ]
+  },
+  {
+    "product_id": "B010PPM94E",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "tube",
+    "label": "Gel",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      4,
+      10,
+      14,
+      20,
+      23,
+      30,
+      34
+    ]
+  },
+  {
+    "product_id": "B001IY0YOO",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Lanza",
+    "label": "L'ANZA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      9,
+      18,
+      29,
+      43,
+      52,
+      63,
+      71
+    ]
+  },
+  {
+    "product_id": "B001IY0YOO",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "tube",
+    "label": "Liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      9,
+      18,
+      29,
+      43,
+      52,
+      63,
+      71
+    ]
+  },
+  {
+    "product_id": "B001IY0YOO",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "damaged hair",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      9,
+      18,
+      29,
+      43,
+      52,
+      63,
+      71
+    ]
+  },
+  {
+    "product_id": "B001IY0YOO",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "United States",
+    "label": "USA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      10,
+      18,
+      29,
+      38,
+      52,
+      63,
+      71
+    ]
+  },
+  {
+    "product_id": "B01N7BIQSL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown",
+    "label": "Hermosa",
+    "num_keyframes": 6,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "product_id": "B01N7BIQSL",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "black",
+    "label": "Black",
+    "num_keyframes": 6,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "product_id": "B01N7BIQSL",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "synthetic",
+    "label": "Human Hair",
+    "num_keyframes": 6,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "product_id": "B01N7BIQSL",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "straight",
+    "label": "Wavy",
+    "num_keyframes": 6,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "product_id": "B06XHWFR2X",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown",
+    "label": "KEDSUM",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      6,
+      9,
+      11,
+      12,
+      17,
+      18
+    ]
+  },
+  {
+    "product_id": "B06XHWFR2X",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": "tall",
+    "label": "Rectangular",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      5,
+      8,
+      11,
+      14,
+      15,
+      18
+    ]
+  },
+  {
+    "product_id": "B06XHWFR2X",
+    "category": "beauty",
+    "attr_name": "Mounting Type",
+    "pred": "wall mount",
+    "label": "Tabletop Mount",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      5,
+      9,
+      11,
+      13,
+      15,
+      18
+    ]
+  },
+  {
+    "product_id": "B07FTZX1RF",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Macadamia",
+    "label": "John Masters Organics",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      6,
+      7,
+      13,
+      16,
+      19,
+      23
+    ]
+  },
+  {
+    "product_id": "B07FTZX1RF",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "spray",
+    "label": "Liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      6,
+      7,
+      13,
+      16,
+      19,
+      23
+    ]
+  },
+  {
+    "product_id": "B07B4CF79P",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "ICOR",
+    "label": "UR SUGAR",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      23,
+      40,
+      58,
+      78,
+      98,
+      119,
+      133
+    ]
+  },
+  {
+    "product_id": "B07B4CF79P",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "clear",
+    "label": "Pro Kit",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      23,
+      40,
+      58,
+      78,
+      102,
+      119,
+      133
+    ]
+  },
+  {
+    "product_id": "B07B4CF79P",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "Glossy",
+    "label": "Glossy",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      23,
+      40,
+      58,
+      78,
+      97,
+      119,
+      133
+    ]
+  },
+  {
+    "product_id": "B07GYM1SX1",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "up & up",
+    "label": "TsMADDTs",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      18,
+      30,
+      47,
+      63,
+      84,
+      92,
+      109
+    ]
+  },
+  {
+    "product_id": "B07GYM1SX1",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "bottle",
+    "label": "Pad",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      18,
+      30,
+      47,
+      63,
+      84,
+      92,
+      109
+    ]
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Unknown brand",
+    "label": "Lospu HY",
+    "num_keyframes": 7,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Pink golden",
+    "num_keyframes": 7,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "plastic",
+    "label": "Synthetic Fiber",
+    "num_keyframes": 7,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "all skin types",
+    "label": "All",
+    "num_keyframes": 7,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "set",
+    "label": "Powder",
+    "num_keyframes": 7,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Skin Tone",
+    "pred": "Fair",
+    "label": "All",
+    "num_keyframes": 7,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "product_id": "B07FDQF129",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "The Balm",
+    "label": "JAF",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      28,
+      57,
+      87,
+      117,
+      132,
+      167,
+      188
+    ]
+  },
+  {
+    "product_id": "B07FDQF129",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "brown",
+    "label": "Pink",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      28,
+      57,
+      87,
+      117,
+      132,
+      167,
+      188
+    ]
+  },
+  {
+    "product_id": "B07FDQF129",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "oily",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      28,
+      57,
+      87,
+      117,
+      134,
+      167,
+      188
+    ]
+  },
+  {
+    "product_id": "B07FDQF129",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "eyeshadow",
+    "label": "Wand",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      28,
+      57,
+      87,
+      117,
+      135,
+      167,
+      188
+    ]
+  },
+  {
+    "product_id": "B07NXY9HKL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Flawless tape",
+    "label": "BHF",
+    "num_keyframes": 6,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "product_id": "B07NXY9HKL",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "black",
+    "label": "White",
+    "num_keyframes": 6,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "product_id": "B004AJ5DMC",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "NYX",
+    "label": "NYX PROFESSIONAL MAKEUP",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      25,
+      52,
+      76,
+      98,
+      123,
+      148,
+      175
+    ]
+  },
+  {
+    "product_id": "B004AJ5DMC",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "solid",
+    "label": "Marker",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      25,
+      52,
+      76,
+      99,
+      123,
+      148,
+      175
+    ]
+  },
+  {
+    "product_id": "B004AJ5DMC",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "matte",
+    "label": "Natural",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      25,
+      52,
+      76,
+      98,
+      123,
+      148,
+      175
+    ]
+  },
+  {
+    "product_id": "B0BW2TZVH3",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "L'Occitane",
+    "label": "Dermalogica",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      8,
+      11,
+      12
+    ]
+  },
+  {
+    "product_id": "B0BW2TZVH3",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "cream",
+    "label": "liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      8,
+      11,
+      12
+    ]
+  },
+  {
+    "product_id": "B0BW2TZVH3",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "France",
+    "label": "USA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      8,
+      11,
+      12
+    ]
+  },
+  {
+    "product_id": "B007JWJSBE",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Mizon",
+    "label": "MIZON",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      5,
+      7,
+      14,
+      15,
+      21,
+      23,
+      26
+    ]
+  },
+  {
+    "product_id": "B007JWJSBE",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "gel",
+    "label": "Powder",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      7,
+      14,
+      15,
+      21,
+      23,
+      26
+    ]
+  },
+  {
+    "product_id": "B07CJW3RT3",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "long",
+    "label": "Fine",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      7,
+      11,
+      15,
+      16,
+      20,
+      24,
+      31
+    ]
+  },
+  {
+    "product_id": "B07CJW3RT3",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "fruity",
+    "label": "Green Tea",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      6,
+      11,
+      14,
+      17,
+      20,
+      27,
+      31
+    ]
+  },
+  {
+    "product_id": "B07CJW3RT3",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "boxed",
+    "label": "Spray",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      7,
+      10,
+      14,
+      17,
+      20,
+      24,
+      31
+    ]
+  },
+  {
+    "product_id": "B07LF4ZH7J",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "LANG STAR",
+    "label": "LANGSTAR",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      3,
+      8,
+      14,
+      15,
+      19,
+      26,
+      27
+    ]
+  },
+  {
+    "product_id": "B07LF4ZH7J",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Pink",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      3,
+      8,
+      14,
+      15,
+      19,
+      26,
+      27
+    ]
+  },
+  {
+    "product_id": "B07VNY4B66",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown",
+    "label": "WILAKON",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      22,
+      38,
+      48,
+      66,
+      79,
+      95,
+      101
+    ]
+  },
+  {
+    "product_id": "B07VNY4B66",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": "Square",
+    "label": "Rectangular",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      22,
+      38,
+      48,
+      66,
+      79,
+      89,
+      101
+    ]
+  },
+  {
+    "product_id": "B01MS84I7L",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Curly",
+    "label": "Normal",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      14,
+      19,
+      29,
+      32,
+      40,
+      51,
+      61
+    ]
+  },
+  {
+    "product_id": "B01MS84I7L",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "fruity",
+    "label": "Natural",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      14,
+      19,
+      29,
+      32,
+      40,
+      52,
+      61
+    ]
+  },
+  {
+    "product_id": "B01MS84I7L",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "foam",
+    "label": "Mousse",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      14,
+      19,
+      29,
+      32,
+      40,
+      52,
+      61
+    ]
+  },
+  {
+    "product_id": "B01MS84I7L",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "United States",
+    "label": "USA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      14,
+      20,
+      29,
+      32,
+      40,
+      51,
+      61
+    ]
+  },
+  {
+    "product_id": "B00QYOSD00",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Philips",
+    "label": "PHILIPS",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      14,
+      17,
+      25,
+      38,
+      46,
+      53,
+      67
+    ]
+  },
+  {
+    "product_id": "B00QYOSD00",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "blue",
+    "label": "Silver Black",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      14,
+      17,
+      33,
+      38,
+      46,
+      53,
+      67
+    ]
+  },
+  {
+    "product_id": "B00QYOSD00",
+    "category": "beauty",
+    "attr_name": "Head Type",
+    "pred": "shaving",
+    "label": "Rotary",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      15,
+      17,
+      31,
+      35,
+      46,
+      53,
+      62
+    ]
+  },
+  {
+    "product_id": "B07ZGBN4NH",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Cushion",
+    "label": "Spray",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      35,
+      64,
+      99,
+      126,
+      156,
+      189,
+      219
+    ]
+  },
+  {
+    "product_id": "B07ZGBN4NH",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "Light beige",
+    "label": "Shell Beige",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      35,
+      64,
+      99,
+      126,
+      156,
+      189,
+      219
+    ]
+  },
+  {
+    "product_id": "B07ZGBN4NH",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Dry skin",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      35,
+      64,
+      99,
+      126,
+      156,
+      189,
+      219
+    ]
+  },
+  {
+    "product_id": "B07ZGBN4NH",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "Cushion",
+    "label": "Luminous",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      35,
+      64,
+      99,
+      126,
+      156,
+      189,
+      219
+    ]
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Jane Iredale",
+    "label": "Jane iredale",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      19,
+      23,
+      34,
+      49,
+      58,
+      71,
+      87
+    ]
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "beige",
+    "label": "Graphite",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      19,
+      23,
+      34,
+      49,
+      58,
+      71,
+      87
+    ]
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      19,
+      27,
+      34,
+      49,
+      58,
+      71,
+      87
+    ]
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "tube",
+    "label": "Wand",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      19,
+      27,
+      34,
+      49,
+      58,
+      71,
+      87
+    ]
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "United States",
+    "label": "USA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      19,
+      27,
+      34,
+      49,
+      58,
+      71,
+      87
+    ]
+  },
+  {
+    "product_id": "B00TPR5FEA",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Silk'n",
+    "label": "Silk'n",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      7,
+      19,
+      25,
+      36,
+      41,
+      48,
+      61
+    ]
+  },
+  {
+    "product_id": "B00TPR5FEA",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "white",
+    "label": "Green",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      7,
+      19,
+      25,
+      37,
+      41,
+      48,
+      55
+    ]
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "acrylic",
+    "label": "Plastic",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      9,
+      14,
+      21,
+      24,
+      30,
+      35
+    ]
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "clear",
+    "label": "Clear",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      9,
+      14,
+      21,
+      27,
+      30,
+      35
+    ]
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Cq",
+    "label": "Sooyee",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      9,
+      14,
+      22,
+      24,
+      30,
+      38
+    ]
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "Clear",
+    "label": "Clear",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      9,
+      15,
+      21,
+      24,
+      30,
+      38
+    ]
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": "rectangle",
+    "label": "Rectangular",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      9,
+      14,
+      21,
+      24,
+      30,
+      35
+    ]
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Package Type",
+    "pred": "box",
+    "label": "Standard Packaging",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      9,
+      14,
+      22,
+      24,
+      30,
+      35
+    ]
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "china",
+    "label": "China",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      4,
+      9,
+      15,
+      22,
+      24,
+      30,
+      38
+    ]
+  },
+  {
+    "product_id": "B07CZ8JGTX",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Unknown brand",
+    "label": "MEIHOU",
+    "num_keyframes": 6,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "product_id": "B07CZ8JGTX",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "fabric",
+    "label": "Human Hair",
+    "num_keyframes": 6,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "product_id": "B07CZ8JGTX",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Curly",
+    "label": "Wavy",
+    "num_keyframes": 6,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "product_id": "B00CS708M8",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Moroccan Keratin",
+    "label": "KERATIN RESEARCH",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      38,
+      71,
+      103,
+      129,
+      167,
+      195,
+      226
+    ]
+  },
+  {
+    "product_id": "B00CS708M8",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Long",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      38,
+      71,
+      103,
+      129,
+      167,
+      195,
+      226
+    ]
+  },
+  {
+    "product_id": "B00CS708M8",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "hair",
+    "label": "Lotion",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      38,
+      71,
+      103,
+      129,
+      167,
+      195,
+      226
+    ]
+  },
+  {
+    "product_id": "B0085ROS4Y",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "Nude",
+    "label": "Raisin",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      21,
+      42,
+      64,
+      87,
+      114,
+      130,
+      155
+    ]
+  },
+  {
+    "product_id": "B0085ROS4Y",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "lipstick",
+    "label": "Sticks",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      21,
+      42,
+      64,
+      87,
+      116,
+      130,
+      155
+    ]
+  },
+  {
+    "product_id": "B0085ROS4Y",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "matte",
+    "label": "Glossy",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      21,
+      42,
+      64,
+      87,
+      114,
+      128,
+      156
+    ]
+  },
+  {
+    "product_id": "B013SRBONI",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Aussie",
+    "label": "Aussie",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      13,
+      23,
+      35,
+      41,
+      55,
+      62,
+      65
+    ]
+  },
+  {
+    "product_id": "B013SRBONI",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "tube",
+    "label": "Liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      13,
+      23,
+      32,
+      41,
+      55,
+      62,
+      65
+    ]
+  },
+  {
+    "product_id": "B013SRBONI",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "wavy",
+    "label": "Dry",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      13,
+      23,
+      32,
+      41,
+      55,
+      62,
+      74
+    ]
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "VINCENT LONGO",
+    "label": "VINCENT LONGO",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      21,
+      40,
+      58,
+      84,
+      97,
+      117,
+      140
+    ]
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Neo Aura",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      21,
+      40,
+      58,
+      84,
+      97,
+      117,
+      140
+    ]
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Dry",
+    "label": "Sensitive",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      21,
+      40,
+      58,
+      84,
+      97,
+      117,
+      140
+    ]
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "gel",
+    "label": "Gel",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      21,
+      40,
+      58,
+      84,
+      97,
+      117,
+      140
+    ]
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "Gel stain",
+    "label": "Sheer",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      21,
+      40,
+      58,
+      84,
+      97,
+      117,
+      141
+    ]
+  },
+  {
+    "product_id": "B0899M2ZNY",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Kemei",
+    "label": "USonline911",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      3,
+      7,
+      14,
+      16,
+      21,
+      26,
+      28
+    ]
+  },
+  {
+    "product_id": "B0899M2ZNY",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": "Battery",
+    "label": "Battery Powered",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      3,
+      7,
+      14,
+      16,
+      19,
+      26,
+      28
+    ]
+  },
+  {
+    "product_id": "B07DK66ZHL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Gillette",
+    "label": "Kirkland Signature",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      8,
+      10,
+      15,
+      22,
+      29,
+      30,
+      39
+    ]
+  },
+  {
+    "product_id": "B07DK66ZHL",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "blue",
+    "label": "As Shown",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      8,
+      10,
+      15,
+      22,
+      29,
+      31,
+      39
+    ]
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Moodmatcher",
+    "label": "MOODmatcher",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      21,
+      26,
+      37,
+      45,
+      56,
+      70,
+      78
+    ]
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Orange/Yellow",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      21,
+      26,
+      37,
+      45,
+      56,
+      70,
+      78
+    ]
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "all skin types",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      21,
+      26,
+      37,
+      45,
+      56,
+      70,
+      78
+    ]
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Split sticks",
+    "label": "Stick",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      21,
+      22,
+      37,
+      45,
+      56,
+      70,
+      78
+    ]
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "matte",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      21,
+      30,
+      37,
+      45,
+      56,
+      70,
+      78
+    ]
+  },
+  {
+    "product_id": "B07C9ND7H7",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "tube",
+    "label": "Liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      15,
+      20,
+      30,
+      35,
+      47,
+      53,
+      63
+    ]
+  },
+  {
+    "product_id": "B07C9ND7H7",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "matte",
+    "label": "Natural",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      15,
+      23,
+      30,
+      35,
+      47,
+      53,
+      63
+    ]
+  },
+  {
+    "product_id": "B07C9ND7H7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Covergirl",
+    "label": "COVERGIRL",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      15,
+      20,
+      30,
+      35,
+      44,
+      53,
+      63
+    ]
+  },
+  {
+    "product_id": "B07CV97T9P",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Rust Oleum",
+    "label": "BBTO",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      13,
+      18,
+      31,
+      41,
+      52,
+      56,
+      68
+    ]
+  },
+  {
+    "product_id": "B07CV97T9P",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "container",
+    "label": "Gel",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      14,
+      18,
+      31,
+      43,
+      52,
+      56,
+      68
+    ]
+  },
+  {
+    "product_id": "B01N0O7EHN",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Eucerin",
+    "label": "Eucerin",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      11,
+      13,
+      14
+    ]
+  },
+  {
+    "product_id": "B01N0O7EHN",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "fragrance free",
+    "label": "Unscented",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      11,
+      13,
+      14
+    ]
+  },
+  {
+    "product_id": "B01N0O7EHN",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Lotion",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      11,
+      13,
+      14
+    ]
+  },
+  {
+    "product_id": "B07KFCR7LD",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown",
+    "label": "Beyond Beauty",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      6,
+      10,
+      13,
+      15,
+      17,
+      20
+    ]
+  },
+  {
+    "product_id": "B07KFCR7LD",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Black",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      6,
+      10,
+      13,
+      15,
+      17,
+      20
+    ]
+  },
+  {
+    "product_id": "B07KFCR7LD",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "rubber",
+    "label": "Synthetic",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      6,
+      10,
+      13,
+      15,
+      17,
+      20
+    ]
+  },
+  {
+    "product_id": "B07KFCR7LD",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "straight",
+    "label": "Curly",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      6,
+      10,
+      13,
+      15,
+      17,
+      20
+    ]
+  },
+  {
+    "product_id": "B07GKLPTL6",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "Silky",
+    "label": "Human",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      10
+    ]
+  },
+  {
+    "product_id": "B07GKLPTL6",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Curly",
+    "label": "Wavy",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "product_id": "B009WI43LI",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "LORAC",
+    "label": "NYX PROFESSIONAL MAKEUP",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      34,
+      71,
+      97,
+      134,
+      162,
+      198,
+      225
+    ]
+  },
+  {
+    "product_id": "B009WI43LI",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "matte",
+    "label": "Matte",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      34,
+      71,
+      97,
+      134,
+      162,
+      198,
+      225
+    ]
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Style Code",
+    "label": "Neutrogena",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      30,
+      42,
+      71,
+      95,
+      108,
+      134,
+      148
+    ]
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "spray",
+    "label": "Lotion",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      30,
+      42,
+      71,
+      94,
+      108,
+      126,
+      148
+    ]
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      30,
+      43,
+      71,
+      88,
+      108,
+      126,
+      148
+    ]
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "Unicorn",
+    "label": "Unscented",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      30,
+      42,
+      71,
+      95,
+      108,
+      133,
+      148
+    ]
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "United States",
+    "label": "Canada",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      30,
+      42,
+      71,
+      88,
+      108,
+      126,
+      148
+    ]
+  },
+  {
+    "product_id": "B08JQP6QD1",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Ethique",
+    "label": "Ethique",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      8,
+      17,
+      22,
+      28,
+      35,
+      38,
+      43
+    ]
+  },
+  {
+    "product_id": "B08JQP6QD1",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "solid",
+    "label": "Bar",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      8,
+      17,
+      22,
+      25,
+      35,
+      38,
+      43
+    ]
+  },
+  {
+    "product_id": "B08JQP6QD1",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "not mentioned",
+    "label": "New Zealand",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      8,
+      17,
+      19,
+      28,
+      35,
+      38,
+      43
+    ]
+  },
+  {
+    "product_id": "B0CDPFQFB7",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "black",
+    "label": "Pink",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      26,
+      33,
+      44,
+      57,
+      71,
+      80
+    ]
+  },
+  {
+    "product_id": "B0CDPFQFB7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "TopDirect",
+    "label": "Lucomb",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      26,
+      33,
+      46,
+      57,
+      71,
+      80
+    ]
+  },
+  {
+    "product_id": "B0CDPFQFB7",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Individual",
+    "label": "Individual",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      26,
+      33,
+      46,
+      57,
+      71,
+      80
+    ]
+  },
+  {
+    "product_id": "B0C92JS5N2",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Liquid",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      6,
+      11,
+      14,
+      17,
+      19,
+      23
+    ]
+  },
+  {
+    "product_id": "B0C92JS5N2",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "All skin types",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      6,
+      11,
+      14,
+      17,
+      19,
+      23
+    ]
+  },
+  {
+    "product_id": "B0C92JS5N2",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Rocky Mountain Barber Company",
+    "label": "Blackstone Men's Grooming",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      6,
+      11,
+      14,
+      17,
+      19,
+      23
+    ]
+  },
+  {
+    "product_id": "B0C92JS5N2",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "Cedar Spice",
+    "label": "Cedar",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      8,
+      11,
+      14,
+      17,
+      19,
+      23
+    ]
+  },
+  {
+    "product_id": "B0788B1HZX",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Ped Egg",
+    "label": "BulbHead",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      15,
+      23,
+      35,
+      43,
+      53,
+      64,
+      78
+    ]
+  },
+  {
+    "product_id": "B0788B1HZX",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "Gold",
+    "label": "Gold",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      15,
+      23,
+      35,
+      43,
+      53,
+      66,
+      79
+    ]
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "AnnTuk",
+    "label": "Anntuk",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      6,
+      12,
+      15,
+      21,
+      28,
+      30,
+      39
+    ]
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "metal",
+    "label": "Stainless Steel",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      6,
+      12,
+      15,
+      21,
+      25,
+      30,
+      39
+    ]
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "black, yellow and green",
+    "label": "Black",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      9,
+      12,
+      15,
+      21,
+      25,
+      30,
+      39
+    ]
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "unknown",
+    "label": "China",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      6,
+      12,
+      15,
+      20,
+      28,
+      30,
+      39
+    ]
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": "electric",
+    "label": "Hand Powered",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      6,
+      12,
+      15,
+      21,
+      28,
+      30,
+      39
+    ]
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "MAC",
+    "label": "Maybelline New York",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      35,
+      71,
+      100,
+      134,
+      166,
+      195,
+      226
+    ]
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Warm Latte 300",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      35,
+      68,
+      100,
+      134,
+      165,
+      195,
+      229
+    ]
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Dry",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      35,
+      64,
+      100,
+      134,
+      165,
+      195,
+      226
+    ]
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "stick",
+    "label": "Gel",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      35,
+      68,
+      100,
+      134,
+      165,
+      195,
+      226
+    ]
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "matte",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      35,
+      68,
+      100,
+      134,
+      165,
+      195,
+      226
+    ]
+  },
+  {
+    "product_id": "B0BQ89FCJ1",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "The Body Shop",
+    "label": "The Body Shop",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10
+    ]
+  },
+  {
+    "product_id": "B0BQ89FCJ1",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "gel",
+    "label": "Liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10
+    ]
+  },
+  {
+    "product_id": "B0BQ89FCJ1",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Dry, flaky scalp",
+    "label": "Dry",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "product_id": "B0BQ89FCJ1",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "ginger",
+    "label": "Ginger",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10
+    ]
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "spray",
+    "label": "Powder",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      22,
+      37,
+      52,
+      73,
+      93,
+      119,
+      125
+    ]
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "spray",
+    "label": "Matte",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      22,
+      37,
+      52,
+      73,
+      93,
+      119,
+      125
+    ]
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Dry",
+    "label": "Sensitive",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      22,
+      37,
+      52,
+      73,
+      93,
+      119,
+      125
+    ]
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "plastic",
+    "label": "Plastic",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      36,
+      71,
+      103,
+      129,
+      167,
+      192,
+      228
+    ]
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "pink",
+    "label": "Clear",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      36,
+      71,
+      100,
+      129,
+      162,
+      192,
+      228
+    ]
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Style Code Live",
+    "label": "iDesign",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      36,
+      71,
+      100,
+      129,
+      167,
+      192,
+      228
+    ]
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "white",
+    "label": "Polished",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      36,
+      71,
+      103,
+      129,
+      163,
+      192,
+      228
+    ]
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Package Type",
+    "pred": "drawer",
+    "label": "Standard Packaging",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      36,
+      71,
+      100,
+      129,
+      162,
+      192,
+      228
+    ]
+  },
+  {
+    "product_id": "B077JDPKDL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Lime Crime",
+    "label": "Lime Crime",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      7,
+      9,
+      15,
+      20,
+      21,
+      25,
+      33
+    ]
+  },
+  {
+    "product_id": "B077JDPKDL",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Liquid",
+    "label": "liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      7,
+      9,
+      15,
+      20,
+      24,
+      25,
+      33
+    ]
+  },
+  {
+    "product_id": "B077JDPKDL",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": "Iridescent",
+    "label": "Shimmery",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      7,
+      8,
+      15,
+      20,
+      21,
+      25,
+      33
+    ]
+  },
+  {
+    "product_id": "B0752KCTDV",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal skin",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      2,
+      4,
+      7,
+      9,
+      13,
+      15,
+      17
+    ]
+  },
+  {
+    "product_id": "B0752KCTDV",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "Fresh",
+    "label": "Snail",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      2,
+      5,
+      7,
+      9,
+      13,
+      15,
+      16
+    ]
+  },
+  {
+    "product_id": "B0752KCTDV",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Organic Doctor",
+    "label": "dr.organic",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      2,
+      5,
+      7,
+      9,
+      13,
+      15,
+      17
+    ]
+  },
+  {
+    "product_id": "B0752KCTDV",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Jar",
+    "label": "Gel",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      2,
+      5,
+      7,
+      9,
+      13,
+      15,
+      17
+    ]
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "ITS GREATTTTTT!",
+    "label": "LP LivingPro",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      2,
+      4,
+      6,
+      10,
+      11,
+      13,
+      17
+    ]
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "white",
+    "label": "Pink",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      2,
+      4,
+      6,
+      10,
+      11,
+      13,
+      17
+    ]
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal",
+    "label": "Sensitive",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      3,
+      4,
+      6,
+      10,
+      12,
+      13,
+      17
+    ]
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "The item is a brush.",
+    "label": "Oval Brush",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      2,
+      4,
+      6,
+      10,
+      11,
+      13,
+      17
+    ]
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Skin Tone",
+    "pred": "dark",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      6,
+      10,
+      12,
+      13,
+      17
+    ]
+  },
+  {
+    "product_id": "B07XF6Y3F4",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "gel",
+    "label": "LIQUID",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      7,
+      8,
+      10,
+      12,
+      16
+    ]
+  },
+  {
+    "product_id": "B07XF6Y3F4",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "Fresh",
+    "label": "Plum Berry",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      3,
+      5,
+      7,
+      8,
+      10,
+      12,
+      16
+    ]
+  },
+  {
+    "product_id": "B08669WGPS",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Avani",
+    "label": "BioMarine",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      16,
+      40,
+      59,
+      78,
+      84,
+      99,
+      116
+    ]
+  },
+  {
+    "product_id": "B08669WGPS",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "Fresh",
+    "label": "Fresh",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      16,
+      40,
+      60,
+      78,
+      84,
+      100,
+      116
+    ]
+  },
+  {
+    "product_id": "B08669WGPS",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Cream",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      5,
+      21,
+      40,
+      59,
+      78,
+      84,
+      99,
+      116
+    ]
+  },
+  {
+    "product_id": "B07FMV34QR",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "eHow",
+    "label": "BriLove",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      6,
+      10,
+      20,
+      25,
+      27,
+      32,
+      41
+    ]
+  },
+  {
+    "product_id": "B07FMV34QR",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Curly",
+    "label": "Wavy",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      6,
+      10,
+      20,
+      25,
+      27,
+      32,
+      41
+    ]
+  },
+  {
+    "product_id": "B07FMV34QR",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "white",
+    "label": "Silver-Tone",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      6,
+      10,
+      20,
+      25,
+      27,
+      32,
+      40
+    ]
+  },
+  {
+    "product_id": "B07JBJW2R3",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Normal skin",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      22,
+      25,
+      37,
+      44,
+      51,
+      62
+    ]
+  },
+  {
+    "product_id": "B07JBJW2R3",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "none",
+    "label": "Fragrance Free",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      22,
+      25,
+      33,
+      44,
+      51,
+      62
+    ]
+  },
+  {
+    "product_id": "B07JBJW2R3",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Vichy",
+    "label": "Vichy",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      22,
+      25,
+      37,
+      44,
+      51,
+      62
+    ]
+  },
+  {
+    "product_id": "B07JBJW2R3",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "France",
+    "label": "France",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      13,
+      22,
+      25,
+      37,
+      44,
+      51,
+      62
+    ]
+  },
+  {
+    "product_id": "B084G8F71B",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Pantene",
+    "label": "Pantene",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      9,
+      16,
+      23,
+      29,
+      36,
+      46,
+      53
+    ]
+  },
+  {
+    "product_id": "B084G8F71B",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "tube",
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      9,
+      16,
+      23,
+      29,
+      36,
+      46,
+      53
+    ]
+  },
+  {
+    "product_id": "B0BL2CRG8K",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "BUBM",
+    "label": "BUBM",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      4,
+      6,
+      10,
+      11,
+      16,
+      17,
+      22
+    ]
+  },
+  {
+    "product_id": "B0BL2CRG8K",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "Black",
+    "label": "Black",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      4,
+      6,
+      10,
+      11,
+      16,
+      17,
+      22
+    ]
+  },
+  {
+    "product_id": "B0BL2CRG8K",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "The material is nylon.",
+    "label": "Nylon",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      4,
+      6,
+      10,
+      11,
+      16,
+      17,
+      22
+    ]
+  },
+  {
+    "product_id": "B0BL2CRG8K",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": "not applicable",
+    "label": "Corded Electric",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      4,
+      6,
+      10,
+      11,
+      16,
+      17,
+      22
+    ]
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "Blue",
+    "label": "Black",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      7,
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "TowelSelections",
+    "label": "DII",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      7,
+      9,
+      10,
+      13,
+      14
+    ]
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "Terry",
+    "label": "Polyester",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      7,
+      9,
+      10,
+      13,
+      14
+    ]
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Pattern",
+    "pred": "solid",
+    "label": "Solid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      7,
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Theme",
+    "pred": "Beach",
+    "label": "No Theme",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      7,
+      9,
+      10,
+      13,
+      14
+    ]
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": "rectangular",
+    "label": "Rectangular",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      7,
+      9,
+      10,
+      13,
+      14
+    ]
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Fabric Type",
+    "pred": "Terry",
+    "label": "Polyester",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      7,
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "United States",
+    "label": "China",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      2,
+      4,
+      7,
+      9,
+      10,
+      13,
+      14
+    ]
+  },
+  {
+    "product_id": "B00OUKGNJI",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "R+Co",
+    "label": "Oscar Blandi",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      9,
+      14,
+      19,
+      25,
+      31,
+      34
+    ]
+  },
+  {
+    "product_id": "B00OUKGNJI",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Fine",
+    "label": "Dry",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      10,
+      14,
+      19,
+      25,
+      31,
+      34
+    ]
+  },
+  {
+    "product_id": "B00OUKGNJI",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Powder",
+    "label": "Spray",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      9,
+      14,
+      19,
+      25,
+      31,
+      34
+    ]
+  },
+  {
+    "product_id": "B09W422P5C",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "block",
+    "label": "Bar",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      10,
+      19,
+      22,
+      29,
+      40,
+      45,
+      51
+    ]
+  },
+  {
+    "product_id": "B09W422P5C",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "all skin types",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      8,
+      19,
+      22,
+      31,
+      40,
+      45,
+      51
+    ]
+  },
+  {
+    "product_id": "B09W422P5C",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Raw Apothecary",
+    "label": "Ashanti Naturals",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      8,
+      19,
+      22,
+      29,
+      40,
+      45,
+      51
+    ]
+  },
+  {
+    "product_id": "B09W422P5C",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "fragrance free",
+    "label": "Lavender",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      8,
+      19,
+      22,
+      29,
+      40,
+      45,
+      51
+    ]
+  },
+  {
+    "product_id": "B0BR7N5QXG",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "COSRX",
+    "label": "DERMACENTRIC",
+    "num_keyframes": 5,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "product_id": "B0BR7N5QXG",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "Cream",
+    "label": "Gel",
+    "num_keyframes": 5,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "product_id": "B0796QFQ15",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "unknown",
+    "label": "U Show hair",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "product_id": "B0796QFQ15",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "plastic",
+    "label": "Human Hair",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "product_id": "B07W8TQ2QL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Kurener",
+    "label": "SURKER",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      13,
+      21,
+      24,
+      35,
+      46,
+      52,
+      58
+    ]
+  },
+  {
+    "product_id": "B07W8TQ2QL",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": "Battery",
+    "label": "Battery Powered",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      13,
+      21,
+      24,
+      35,
+      45,
+      52,
+      58
+    ]
+  },
+  {
+    "product_id": "B08DC1JGX7",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "short",
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      15,
+      27,
+      38,
+      50,
+      58,
+      71,
+      77
+    ]
+  },
+  {
+    "product_id": "B08DC1JGX7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Wahl",
+    "label": "WAHL",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      6,
+      15,
+      27,
+      38,
+      50,
+      58,
+      71,
+      77
+    ]
+  },
+  {
+    "product_id": "B08T5T4RQQ",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Degree",
+    "label": "DEGREE",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "product_id": "B08T5T4RQQ",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "stick",
+    "label": "Stick",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "product_id": "B08T5T4RQQ",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "Adventure",
+    "label": "Woodsy",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "product_id": "B08T5T4RQQ",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "United States",
+    "label": "USA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Prosper Beauty",
+    "label": "Beautella",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      8,
+      17,
+      31,
+      36,
+      53,
+      60,
+      71
+    ]
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": "rectangular",
+    "label": "Rectangular",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      17,
+      22,
+      31,
+      36,
+      48,
+      61,
+      71
+    ]
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Mounting Type",
+    "pred": "wall mount",
+    "label": "Tabletop Mount",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      17,
+      22,
+      31,
+      36,
+      48,
+      61,
+      71
+    ]
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "white",
+    "label": "White",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      11,
+      22,
+      31,
+      41,
+      48,
+      61,
+      71
+    ]
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Theme",
+    "pred": "beauty",
+    "label": "Modern",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      8,
+      17,
+      31,
+      36,
+      53,
+      61,
+      71
+    ]
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "plastic",
+    "label": "Plastic",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      11,
+      22,
+      31,
+      36,
+      52,
+      61,
+      71
+    ]
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Frame Type",
+    "pred": "product image",
+    "label": "Framed",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      7,
+      8,
+      22,
+      31,
+      41,
+      52,
+      61,
+      71
+    ]
+  },
+  {
+    "product_id": "B01N9OBPGB",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "tube",
+    "label": "Liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      7,
+      12,
+      17,
+      25,
+      28,
+      35,
+      41
+    ]
+  },
+  {
+    "product_id": "B01N9OBPGB",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": "Suitable for all skin types",
+    "label": "Acne Prone",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      7,
+      12,
+      17,
+      25,
+      28,
+      35,
+      41
+    ]
+  },
+  {
+    "product_id": "B01N9OBPGB",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "NENA",
+    "label": "C.S.M",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      7,
+      12,
+      17,
+      25,
+      28,
+      35,
+      41
+    ]
+  },
+  {
+    "product_id": "B01N9OBPGB",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": "Canada",
+    "label": "USA",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      4,
+      7,
+      12,
+      17,
+      25,
+      28,
+      35,
+      41
+    ]
+  },
+  {
+    "product_id": "B0B6WLTK4H",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": "tube",
+    "label": "Liquid",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      7,
+      8,
+      14,
+      16,
+      20,
+      26,
+      29
+    ]
+  },
+  {
+    "product_id": "B0B6WLTK4H",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "L'Oreal Paris",
+    "label": "L'Oreal Paris",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      7,
+      8,
+      14,
+      16,
+      20,
+      26,
+      29
+    ]
+  },
+  {
+    "product_id": "B0B6WLTK4H",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Fine",
+    "label": "Color Treated",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      7,
+      8,
+      14,
+      17,
+      20,
+      26,
+      29
+    ]
+  },
+  {
+    "product_id": "B074K4BP71",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": "Fly Yvonne",
+    "label": "West kiss",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      4,
+      9,
+      14,
+      20,
+      26,
+      30,
+      33
+    ]
+  },
+  {
+    "product_id": "B074K4BP71",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": "black",
+    "label": "Natural",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      4,
+      9,
+      14,
+      20,
+      26,
+      27,
+      33
+    ]
+  },
+  {
+    "product_id": "B074K4BP71",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": "fabric",
+    "label": "Human Hair",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      4,
+      9,
+      14,
+      20,
+      26,
+      30,
+      33
+    ]
+  },
+  {
+    "product_id": "B074K4BP71",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "Straight",
+    "label": "Wavy",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      6,
+      9,
+      14,
+      19,
+      26,
+      30,
+      33
+    ]
+  },
+  {
+    "product_id": "B017BQAFRI",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": "oily",
+    "label": "Normal",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "product_id": "B017BQAFRI",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": "odd smell",
+    "label": "Cedarwood",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      8,
+      9,
+      10
+    ]
+  }
+]

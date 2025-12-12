@@ -1,0 +1,300 @@
+================================================================================
+ATTRIBUTE-CONDITIONED VIDEO ATTRIBUTE EXTRACTION WITH AKS
+System Architecture Diagram
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         INPUT: VideoAVE Dataset                             │
+│  CSV Format: product_id, video_url, title, category, aspects (JSON)        │
+│  Example: B07FXWHFRF, https://..., "Product", "beauty", {'Brand': 'ZOYA'} │
+└────────────────────────────────┬────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    DATA LOADER (data_loader.py)                             │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ VideoAVEAttrDataset                                                 │   │
+│  │ - Load CSV files from train_data/ or test_data/                    │   │
+│  │ - Parse JSON aspects into attribute-value pairs                    │   │
+│  │ - Flatten: (video, category, title, attr_name, attr_value)        │   │
+│  │ - Filter by domain, split, max_samples                            │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+│  Output: List of per-attribute samples                                      │
+└────────────────────────────────┬────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│              FRAME EXTRACTION (video_utils.py)                              │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ extract_candidate_frames()                                          │   │
+│  │ - Use decord to read video                                         │   │
+│  │ - Sample at FPS_CANDIDATE=1 fps                                    │   │
+│  │ - Limit to MAX_FRAMES=256                                          │   │
+│  │ - Return: List[PIL.Image], List[float] timestamps                  │   │
+│  │                                                                      │   │
+│  │ get_frames_cached()                                                │   │
+│  │ - Check cache first (MD5 hash of video path)                       │   │
+│  │ - Extract if not cached                                            │   │
+│  │ - Save frames and timestamps as .npy files                         │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+│  Output: Candidate frames (T, H, W, 3), timestamps (T,)                    │
+└────────────────────────────────┬────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│              FRAME SCORING (frame_scorer.py)                                │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ FrameScorer (BLIP-ITM)                                              │   │
+│  │                                                                      │   │
+│  │ Query Construction:                                                 │   │
+│  │   Q_a = "A video frame that best shows the product's {attr_name}. │   │
+│  │          Product title: {title}. Product category: {category}."    │   │
+│  │                                                                      │   │
+│  │ Scoring Process:                                                    │   │
+│  │   1. Load BLIP-ITM model (Salesforce/blip-itm-base-coco)           │   │
+│  │   2. For each candidate frame:                                      │   │
+│  │      - Tokenize text and image                                      │   │
+│  │      - Forward through BLIP                                         │   │
+│  │      - Extract ITM logits                                           │   │
+│  │      - Convert to probability via softmax                           │   │
+│  │   3. Return scores in [0, 1]                                        │   │
+│  │                                                                      │   │
+│  │ Batching: Process 8 frames at a time to avoid OOM                  │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+│  Output: Scores (T,) - relevance of each frame to attribute                │
+└────────────────────────────────┬────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│         ADAPTIVE KEYFRAME SAMPLING - AKS (aks_sampler.py)                   │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ AdaptiveKeyframeSampler.select(scores, M)                          │   │
+│  │                                                                      │   │
+│  │ Algorithm: Judge & Split (Recursive)                               │   │
+│  │                                                                      │   │
+│  │ Input: scores (T,), M (target frames)                              │   │
+│  │                                                                      │   │
+│  │ Pseudocode:                                                         │   │
+│  │   stack = [Segment(0, T, M, level=0)]                              │   │
+│  │   final_segments = []                                               │   │
+│  │                                                                      │   │
+│  │   while stack:                                                      │   │
+│  │     seg = stack.pop()                                               │   │
+│  │     s, e, m, lvl = seg.start, seg.end, seg.m, seg.level            │   │
+│  │                                                                      │   │
+│  │     # Stopping conditions                                           │   │
+│  │     if lvl >= MAX_LEVEL or m <= 1:                                 │   │
+│  │       final_segments.append(seg)                                    │   │
+│  │       continue                                                      │   │
+│  │                                                                      │   │
+│  │     # Judge: Check for peaks in score distribution                 │   │
+│  │     s_all = mean(scores[s:e])                                       │   │
+│  │     s_top = mean(top_m_scores)                                      │   │
+│  │                                                                      │   │
+│  │     if s_top - s_all >= S_THRESHOLD:                               │   │
+│  │       # TOP strategy: Select highest scores (peaks)                │   │
+│  │       final_segments.append(seg)                                    │   │
+│  │     else:                                                           │   │
+│  │       # BIN strategy: Split and recurse (coverage)                 │   │
+│  │       mid = (s + e) // 2                                            │   │
+│  │       stack.append(Segment(mid, e, m//2, lvl+1))                   │   │
+│  │       stack.append(Segment(s, mid, m//2, lvl+1))                   │   │
+│  │                                                                      │   │
+│  │   # Extract top-m frames from each segment                          │   │
+│  │   selected = []                                                     │   │
+│  │   for seg in final_segments:                                        │   │
+│  │     indices = sort_by_score(seg.start:seg.end)                     │   │
+│  │     selected.extend(indices[:seg.m])                                │   │
+│  │                                                                      │   │
+│  │   return sorted(set(selected))                                      │   │
+│  │                                                                      │   │
+│  │ Parameters:                                                          │   │
+│  │   MAX_LEVEL = 4 (recursion depth)                                  │   │
+│  │   S_THRESHOLD = 0.6 (TOP vs BIN decision)                          │   │
+│  │                                                                      │   │
+│  │ Output: M keyframe indices (sorted temporally)                      │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+│                                                                              │
+│  Baseline Samplers (for comparison):                                        │
+│  - SimpleTopKSampler: Select top-M by score                               │
+│  - UniformSampler: Select M frames uniformly distributed                  │
+└────────────────────────────────┬────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│       ATTRIBUTE KEYFRAME SELECTOR (attr_keyframe_selector.py)               │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ AttrKeyframeSelector.select_keyframes_for_attr()                   │   │
+│  │                                                                      │   │
+│  │ Pipeline:                                                           │   │
+│  │   1. Extract candidate frames (video_utils)                        │   │
+│  │   2. Construct query Q_a (attribute-specific)                      │   │
+│  │   3. Score frames using BLIP-ITM (frame_scorer)                    │   │
+│  │   4. Select M keyframes using AKS (aks_sampler)                    │   │
+│  │   5. Return selected keyframes and timestamps                      │   │
+│  │                                                                      │   │
+│  │ Output: Keyframes (M, H, W, 3), timestamps (M,), indices (M,)      │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└────────────────────────────────┬────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│         ATTRIBUTE VALUE EXTRACTION (qwen_vl_extractor.py)                   │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ QwenVLExtractor.extract_single_attr()                              │   │
+│  │                                                                      │   │
+│  │ Mode A: Single-Attribute (Current Implementation)                  │   │
+│  │                                                                      │   │
+│  │ Prompt Template:                                                    │   │
+│  │   System: "You are an expert at extracting product attribute       │   │
+│  │           values from e-commerce videos. Answer ONLY the           │   │
+│  │           attribute value in natural language."                    │   │
+│  │                                                                      │   │
+│  │   User: "I will show you several frames from a product video.      │   │
+│  │          Product category: {category}                              │   │
+│  │          Product title: {title}                                    │   │
+│  │          Attribute name: \"{attr_name}\"                           │   │
+│  │                                                                      │   │
+│  │          Please answer ONLY the attribute value in natural         │   │
+│  │          language. Do not output the attribute name or any         │   │
+│  │          explanation."                                             │   │
+│  │                                                                      │   │
+│  │          [M keyframes as images]                                   │   │
+│  │                                                                      │   │
+│  │ Process:                                                            │   │
+│  │   1. Load Qwen2.5-VL model (FP16, flash_attention_2)              │   │
+│  │   2. Prepare messages with images and text                         │   │
+│  │   3. Apply chat template                                           │   │
+│  │   4. Process vision information                                    │   │
+│  │   5. Generate response (max_new_tokens=128)                        │   │
+│  │   6. Extract value from response                                   │   │
+│  │                                                                      │   │
+│  │ Output: Predicted attribute value (string)                         │   │
+│  │                                                                      │   │
+│  │ Mode B: Multi-Attribute (Framework Ready)                          │   │
+│  │   - Merge keyframes from all attributes                            │   │
+│  │   - Single VLM call for all attributes                             │   │
+│  │   - Parse structured response                                      │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└────────────────────────────────┬────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│              EVALUATION (evaluation.py)                                      │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ AttributeEvaluator                                                  │   │
+│  │                                                                      │   │
+│  │ Fuzzy F1 Metric:                                                    │   │
+│  │   1. Compute longest common substring (LCS) between pred and label │   │
+│  │   2. Match if: LCS_length > 0.5 * len(label)                       │   │
+│  │   3. Return: 1.0 (match) or 0.0 (no match)                         │   │
+│  │                                                                      │   │
+│  │ Metrics Computed:                                                   │   │
+│  │   - Overall F1: mean(all fuzzy_f1_scores)                          │   │
+│  │   - Overall Accuracy: fraction of matches                          │   │
+│  │   - Per-Category F1 and Accuracy                                   │   │
+│  │   - Per-Attribute F1 and Accuracy                                  │   │
+│  │                                                                      │   │
+│  │ Output: Metrics dictionary (JSON-serializable)                     │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└────────────────────────────────┬────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    OUTPUT: Results and Metrics                              │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ results_*.json:                                                     │   │
+│  │ [                                                                   │   │
+│  │   {                                                                 │   │
+│  │     "product_id": "B07FXWHFRF",                                     │   │
+│  │     "category": "beauty",                                           │   │
+│  │     "attr_name": "Brand",                                           │   │
+│  │     "pred": "ZOYA",                                                 │   │
+│  │     "label": "ZOYA",                                                │   │
+│  │     "num_keyframes": 8,                                             │   │
+│  │     "keyframe_indices": [2, 5, 8, 12, 15, 18, 22, 25]             │   │
+│  │   },                                                                │   │
+│  │   ...                                                               │   │
+│  │ ]                                                                   │   │
+│  │                                                                      │   │
+│  │ metrics_*.json:                                                     │   │
+│  │ {                                                                   │   │
+│  │   "total_samples": 100,                                             │   │
+│  │   "overall_f1": 0.70,                                               │   │
+│  │   "overall_accuracy": 0.70,                                         │   │
+│  │   "by_category": { "beauty": {...}, "sports": {...} },             │   │
+│  │   "by_attribute": { "Brand": {...}, "Color": {...} }               │   │
+│  │ }                                                                   │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+================================================================================
+KEY DESIGN DECISIONS
+================================================================================
+
+1. AKS Algorithm: Judge & Split Strategy
+   - Balances TOP (peak detection) and BIN (temporal coverage)
+   - Automatic strategy selection based on score distribution
+   - Configurable parameters for fine-tuning
+
+2. BLIP-ITM Scoring
+   - Lightweight and efficient (4GB VRAM)
+   - Good accuracy for frame-text matching
+   - Batch processing to avoid OOM
+
+3. Attribute-Specific Queries
+   - Includes attribute name, product title, and category
+   - Guides frame selection toward relevant content
+   - Improves overall extraction quality
+
+4. Fuzzy F1 Metric
+   - Matches VideoAVE evaluation standard
+   - Robust to minor variations and typos
+   - LCS-based matching aligns with human judgment
+
+5. Single-Attribute Mode
+   - Simpler implementation and debugging
+   - Clear prompts and responses
+   - Multi-attribute mode ready for future optimization
+
+================================================================================
+CONFIGURATION PARAMETERS
+================================================================================
+
+Video Processing:
+  FPS_CANDIDATE = 1              # Frames per second for candidate extraction
+  MAX_FRAMES = 256               # Maximum candidate frames per video
+
+AKS Sampling:
+  M_ATTR = 8                     # Keyframes to select per attribute
+  MAX_LEVEL = 4                  # Maximum recursion depth for Judge & Split
+  S_THRESHOLD = 0.6              # Score threshold for TOP vs BIN decision
+
+Models:
+  QWEN_MODEL_PATH = "/data/share/qwen/Qwen2.5-VL-7B-Instruct"
+  BLIP_MODEL_NAME = "blip-itm-base"
+  DEVICE = "cuda:0"
+
+================================================================================
+PERFORMANCE CHARACTERISTICS
+================================================================================
+
+Speed (per attribute):
+  - Frame extraction: 1-2 seconds
+  - BLIP scoring: 0.5 seconds
+  - AKS sampling: 0.01 seconds
+  - Qwen2.5-VL inference: 2-5 seconds
+  - Total: 3-8 seconds per attribute
+
+Memory:
+  - BLIP-ITM: ~4GB
+  - Qwen2.5-VL (FP16): ~14GB
+  - Frame cache: ~100MB per video
+  - Total: ~18GB GPU VRAM
+
+Quality:
+  - Expected F1 with AKS (M=8): 0.70-0.75
+  - Baseline (uniform sampling): 0.55-0.65
+  - Improvement: +15-20% F1
+
+================================================================================
