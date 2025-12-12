@@ -1,0 +1,36 @@
+# 实验3: 云端Qwen-VL API + 完整的候选视频帧（不使用AKS选择）
+experiment_name: "exp3_api_all_frames"
+description: "使用云端Qwen-VL API，输入为所有候选帧（不经过AKS选择）"
+
+# 模型配置
+model_mode: "api"  # local 或 api
+# api_key: "your-api-key-here"  # 可选，也可以通过环境变量DASHSCOPE_API_KEY设置
+api_url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+api_model: "qwen-vl-plus"  # qwen-vl-plus, qwen-vl-max, 或 qwen-vl-turbo
+device: "cuda:0"  # 用于BLIP模型（虽然此模式下不使用BLIP评分，但仍需要初始化）
+
+# 输入模式
+input_mode: "all_frames"  # sampled_frames, all_frames, 或 video
+
+# 数据集配置
+split: "test"
+domains: ["beauty"]
+max_samples: 100  # 设置为null或不设置则处理全部样本
+
+# 候选帧提取配置（用于提取所有候选帧）
+fps_candidate: 1  # 候选帧提取的FPS
+max_frames: 256   # 最大候选帧数
+
+# 注意：以下AKS参数在all_frames模式下不会被使用，但为了兼容性保留
+m_attr: 8
+max_level: 4
+s_threshold: 0.6
+
+# BLIP模型配置
+blip_model: "blip-itm-base"
+
+# 评估配置
+eval_threshold: 0.5  # 模糊匹配阈值
+
+# 输出配置
+output_dir: "/data/veteran/project/dataE/Attribute_AKS/results/exp3_api_all_frames"

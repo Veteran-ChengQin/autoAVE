@@ -4,9 +4,12 @@ Qwen2.5-VL integration for attribute value extraction
 import logging
 import re
 import json
-from typing import List, Dict, Optional
+import base64
+import io
+from typing import List, Dict, Optional, Literal
 from PIL import Image
 import torch
+import requests
 
 logger = logging.getLogger(__name__)
 
@@ -15,20 +18,46 @@ class QwenVLExtractor:
     """
     Uses Qwen2.5-VL to extract attribute values from video frames.
     Supports both single-attribute and multi-attribute modes.
+    Supports both local model and API-based inference.
     """
     
-    def __init__(self, model_path: str, device: str = "cuda:0"):
+    def __init__(self, 
+                 model_path: Optional[str] = None, 
+                 device: str = "cuda:0",
+                 mode: Literal["local", "api"] = "local",
+                 api_key: Optional[str] = None,
+                 api_url: str = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+                 api_model: str = "qwen-vl-plus"):
         """
         Args:
-            model_path: Path to Qwen2.5-VL model
-            device: Device to run model on
+            model_path: Path to Qwen2.5-VL model (required for local mode)
+            device: Device to run model on (for local mode)
+            mode: "local" for local model inference, "api" for API calls
+            api_key: API key for API mode
+            api_url: API endpoint URL
+            api_model: Model name for API calls
         """
+        self.mode = mode
         self.model_path = model_path
         self.device = device
         self.model = None
         self.processor = None
         
-        self._load_model()
+        # API configuration
+        self.api_key = api_key
+        self.api_url = api_url
+        self.api_model = api_model
+        
+        if self.mode == "local":
+            if not model_path:
+                raise ValueError("model_path is required for local mode")
+            self._load_model()
+        elif self.mode == "api":
+            if not api_key:
+                raise ValueError("api_key is required for API mode")
+            logger.info(f"Using API mode with model: {self.api_model}")
+        else:
+            raise ValueError(f"Invalid mode: {mode}. Must be 'local' or 'api'")
     
     def _load_model(self) -> None:
         """Load Qwen2.5-VL model"""
@@ -69,6 +98,195 @@ class QwenVLExtractor:
             logger.error(f"Failed to load Qwen2.5-VL: {e}")
             raise
     
+    def _encode_image_to_base64(self, image: Image.Image) -> str:
+        """Encode PIL Image to base64 string for API calls."""
+        buffered = io.BytesIO()
+        image.save(buffered, format="JPEG")
+        img_str = base64.b64encode(buffered.getvalue()).decode('utf-8')
+        return f"data:image/jpeg;base64,{img_str}"
+    
+    def _call_api(self, messages: List[Dict], stream: bool = False) -> str:
+        """
+        Call Qwen VL API.
+        
+        Args:
+            messages: List of message dicts with role and content
+            stream: Whether to use streaming mode
+            
+        Returns:
+            Generated text response
+        """
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json"
+        }
+        
+        payload = {
+            "model": self.api_model,
+            "messages": messages,
+            "stream": stream
+        }
+        
+        if stream:
+            payload["stream_options"] = {"include_usage": True}
+        
+        try:
+            response = requests.post(self.api_url, headers=headers, json=payload, timeout=60)
+            response.raise_for_status()
+            
+            if stream:
+                # Handle streaming response
+                full_response = ""
+                for line in response.iter_lines():
+                    if line:
+                        line_str = line.decode('utf-8')
+                        if line_str.startswith('data: '):
+                            data_str = line_str[6:]
+                            if data_str.strip() == '[DONE]':
+                                break
+                            try:
+                                data = json.loads(data_str)
+                                if 'choices' in data and len(data['choices']) > 0:
+                                    delta = data['choices'][0].get('delta', {})
+                                    content = delta.get('content', '')
+                                    full_response += content
+                            except json.JSONDecodeError:
+                                continue
+                return full_response
+            else:
+                # Handle non-streaming response
+                result = response.json()
+                return result['choices'][0]['message']['content']
+                
+        except requests.exceptions.RequestException as e:
+            logger.error(f"API call failed: {e}")
+            raise
+    
+    def extract_single_attr_from_video(self, video_url: str, attr_name: str,
+                                       title: str, category: str) -> Dict[str, str]:
+        """
+        Extract value for a single attribute directly from video URL (API mode only).
+        
+        Args:
+            video_url: URL of the video (http/https URL)
+            attr_name: Attribute name
+            title: Product title
+            category: Product category
+            
+        Returns:
+            Dictionary with attr_name as key and extracted value as value
+        """
+        if self.mode != "api":
+            raise ValueError("extract_single_attr_from_video only supports API mode")
+        
+        # Construct prompt - request JSON format response
+        user_prompt = (
+            f"该视频主要用于介绍{category}类别的商品。\n"
+            f"商品标题: {title}\n"
+            f"请你从视频中提取商品的属性\"{attr_name}\"的值。\n\n"
+            f"请只返回有效的JSON格式，格式如下：\n"
+            '{"{attr_name}": "<提取的属性值>"}\n\n'
+            f"如果无法确定该属性的值，请使用空字符串。"
+        )
+        
+        try:
+            # Prepare API request with video URL
+            content = [
+                {
+                    "type": "video_url",
+                    "video_url": {
+                        "url": video_url
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": user_prompt
+                }
+            ]
+            
+            messages = [{"role": "user", "content": content}]
+            
+            # Call API
+            generated_text = self._call_api(messages, stream=False)
+            
+            # Extract the value from JSON response
+            result = self._extract_value_from_json_response(generated_text, attr_name)
+            logger.info(f"Extracted {result} from video")
+            
+            return result
+            
+        except Exception as e:
+            logger.error(f"Error extracting {attr_name} from video: {e}", exc_info=True)
+            return {attr_name: ""}
+    
+    def extract_multi_attr_from_video(self, video_url: str, attr_names: List[str],
+                                      title: str, category: str) -> Dict[str, str]:
+        """
+        Extract values for multiple attributes directly from video URL (API mode only).
+        
+        Args:
+            video_url: URL of the video (http/https URL)
+            attr_names: List of attribute names
+            title: Product title
+            category: Product category
+            
+        Returns:
+            Dict mapping attr_name -> predicted value
+        """
+        if self.mode != "api":
+            raise ValueError("extract_multi_attr_from_video only supports API mode")
+        
+        if not attr_names:
+            logger.warning("No attributes provided")
+            return {}
+        
+        # Construct prompt with JSON format
+        attr_list_str = str(attr_names)
+        
+        # Build example JSON format
+        example_json = {name: "<值>" for name in attr_names}
+        example_json_str = json.dumps(example_json, ensure_ascii=False)
+        
+        user_prompt = (
+            f"该视频主要用于介绍{category}类别的商品。\n"
+            f"商品标题: {title}\n\n"
+            f"请你从视频中提取商品的这几个属性的值，属性列表为: {attr_list_str}\n\n"
+            f"请只返回有效的JSON格式，格式如下：\n"
+            f"{example_json_str}\n\n"
+            f"如果某个属性无法确定，请使用空字符串作为值。\n"
+            f"不要提及其他属性。"
+        )
+        
+        try:
+            # Prepare API request with video URL
+            content = [
+                {
+                    "type": "video_url",
+                    "video_url": {
+                        "url": video_url
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": user_prompt
+                }
+            ]
+            
+            messages = [{"role": "user", "content": content}]
+            
+            # Call API
+            generated_text = self._call_api(messages, stream=False)
+            
+            # Parse JSON response
+            result = self._parse_multi_attr_json_response(generated_text, attr_names)
+            logger.info(f"Extracted attributes from video: {result}")
+            
+            return result
+            
+        except Exception as e:
+            logger.error(f"Error extracting attributes from video: {e}", exc_info=True)
+            return {name: "" for name in attr_names}
+    
     def extract_single_attr(self, keyframes: List[Image.Image], attr_name: str,
                            title: str, category: str) -> Dict[str, str]:
         """
@@ -100,69 +318,88 @@ class QwenVLExtractor:
         )
         
         try:
-            # Prepare inputs
-            messages = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "image", "image": frame} for frame in keyframes
-                    ] + [
-                        {"type": "text", "text": user_prompt}
-                    ]
-                }
-            ]
-            
-            # Apply chat template
-            text = self.processor.apply_chat_template(
-                messages, tokenize=False, add_generation_prompt=True
-            )
-            
-            # Process vision information using qwen_vl_utils
-            try:
-                from qwen_vl_utils import process_vision_info
-                image_inputs, video_inputs = process_vision_info(messages)
-            except ImportError:
-                logger.warning("qwen_vl_utils not available, using fallback processing")
-                image_inputs = keyframes
-                video_inputs = None
-            except Exception as e:
-                logger.warning(f"process_vision_info failed: {e}, using fallback processing")
-                image_inputs = keyframes
-                video_inputs = None
-            
-            # Prepare model inputs
-            try:
-                inputs = self.processor(
-                    text=[text],
-                    images=image_inputs,
-                    videos=video_inputs,
-                    padding=True,
-                    return_tensors="pt",
+            if self.mode == "api":
+                # API mode: encode images as base64
+                content = []
+                for frame in keyframes:
+                    content.append({
+                        "type": "image_url",
+                        "image_url": {
+                            "url": self._encode_image_to_base64(frame)
+                        }
+                    })
+                content.append({"type": "text", "text": user_prompt})
+                
+                messages = [{"role": "user", "content": content}]
+                
+                # Call API
+                generated_text = self._call_api(messages, stream=False)
+                
+            else:
+                # Local mode: use transformers
+                # Prepare inputs
+                messages = [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "image", "image": frame} for frame in keyframes
+                        ] + [
+                            {"type": "text", "text": user_prompt}
+                        ]
+                    }
+                ]
+                
+                # Apply chat template
+                text = self.processor.apply_chat_template(
+                    messages, tokenize=False, add_generation_prompt=True
                 )
-            except TypeError:
-                # Fallback for different processor API
-                inputs = self.processor(
-                    text=[text],
-                    images=image_inputs,
-                    padding=True,
-                    return_tensors="pt",
-                )
-            
-            inputs = inputs.to(self.device)
-            
-            # Generate
-            with torch.no_grad():
-                generated_ids = self.model.generate(**inputs, max_new_tokens=128)
-            
-            # Trim generated ids to only new tokens (following reference pattern)
-            generated_ids_trimmed = [
-                out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-            ]
-            
-            # Decode
-            generated_text = self.processor.batch_decode(
-                generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-            )[0]
+                
+                # Process vision information using qwen_vl_utils
+                try:
+                    from qwen_vl_utils import process_vision_info
+                    image_inputs, video_inputs = process_vision_info(messages)
+                except ImportError:
+                    logger.warning("qwen_vl_utils not available, using fallback processing")
+                    image_inputs = keyframes
+                    video_inputs = None
+                except Exception as e:
+                    logger.warning(f"process_vision_info failed: {e}, using fallback processing")
+                    image_inputs = keyframes
+                    video_inputs = None
+                
+                # Prepare model inputs
+                try:
+                    inputs = self.processor(
+                        text=[text],
+                        images=image_inputs,
+                        videos=video_inputs,
+                        padding=True,
+                        return_tensors="pt",
+                    )
+                except TypeError:
+                    # Fallback for different processor API
+                    inputs = self.processor(
+                        text=[text],
+                        images=image_inputs,
+                        padding=True,
+                        return_tensors="pt",
+                    )
+                
+                inputs = inputs.to(self.device)
+                
+                # Generate
+                with torch.no_grad():
+                    generated_ids = self.model.generate(**inputs, max_new_tokens=128)
+                
+                # Trim generated ids to only new tokens (following reference pattern)
+                generated_ids_trimmed = [
+                    out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+                ]
+                
+                # Decode
+                generated_text = self.processor.batch_decode(
+                    generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+                )[0]
             
             # Extract the value from JSON response
             result = self._extract_value_from_json_response(generated_text, attr_name)
@@ -224,69 +461,88 @@ class QwenVLExtractor:
         )
         
         try:
-            # Prepare inputs
-            messages = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "image", "image": frame} for frame in all_frames
-                    ] + [
-                        {"type": "text", "text": user_prompt}
-                    ]
-                }
-            ]
-            
-            # Apply chat template
-            text = self.processor.apply_chat_template(
-                messages, tokenize=False, add_generation_prompt=True
-            )
-            
-            # Process vision information using qwen_vl_utils
-            try:
-                from qwen_vl_utils import process_vision_info
-                image_inputs, video_inputs = process_vision_info(messages)
-            except ImportError:
-                logger.warning("qwen_vl_utils not available, using fallback processing")
-                image_inputs = all_frames
-                video_inputs = None
-            except Exception as e:
-                logger.warning(f"process_vision_info failed: {e}, using fallback processing")
-                image_inputs = all_frames
-                video_inputs = None
-            
-            # Prepare model inputs
-            try:
-                inputs = self.processor(
-                    text=[text],
-                    images=image_inputs,
-                    videos=video_inputs,
-                    padding=True,
-                    return_tensors="pt",
+            if self.mode == "api":
+                # API mode: encode images as base64
+                content = []
+                for frame in all_frames:
+                    content.append({
+                        "type": "image_url",
+                        "image_url": {
+                            "url": self._encode_image_to_base64(frame)
+                        }
+                    })
+                content.append({"type": "text", "text": user_prompt})
+                
+                messages = [{"role": "user", "content": content}]
+                
+                # Call API
+                generated_text = self._call_api(messages, stream=False)
+                
+            else:
+                # Local mode: use transformers
+                # Prepare inputs
+                messages = [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "image", "image": frame} for frame in all_frames
+                        ] + [
+                            {"type": "text", "text": user_prompt}
+                        ]
+                    }
+                ]
+                
+                # Apply chat template
+                text = self.processor.apply_chat_template(
+                    messages, tokenize=False, add_generation_prompt=True
                 )
-            except TypeError:
-                # Fallback for different processor API
-                inputs = self.processor(
-                    text=[text],
-                    images=image_inputs,
-                    padding=True,
-                    return_tensors="pt",
-                )
-            
-            inputs = inputs.to(self.device)
-            
-            # Generate
-            with torch.no_grad():
-                generated_ids = self.model.generate(**inputs, max_new_tokens=256)
-            
-            # Trim generated ids to only new tokens (following reference pattern)
-            generated_ids_trimmed = [
-                out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-            ]
-            
-            # Decode
-            generated_text = self.processor.batch_decode(
-                generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-            )[0]
+                
+                # Process vision information using qwen_vl_utils
+                try:
+                    from qwen_vl_utils import process_vision_info
+                    image_inputs, video_inputs = process_vision_info(messages)
+                except ImportError:
+                    logger.warning("qwen_vl_utils not available, using fallback processing")
+                    image_inputs = all_frames
+                    video_inputs = None
+                except Exception as e:
+                    logger.warning(f"process_vision_info failed: {e}, using fallback processing")
+                    image_inputs = all_frames
+                    video_inputs = None
+                
+                # Prepare model inputs
+                try:
+                    inputs = self.processor(
+                        text=[text],
+                        images=image_inputs,
+                        videos=video_inputs,
+                        padding=True,
+                        return_tensors="pt",
+                    )
+                except TypeError:
+                    # Fallback for different processor API
+                    inputs = self.processor(
+                        text=[text],
+                        images=image_inputs,
+                        padding=True,
+                        return_tensors="pt",
+                    )
+                
+                inputs = inputs.to(self.device)
+                
+                # Generate
+                with torch.no_grad():
+                    generated_ids = self.model.generate(**inputs, max_new_tokens=256)
+                
+                # Trim generated ids to only new tokens (following reference pattern)
+                generated_ids_trimmed = [
+                    out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+                ]
+                
+                # Decode
+                generated_text = self.processor.batch_decode(
+                    generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+                )[0]
             
             # Parse JSON response
             result = self._parse_multi_attr_json_response(generated_text, attr_names)

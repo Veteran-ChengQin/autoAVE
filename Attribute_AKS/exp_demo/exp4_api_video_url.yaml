@@ -1,0 +1,32 @@
+# 实验4: 云端Qwen-VL API + 完整视频URL（直接输入视频）
+experiment_name: "exp4_api_video_url"
+description: "使用云端Qwen-VL API，直接输入完整视频URL（不提取帧）"
+
+# 模型配置
+model_mode: "api"  # local 或 api
+# api_key: "your-api-key-here"  # 可选，也可以通过环境变量DASHSCOPE_API_KEY设置
+api_url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+api_model: "qwen-vl-plus"  # qwen-vl-plus, qwen-vl-max, 或 qwen-vl-turbo
+
+# 输入模式
+input_mode: "video"  # sampled_frames, all_frames, 或 video
+
+# 数据集配置
+split: "test"
+domains: ["beauty"]
+max_samples: 5  # 设置为null或不设置则处理全部样本
+
+# 注意：video模式下不需要以下参数，但为了配置文件完整性保留
+device: "cuda:0"
+fps_candidate: 1
+max_frames: 256
+m_attr: 8
+max_level: 4
+s_threshold: 0.6
+blip_model: "blip-itm-base"
+
+# 评估配置
+eval_threshold: 0.5  # 模糊匹配阈值
+
+# 输出配置
+output_dir: "/data/veteran/project/dataE/Attribute_AKS/results/exp4_api_video_url"

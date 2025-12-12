@@ -1,0 +1,34 @@
+# 实验2: 云端Qwen-VL API + 采样后的视频帧（使用AKS选择关键帧）
+experiment_name: "exp2_api_sampled_frames"
+description: "使用云端Qwen-VL API，输入为AKS采样后的关键帧"
+
+# 模型配置
+model_mode: "api"  # local 或 api
+# api_key: "your-api-key-here"  # 可选，也可以通过环境变量DASHSCOPE_API_KEY设置
+api_url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+api_model: "qwen-vl-plus"  # qwen-vl-plus, qwen-vl-max, 或 qwen-vl-turbo
+device: "cuda:0"  # 用于BLIP模型
+
+# 输入模式
+input_mode: "sampled_frames"  # sampled_frames, all_frames, 或 video
+
+# 数据集配置
+split: "test"
+domains: ["beauty"]
+max_samples: 100  # 设置为null或不设置则处理全部样本
+
+# AKS配置（仅在input_mode为sampled_frames时使用）
+fps_candidate: 1  # 候选帧提取的FPS
+max_frames: 256   # 最大候选帧数
+m_attr: 8         # 每个属性的目标关键帧数
+max_level: 4      # Judge & Split的最大递归层级
+s_threshold: 0.6  # TOP vs BIN的分数阈值
+
+# BLIP模型配置（用于帧评分）
+blip_model: "blip-itm-base"
+
+# 评估配置
+eval_threshold: 0.5  # 模糊匹配阈值
+
+# 输出配置
+output_dir: "/data/veteran/project/dataE/Attribute_AKS/results/exp2_api_sampled"
