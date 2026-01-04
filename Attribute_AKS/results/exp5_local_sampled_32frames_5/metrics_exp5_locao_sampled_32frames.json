@@ -1,0 +1,59 @@
+{
+  "overall": {
+    "precision": 0.1429,
+    "recall": 0.1429,
+    "f1": 0.1429,
+    "tp": 2,
+    "fp": 12,
+    "fn": 12,
+    "total_products": 5,
+    "total_attributes": 14
+  },
+  "per_product": {
+    "B07JLCR327": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 3,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B078PBMZ72": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 3,
+      "fn": 3,
+      "attr_count": 3
+    },
+    "B00UB79B66": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B01LFUCWKO": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "attr_count": 2
+    },
+    "B0BDG3W7J5": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 4,
+      "attr_count": 4
+    }
+  }
+}

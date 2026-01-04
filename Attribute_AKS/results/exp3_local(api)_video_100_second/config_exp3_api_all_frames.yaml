@@ -1,0 +1,20 @@
+api_model: qwen2.5-vl-7b-instruct
+api_url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+blip_model: blip-itm-base
+description: "\u4F7F\u7528\u4E91\u7AEFQwen-VL API\uFF0C\u8F93\u5165\u4E3A\u6240\u6709\
+  \u5019\u9009\u5E27\uFF08\u4E0D\u7ECF\u8FC7AKS\u9009\u62E9\uFF09"
+device: cuda:0
+domains:
+- beauty
+eval_threshold: 0.5
+experiment_name: exp3_api_all_frames
+fps_candidate: 1
+input_mode: video
+m_attr: 8
+max_frames: 256
+max_level: 4
+max_samples: 100
+model_mode: api
+output_dir: /data/veteran/project/dataE/Attribute_AKS/results/exp3_local(api)_video_100_second
+s_threshold: 0.6
+split: test

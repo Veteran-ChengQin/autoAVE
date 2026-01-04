@@ -1,0 +1,19 @@
+blip_model: blip-itm-base
+description: "\u4F7F\u7528\u672C\u5730Qwen-VL\u6A21\u578B\uFF0C\u8F93\u5165\u4E3A\
+  AKS\u91C7\u6837\u540E\u7684\u5173\u952E\u5E27"
+device: cuda:0
+domains:
+- beauty
+eval_threshold: 0.5
+experiment_name: exp3_1_local_viode_32frames
+fps_candidate: 1
+input_mode: video
+m_attr: 8
+max_frames: 32
+max_level: 4
+max_samples: 100
+model_mode: local
+model_path: /data/share/qwen/Qwen2.5-VL-7B-Instruct
+output_dir: /data/veteran/project/dataE/Attribute_AKS/results/exp3_1_local_video_32frames
+s_threshold: 0.6
+split: test

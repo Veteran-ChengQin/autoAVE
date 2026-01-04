@@ -1,0 +1,155 @@
+{
+  "overall_metrics": {
+    "precision": 0.2819,
+    "recall": 0.2819,
+    "f1": 0.2819,
+    "tp": 1372,
+    "fp": 3495,
+    "fn": 3495,
+    "total_categories": 14,
+    "total_products": 1394,
+    "total_attributes": 4867
+  },
+  "per_category_metrics": {
+    "beauty": {
+      "precision": 0.2888,
+      "recall": 0.2888,
+      "f1": 0.2888,
+      "tp": 93,
+      "fp": 229,
+      "fn": 229,
+      "product_count": 99,
+      "attr_count": 322
+    },
+    "appliances": {
+      "precision": 0.3045,
+      "recall": 0.3045,
+      "f1": 0.3045,
+      "tp": 109,
+      "fp": 249,
+      "fn": 249,
+      "product_count": 98,
+      "attr_count": 358
+    },
+    "automotive": {
+      "precision": 0.2551,
+      "recall": 0.2551,
+      "f1": 0.2551,
+      "tp": 87,
+      "fp": 254,
+      "fn": 254,
+      "product_count": 100,
+      "attr_count": 341
+    },
+    "cellphones": {
+      "precision": 0.273,
+      "recall": 0.273,
+      "f1": 0.273,
+      "tp": 83,
+      "fp": 221,
+      "fn": 221,
+      "product_count": 100,
+      "attr_count": 304
+    },
+    "grocery": {
+      "precision": 0.2744,
+      "recall": 0.2744,
+      "f1": 0.2744,
+      "tp": 76,
+      "fp": 201,
+      "fn": 201,
+      "product_count": 99,
+      "attr_count": 277
+    },
+    "musical": {
+      "precision": 0.267,
+      "recall": 0.267,
+      "f1": 0.267,
+      "tp": 94,
+      "fp": 258,
+      "fn": 258,
+      "product_count": 100,
+      "attr_count": 352
+    },
+    "pet": {
+      "precision": 0.3045,
+      "recall": 0.3045,
+      "f1": 0.3045,
+      "tp": 102,
+      "fp": 233,
+      "fn": 233,
+      "product_count": 100,
+      "attr_count": 335
+    },
+    "toys": {
+      "precision": 0.2816,
+      "recall": 0.2816,
+      "f1": 0.2816,
+      "tp": 89,
+      "fp": 227,
+      "fn": 227,
+      "product_count": 100,
+      "attr_count": 316
+    },
+    "arts": {
+      "precision": 0.2581,
+      "recall": 0.2581,
+      "f1": 0.2581,
+      "tp": 88,
+      "fp": 253,
+      "fn": 253,
+      "product_count": 100,
+      "attr_count": 341
+    },
+    "baby": {
+      "precision": 0.2661,
+      "recall": 0.2661,
+      "f1": 0.2661,
+      "tp": 103,
+      "fp": 284,
+      "fn": 284,
+      "product_count": 99,
+      "attr_count": 387
+    },
+    "clothing": {
+      "precision": 0.3297,
+      "recall": 0.3297,
+      "f1": 0.3297,
+      "tp": 122,
+      "fp": 248,
+      "fn": 248,
+      "product_count": 100,
+      "attr_count": 370
+    },
+    "industry": {
+      "precision": 0.2926,
+      "recall": 0.2926,
+      "f1": 0.2926,
+      "tp": 103,
+      "fp": 249,
+      "fn": 249,
+      "product_count": 100,
+      "attr_count": 352
+    },
+    "patio": {
+      "precision": 0.2579,
+      "recall": 0.2579,
+      "f1": 0.2579,
+      "tp": 98,
+      "fp": 282,
+      "fn": 282,
+      "product_count": 99,
+      "attr_count": 380
+    },
+    "sports": {
+      "precision": 0.2894,
+      "recall": 0.2894,
+      "f1": 0.2894,
+      "tp": 125,
+      "fp": 307,
+      "fn": 307,
+      "product_count": 100,
+      "attr_count": 432
+    }
+  }
+}

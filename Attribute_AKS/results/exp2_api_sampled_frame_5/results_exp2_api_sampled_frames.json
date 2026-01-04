@@ -1,0 +1,296 @@
+[
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "Silver"
+    },
+    "label": "White",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      7,
+      10,
+      14,
+      16,
+      20,
+      22
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "Nose hair"
+    },
+    "label": "All",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      7,
+      10,
+      14,
+      16,
+      20,
+      24
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Not Specified"
+    },
+    "label": "Ginity",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      7,
+      10,
+      14,
+      16,
+      20,
+      22
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "Pink"
+    },
+    "label": "Red",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      5,
+      8,
+      12,
+      16,
+      19,
+      23,
+      25
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Philips"
+    },
+    "label": "ZLiME",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      5,
+      7,
+      12,
+      16,
+      19,
+      23,
+      25
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": {
+      "Power Source": "Battery"
+    },
+    "label": "Corded Electric",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      1,
+      5,
+      8,
+      12,
+      16,
+      19,
+      23,
+      25
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B00UB79B66",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Gillette Venus"
+    },
+    "label": "Procter & Gamble",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      17,
+      33,
+      47,
+      67,
+      79,
+      96,
+      109
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B00UB79B66",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "blue"
+    },
+    "label": "Blue",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      3,
+      16,
+      33,
+      47,
+      67,
+      79,
+      96,
+      109
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B01LFUCWKO",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Osensia"
+    },
+    "label": "Osensia",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      9,
+      16,
+      21,
+      25,
+      31,
+      33
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B01LFUCWKO",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "Jar"
+    },
+    "label": "Cream",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      2,
+      5,
+      9,
+      16,
+      21,
+      25,
+      31,
+      33
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "Lipstick, Eyeshadow Palette, Mascara"
+    },
+    "label": "Stick",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      32,
+      66,
+      98,
+      135,
+      162,
+      192,
+      226
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Classic Ivory",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      39,
+      66,
+      98,
+      135,
+      162,
+      192,
+      227
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "Various types shown, including light and dark complexions"
+    },
+    "label": "Oily",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      39,
+      66,
+      98,
+      128,
+      162,
+      196,
+      230
+    ],
+    "input_mode": "sampled_frames"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "Matte"
+    },
+    "label": "Radiant",
+    "num_keyframes": 8,
+    "keyframe_indices": [
+      0,
+      39,
+      66,
+      98,
+      128,
+      162,
+      192,
+      226
+    ],
+    "input_mode": "sampled_frames"
+  }
+]

@@ -1,0 +1,3900 @@
+[
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "White",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c30ec883-2a4d-569e-968e-074380ca8a41/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/0c7c159e4bc9282f40f8fb67a334caae.mp4"
+  },
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "black"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c30ec883-2a4d-569e-968e-074380ca8a41/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/0c7c159e4bc9282f40f8fb67a334caae.mp4"
+  },
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "unknown"
+    },
+    "label": "Ginity",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c30ec883-2a4d-569e-968e-074380ca8a41/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/0c7c159e4bc9282f40f8fb67a334caae.mp4"
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Red",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c10b1d71-ee5c-577c-8c15-08b7a4abe489/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dc82338d6cb1bf6528708a861bed574c.mp4"
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "unknown"
+    },
+    "label": "ZLiME",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c10b1d71-ee5c-577c-8c15-08b7a4abe489/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dc82338d6cb1bf6528708a861bed574c.mp4"
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": {
+      "Power Source": "USB"
+    },
+    "label": "Corded Electric",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c10b1d71-ee5c-577c-8c15-08b7a4abe489/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dc82338d6cb1bf6528708a861bed574c.mp4"
+  },
+  {
+    "product_id": "B00UB79B66",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Gillette Venus"
+    },
+    "label": "Procter & Gamble",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/79faf507-8139-5663-b03b-1319ec4f6cc3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/841030dc514c459c4d559be03776ff2d.mp4"
+  },
+  {
+    "product_id": "B00UB79B66",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "blue"
+    },
+    "label": "Blue",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/79faf507-8139-5663-b03b-1319ec4f6cc3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/841030dc514c459c4d559be03776ff2d.mp4"
+  },
+  {
+    "product_id": "B01LFUCWKO",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Osensia"
+    },
+    "label": "Osensia",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/48a80e4e-9e25-5813-b215-778bd9c33f6f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/30d6c1220f4603aad44762dcac7fff07.mp4"
+  },
+  {
+    "product_id": "B01LFUCWKO",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "jar"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/48a80e4e-9e25-5813-b215-778bd9c33f6f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/30d6c1220f4603aad44762dcac7fff07.mp4"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "lipstick"
+    },
+    "label": "Stick",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7ce7a6a3-2e4b-53d0-a230-137d19223f63/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/21cc8d6834ae80202079b205ff2bc23d.mp4"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Classic Ivory",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7ce7a6a3-2e4b-53d0-a230-137d19223f63/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/21cc8d6834ae80202079b205ff2bc23d.mp4"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "oily"
+    },
+    "label": "Oily",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7ce7a6a3-2e4b-53d0-a230-137d19223f63/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/21cc8d6834ae80202079b205ff2bc23d.mp4"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "shiny"
+    },
+    "label": "Radiant",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7ce7a6a3-2e4b-53d0-a230-137d19223f63/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/21cc8d6834ae80202079b205ff2bc23d.mp4"
+  },
+  {
+    "product_id": "B01J9URU18",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "natural",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3540a0b1-db1a-5e96-9437-53ad36e7cabb/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d43a8e5b8302d953189e96d07ee211ed.mp4"
+  },
+  {
+    "product_id": "B01J9URU18",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "human hair"
+    },
+    "label": "Human Hair",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3540a0b1-db1a-5e96-9437-53ad36e7cabb/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d43a8e5b8302d953189e96d07ee211ed.mp4"
+  },
+  {
+    "product_id": "B01J9URU18",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "natural"
+    },
+    "label": "Curly",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3540a0b1-db1a-5e96-9437-53ad36e7cabb/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d43a8e5b8302d953189e96d07ee211ed.mp4"
+  },
+  {
+    "product_id": "B08S3VDQT4",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "TopDirect"
+    },
+    "label": "Pretty memory",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b9cc694-8d33-5d76-ba55-ce823e807d3d/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e8dfb3813e956bc3b3801e2240f91a37.mp4"
+  },
+  {
+    "product_id": "B08S3VDQT4",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "pink"
+    },
+    "label": "Stainless Steel",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b9cc694-8d33-5d76-ba55-ce823e807d3d/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e8dfb3813e956bc3b3801e2240f91a37.mp4"
+  },
+  {
+    "product_id": "B08S3VDQT4",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "set"
+    },
+    "label": "Wand",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b9cc694-8d33-5d76-ba55-ce823e807d3d/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e8dfb3813e956bc3b3801e2240f91a37.mp4"
+  },
+  {
+    "product_id": "B098TYK4KZ",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "unknown"
+    },
+    "label": "Premi\u00e8re Classe Skincare",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/101b2349-d666-581b-98d8-5b91240d4d45/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/70a7e1e18f17f6538fe46f50935ba743.mp4"
+  },
+  {
+    "product_id": "B098TYK4KZ",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "gold"
+    },
+    "label": "Rose Gold",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/101b2349-d666-581b-98d8-5b91240d4d45/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/70a7e1e18f17f6538fe46f50935ba743.mp4"
+  },
+  {
+    "product_id": "B098TYK4KZ",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "Dry",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/101b2349-d666-581b-98d8-5b91240d4d45/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/70a7e1e18f17f6538fe46f50935ba743.mp4"
+  },
+  {
+    "product_id": "B01L81YIJ8",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Alana Mitchell"
+    },
+    "label": "Alana Mitchell",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/bb92fe0e-3beb-5fcf-a7ce-e878efe758bd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a439d5098dfb21a88ab0af6c2d5a30b8.mp4"
+  },
+  {
+    "product_id": "B01L81YIJ8",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "light"
+    },
+    "label": "Light citrus",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/bb92fe0e-3beb-5fcf-a7ce-e878efe758bd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a439d5098dfb21a88ab0af6c2d5a30b8.mp4"
+  },
+  {
+    "product_id": "B01L81YIJ8",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "moisturizer"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/bb92fe0e-3beb-5fcf-a7ce-e878efe758bd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a439d5098dfb21a88ab0af6c2d5a30b8.mp4"
+  },
+  {
+    "product_id": "B01L81YIJ8",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "USA"
+    },
+    "label": "USA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/bb92fe0e-3beb-5fcf-a7ce-e878efe758bd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a439d5098dfb21a88ab0af6c2d5a30b8.mp4"
+  },
+  {
+    "product_id": "B07MLDPJQ3",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "philips"
+    },
+    "label": "Gxcdizx",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8f5a95fa-746a-5383-b851-4101a4aa5238/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/bdb752b583ec182098d9190a2af2d504.mp4"
+  },
+  {
+    "product_id": "B07MLDPJQ3",
+    "category": "beauty",
+    "attr_name": "Head Type",
+    "pred": {
+      "Head Type": "black"
+    },
+    "label": "Rotary",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8f5a95fa-746a-5383-b851-4101a4aa5238/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/bdb752b583ec182098d9190a2af2d504.mp4"
+  },
+  {
+    "product_id": "B0B6WVQXF2",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "Washable Black",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7201579e-2815-59cc-a9c9-25a73ec35f1a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9b04daa72bf8de22f15ce5c87c52482b.mp4"
+  },
+  {
+    "product_id": "B0B6WVQXF2",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "L'Or\u00e9al Paris"
+    },
+    "label": "L'Or\u00e9al Paris",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7201579e-2815-59cc-a9c9-25a73ec35f1a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9b04daa72bf8de22f15ce5c87c52482b.mp4"
+  },
+  {
+    "product_id": "B0B6WVQXF2",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "mascara"
+    },
+    "label": "Wax",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7201579e-2815-59cc-a9c9-25a73ec35f1a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9b04daa72bf8de22f15ce5c87c52482b.mp4"
+  },
+  {
+    "product_id": "B085FY5RZ7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "THECHICNATURAL"
+    },
+    "label": "ToyoTree",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/169c1178-6323-53c3-a641-4b846e35e8e8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a5669f45bb8a2315ec469ab298eceb73.mp4"
+  },
+  {
+    "product_id": "B085FY5RZ7",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "synthetic"
+    },
+    "label": "Synthetic",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/169c1178-6323-53c3-a641-4b846e35e8e8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a5669f45bb8a2315ec469ab298eceb73.mp4"
+  },
+  {
+    "product_id": "B085FY5RZ7",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "black"
+    },
+    "label": "Straight",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/169c1178-6323-53c3-a641-4b846e35e8e8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a5669f45bb8a2315ec469ab298eceb73.mp4"
+  },
+  {
+    "product_id": "B07GKS5RC4",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "acrylic"
+    },
+    "label": "Acrylic",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/56ee8280-c174-5028-811d-f2fc16df840b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c492d71bc1719ac296f0fd2fcb7d361c.mp4"
+  },
+  {
+    "product_id": "B07GKS5RC4",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "BELLERINA"
+    },
+    "label": "KISSBUTY",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/56ee8280-c174-5028-811d-f2fc16df840b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c492d71bc1719ac296f0fd2fcb7d361c.mp4"
+  },
+  {
+    "product_id": "B07FQDZ6WD",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "VOYOR"
+    },
+    "label": "VOYOR",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/37d7c396-911c-52bc-9642-9188d5a9baf1/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ba3a82d471724945afefa3ddbb34a1a5.mp4"
+  },
+  {
+    "product_id": "B07FQDZ6WD",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "kit"
+    },
+    "label": "Pen",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/37d7c396-911c-52bc-9642-9188d5a9baf1/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ba3a82d471724945afefa3ddbb34a1a5.mp4"
+  },
+  {
+    "product_id": "B07FQDZ6WD",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "white"
+    },
+    "label": "White",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/37d7c396-911c-52bc-9642-9188d5a9baf1/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ba3a82d471724945afefa3ddbb34a1a5.mp4"
+  },
+  {
+    "product_id": "B07FQDZ6WD",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "Sensitive",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/37d7c396-911c-52bc-9642-9188d5a9baf1/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ba3a82d471724945afefa3ddbb34a1a5.mp4"
+  },
+  {
+    "product_id": "B07HCYV2HY",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "unknown"
+    },
+    "label": "Dularf",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/2170c491-dab3-5af3-a6ab-65a10a628f64/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5e7ec6e4d5ec000c503185a42a5df0f5.mp4"
+  },
+  {
+    "product_id": "B07HCYV2HY",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "long"
+    },
+    "label": "Wavy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/2170c491-dab3-5af3-a6ab-65a10a628f64/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5e7ec6e4d5ec000c503185a42a5df0f5.mp4"
+  },
+  {
+    "product_id": "B07HCYV2HY",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "plastic"
+    },
+    "label": "Ceramic",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/2170c491-dab3-5af3-a6ab-65a10a628f64/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5e7ec6e4d5ec000c503185a42a5df0f5.mp4"
+  },
+  {
+    "product_id": "B07HCYV2HY",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Pink",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/2170c491-dab3-5af3-a6ab-65a10a628f64/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5e7ec6e4d5ec000c503185a42a5df0f5.mp4"
+  },
+  {
+    "product_id": "B07HY15WKK",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Juice Beauty"
+    },
+    "label": "INNA ORGANIC",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/71c6a8b9-10fc-5afe-8d48-358ba4dbb411/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/422ae72901f0acdcea810f232c3d91ea.mp4"
+  },
+  {
+    "product_id": "B07HY15WKK",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": ""
+    },
+    "label": "Fragrance Free",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/71c6a8b9-10fc-5afe-8d48-358ba4dbb411/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/422ae72901f0acdcea810f232c3d91ea.mp4"
+  },
+  {
+    "product_id": "B07HY15WKK",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "serum"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/71c6a8b9-10fc-5afe-8d48-358ba4dbb411/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/422ae72901f0acdcea810f232c3d91ea.mp4"
+  },
+  {
+    "product_id": "B07K5W8DHQ",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "aya natural"
+    },
+    "label": "Aya Natural",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b9f9dc00-b902-55ba-8f0c-79b13556c810/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7028f9c75f5fb7ac325ba1de3c5ec2f8.mp4"
+  },
+  {
+    "product_id": "B07K5W8DHQ",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "peach"
+    },
+    "label": "Natural",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b9f9dc00-b902-55ba-8f0c-79b13556c810/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7028f9c75f5fb7ac325ba1de3c5ec2f8.mp4"
+  },
+  {
+    "product_id": "B07K5W8DHQ",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "cream"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b9f9dc00-b902-55ba-8f0c-79b13556c810/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7028f9c75f5fb7ac325ba1de3c5ec2f8.mp4"
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "powder"
+    },
+    "label": "Powder",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/66f0a3a0-4aae-56e8-b585-45ff297a8730/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8ea7b142dff74b314cc3d136232fee59.mp4"
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "matte"
+    },
+    "label": "Matte",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/66f0a3a0-4aae-56e8-b585-45ff297a8730/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8ea7b142dff74b314cc3d136232fee59.mp4"
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "oily"
+    },
+    "label": "Sensitive",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/66f0a3a0-4aae-56e8-b585-45ff297a8730/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8ea7b142dff74b314cc3d136232fee59.mp4"
+  },
+  {
+    "product_id": "B09B8442YJ",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Ebanel"
+    },
+    "label": "TreeActiv",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/2c5aad6a-b61c-505f-881a-27bff91fb9e8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/1d1dbd8e3e32f50691621194f69140f5.mp4"
+  },
+  {
+    "product_id": "B09B8442YJ",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "problematic"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/2c5aad6a-b61c-505f-881a-27bff91fb9e8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/1d1dbd8e3e32f50691621194f69140f5.mp4"
+  },
+  {
+    "product_id": "B07FMKZTCR",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "polyester"
+    },
+    "label": "Human Hair",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/e494144a-fc5d-56d6-aae8-d7194373fda0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/46eb63865e5400353eca435c7ed2439c.mp4"
+  },
+  {
+    "product_id": "B07FMKZTCR",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "natural"
+    },
+    "label": "Curly",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/e494144a-fc5d-56d6-aae8-d7194373fda0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/46eb63865e5400353eca435c7ed2439c.mp4"
+  },
+  {
+    "product_id": "B07FMKZTCR",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Fashion Air"
+    },
+    "label": "FASHION PLUS",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/e494144a-fc5d-56d6-aae8-d7194373fda0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/46eb63865e5400353eca435c7ed2439c.mp4"
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Style Code Live"
+    },
+    "label": "Jouer",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b42d99d8-c9de-5692-bfa3-8bac8a56b4fd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f6a38c2b8a8145acea766651863c69e8.mp4"
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Riviera",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b42d99d8-c9de-5692-bfa3-8bac8a56b4fd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f6a38c2b8a8145acea766651863c69e8.mp4"
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "dark"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b42d99d8-c9de-5692-bfa3-8bac8a56b4fd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f6a38c2b8a8145acea766651863c69e8.mp4"
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "lipstick"
+    },
+    "label": "Oil",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b42d99d8-c9de-5692-bfa3-8bac8a56b4fd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f6a38c2b8a8145acea766651863c69e8.mp4"
+  },
+  {
+    "product_id": "B00IJC5E5M",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "shiny"
+    },
+    "label": "Sheer",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b42d99d8-c9de-5692-bfa3-8bac8a56b4fd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f6a38c2b8a8145acea766651863c69e8.mp4"
+  },
+  {
+    "product_id": "B00SXOG5CW",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "JS Sloane"
+    },
+    "label": "Colonel Conk",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/91bae590-41ef-502a-8e35-3151412e9eda/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fc57839b135d5abe38e3a9b637b74293.mp4"
+  },
+  {
+    "product_id": "B00SXOG5CW",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "bottle"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/91bae590-41ef-502a-8e35-3151412e9eda/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fc57839b135d5abe38e3a9b637b74293.mp4"
+  },
+  {
+    "product_id": "B00SXOG5CW",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/91bae590-41ef-502a-8e35-3151412e9eda/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fc57839b135d5abe38e3a9b637b74293.mp4"
+  },
+  {
+    "product_id": "B01AGY72SC",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "raya"
+    },
+    "label": "Raya",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c16e3f55-a077-5569-a0ff-7831da367646/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/3e237b5c3cff6153eff06cb9f46bd520.mp4"
+  },
+  {
+    "product_id": "B01AGY72SC",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "mud"
+    },
+    "label": "Mask",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c16e3f55-a077-5569-a0ff-7831da367646/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/3e237b5c3cff6153eff06cb9f46bd520.mp4"
+  },
+  {
+    "product_id": "B074Y6VL3H",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "Pink",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/38e557e3-2995-5e40-8483-cac1e0d8072e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a83bd5f869aade5c4cdda65bf659fd12.mp4"
+  },
+  {
+    "product_id": "B074Y6VL3H",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Tattly"
+    },
+    "label": "Cosplay Tats",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/38e557e3-2995-5e40-8483-cac1e0d8072e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a83bd5f869aade5c4cdda65bf659fd12.mp4"
+  },
+  {
+    "product_id": "B06XKJQDD7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "beautyjunkees"
+    },
+    "label": "Beauty Junkees",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/70029644-b217-5b1c-9364-8d7ad5f23f8c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/53096c7e5e918bfbdeeff584cfaeb481.mp4"
+  },
+  {
+    "product_id": "B06XKJQDD7",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "green"
+    },
+    "label": "Pink",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/70029644-b217-5b1c-9364-8d7ad5f23f8c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/53096c7e5e918bfbdeeff584cfaeb481.mp4"
+  },
+  {
+    "product_id": "B06XKJQDD7",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "green"
+    },
+    "label": "Hydrophilic Polyurethane Foam",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/70029644-b217-5b1c-9364-8d7ad5f23f8c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/53096c7e5e918bfbdeeff584cfaeb481.mp4"
+  },
+  {
+    "product_id": "B01L0T6JNG",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Dermasil"
+    },
+    "label": "Dermasil",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f746e16d-7b50-5ed6-8860-0dc0910238a1/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b2c7bbbec8f108a50af1f73f794a2be4.mp4"
+  },
+  {
+    "product_id": "B01L0T6JNG",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "lotion"
+    },
+    "label": "Lotion",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f746e16d-7b50-5ed6-8860-0dc0910238a1/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b2c7bbbec8f108a50af1f73f794a2be4.mp4"
+  },
+  {
+    "product_id": "B0BQSDN5S7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Schick"
+    },
+    "label": "INTUITION",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/58cb9f3d-de21-5e0d-a25b-abcee714e99a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b2634d98f29def2fdccf781b55a3b768.mp4"
+  },
+  {
+    "product_id": "B0BQSDN5S7",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "Normal",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/58cb9f3d-de21-5e0d-a25b-abcee714e99a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b2634d98f29def2fdccf781b55a3b768.mp4"
+  },
+  {
+    "product_id": "B08YSYHXTC",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Schick"
+    },
+    "label": "Skintimate",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3eb280ae-9b17-5951-8b81-a0b79ed3e5fb/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ddf9596f3e7b3cb50b386eb407cf9b56.mp4"
+  },
+  {
+    "product_id": "B08YSYHXTC",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "sensitive"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3eb280ae-9b17-5951-8b81-a0b79ed3e5fb/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ddf9596f3e7b3cb50b386eb407cf9b56.mp4"
+  },
+  {
+    "product_id": "B08YSYHXTC",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": ""
+    },
+    "label": "USA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3eb280ae-9b17-5951-8b81-a0b79ed3e5fb/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ddf9596f3e7b3cb50b386eb407cf9b56.mp4"
+  },
+  {
+    "product_id": "B078HGLTQ9",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Colorina"
+    },
+    "label": "COLORINA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/1344d0cf-334a-52a9-8abe-a41da0301295/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/2d8f6f16b9b8bcfc95f43355275122eb.mp4"
+  },
+  {
+    "product_id": "B078HGLTQ9",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "palette"
+    },
+    "label": "Gel",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/1344d0cf-334a-52a9-8abe-a41da0301295/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/2d8f6f16b9b8bcfc95f43355275122eb.mp4"
+  },
+  {
+    "product_id": "B078HGLTQ9",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/1344d0cf-334a-52a9-8abe-a41da0301295/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/2d8f6f16b9b8bcfc95f43355275122eb.mp4"
+  },
+  {
+    "product_id": "B08BGND1Z6",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Epilady"
+    },
+    "label": "Braun",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/6376760d-0cf3-5e4b-8f14-a91ab82b823c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e02b28f671e9f18e95f1d5d44baa46ef.mp4"
+  },
+  {
+    "product_id": "B08BGND1Z6",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "silver"
+    },
+    "label": "Gold",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/6376760d-0cf3-5e4b-8f14-a91ab82b823c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e02b28f671e9f18e95f1d5d44baa46ef.mp4"
+  },
+  {
+    "product_id": "B08BGND1Z6",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "China"
+    },
+    "label": "China",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/6376760d-0cf3-5e4b-8f14-a91ab82b823c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e02b28f671e9f18e95f1d5d44baa46ef.mp4"
+  },
+  {
+    "product_id": "B008DW6NVC",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "CIRCCELL"
+    },
+    "label": "CIRCCELL",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/fa12e173-3b73-5d18-99f3-023f82b6df3f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9b672387600a3ecf01ad456bc41a7f27.mp4"
+  },
+  {
+    "product_id": "B008DW6NVC",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "mandarin"
+    },
+    "label": "Lily",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/fa12e173-3b73-5d18-99f3-023f82b6df3f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9b672387600a3ecf01ad456bc41a7f27.mp4"
+  },
+  {
+    "product_id": "B008DW6NVC",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "milk"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/fa12e173-3b73-5d18-99f3-023f82b6df3f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9b672387600a3ecf01ad456bc41a7f27.mp4"
+  },
+  {
+    "product_id": "B07BZQCRRY",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "liquid"
+    },
+    "label": "Liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/13a01ed5-6fc3-568a-8e56-edb2aff8b241/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dd64722eafcf12feb21e229614ccb893.mp4"
+  },
+  {
+    "product_id": "B07BZQCRRY",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "ivory"
+    },
+    "label": "Buff",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/13a01ed5-6fc3-568a-8e56-edb2aff8b241/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dd64722eafcf12feb21e229614ccb893.mp4"
+  },
+  {
+    "product_id": "B07BZQCRRY",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "oily"
+    },
+    "label": "Combination",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/13a01ed5-6fc3-568a-8e56-edb2aff8b241/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dd64722eafcf12feb21e229614ccb893.mp4"
+  },
+  {
+    "product_id": "B07BZQCRRY",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "matte"
+    },
+    "label": "Natural",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/13a01ed5-6fc3-568a-8e56-edb2aff8b241/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dd64722eafcf12feb21e229614ccb893.mp4"
+  },
+  {
+    "product_id": "B010PPM94E",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "brown"
+    },
+    "label": "Dark Brown",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7bbdf3f6-dc3c-5e01-b611-d7c9e836150b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e87b5fd6cefe4a696da5ff558c7e269f.mp4"
+  },
+  {
+    "product_id": "B010PPM94E",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "JUST FOR MEN"
+    },
+    "label": "Just for Men",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7bbdf3f6-dc3c-5e01-b611-d7c9e836150b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e87b5fd6cefe4a696da5ff558c7e269f.mp4"
+  },
+  {
+    "product_id": "B010PPM94E",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "gel"
+    },
+    "label": "Gel",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7bbdf3f6-dc3c-5e01-b611-d7c9e836150b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e87b5fd6cefe4a696da5ff558c7e269f.mp4"
+  },
+  {
+    "product_id": "B001IY0YOO",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "LANZA"
+    },
+    "label": "L'ANZA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/300551b8-d6c4-580e-be64-54bf0629d669/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/6f84d05b079b4a7b0d091294209131f2.mp4"
+  },
+  {
+    "product_id": "B001IY0YOO",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "tube"
+    },
+    "label": "Liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/300551b8-d6c4-580e-be64-54bf0629d669/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/6f84d05b079b4a7b0d091294209131f2.mp4"
+  },
+  {
+    "product_id": "B001IY0YOO",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "thick"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/300551b8-d6c4-580e-be64-54bf0629d669/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/6f84d05b079b4a7b0d091294209131f2.mp4"
+  },
+  {
+    "product_id": "B001IY0YOO",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "USA"
+    },
+    "label": "USA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/300551b8-d6c4-580e-be64-54bf0629d669/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/6f84d05b079b4a7b0d091294209131f2.mp4"
+  },
+  {
+    "product_id": "B01N7BIQSL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "L'Oreal"
+    },
+    "label": "Hermosa",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/62b42118-c2a1-54f9-907c-ea7fe3082ffe/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/983f47a6093907ea85eb20951c4e461c.mp4"
+  },
+  {
+    "product_id": "B01N7BIQSL",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "Black",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/62b42118-c2a1-54f9-907c-ea7fe3082ffe/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/983f47a6093907ea85eb20951c4e461c.mp4"
+  },
+  {
+    "product_id": "B01N7BIQSL",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "black"
+    },
+    "label": "Human Hair",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/62b42118-c2a1-54f9-907c-ea7fe3082ffe/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/983f47a6093907ea85eb20951c4e461c.mp4"
+  },
+  {
+    "product_id": "B01N7BIQSL",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "black"
+    },
+    "label": "Wavy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/62b42118-c2a1-54f9-907c-ea7fe3082ffe/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/983f47a6093907ea85eb20951c4e461c.mp4"
+  },
+  {
+    "product_id": "B06XHWFR2X",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Wasted money"
+    },
+    "label": "KEDSUM",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/507ba5c1-34ca-5d87-978f-c4ab53c5310b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ead29ed6cb8c115f5acb46ee7e8f9ef2.mp4"
+  },
+  {
+    "product_id": "B06XHWFR2X",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": {
+      "Shape": "circular"
+    },
+    "label": "Rectangular",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/507ba5c1-34ca-5d87-978f-c4ab53c5310b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ead29ed6cb8c115f5acb46ee7e8f9ef2.mp4"
+  },
+  {
+    "product_id": "B06XHWFR2X",
+    "category": "beauty",
+    "attr_name": "Mounting Type",
+    "pred": {
+      "Mounting Type": "wall"
+    },
+    "label": "Tabletop Mount",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/507ba5c1-34ca-5d87-978f-c4ab53c5310b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ead29ed6cb8c115f5acb46ee7e8f9ef2.mp4"
+  },
+  {
+    "product_id": "B07FTZX1RF",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Macadamia"
+    },
+    "label": "John Masters Organics",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/06e2055c-1642-59f0-b2c4-4a3b3a7575d9/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e778fa7a4719b7c2d112c2097c349cf2.mp4"
+  },
+  {
+    "product_id": "B07FTZX1RF",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "10 oz."
+    },
+    "label": "Liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/06e2055c-1642-59f0-b2c4-4a3b3a7575d9/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e778fa7a4719b7c2d112c2097c349cf2.mp4"
+  },
+  {
+    "product_id": "B07B4CF79P",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Bliss Kiss"
+    },
+    "label": "UR SUGAR",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac06d8bf-14dd-5760-9a93-799b72d17458/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7f2dcc847650d98f4eed18f54780b458.mp4"
+  },
+  {
+    "product_id": "B07B4CF79P",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "clear"
+    },
+    "label": "Pro Kit",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac06d8bf-14dd-5760-9a93-799b72d17458/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7f2dcc847650d98f4eed18f54780b458.mp4"
+  },
+  {
+    "product_id": "B07B4CF79P",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "shiny"
+    },
+    "label": "Glossy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac06d8bf-14dd-5760-9a93-799b72d17458/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7f2dcc847650d98f4eed18f54780b458.mp4"
+  },
+  {
+    "product_id": "B07GYM1SX1",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "movavi"
+    },
+    "label": "TsMADDTs",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/403c2834-10a5-5943-b4dc-51ddbb0dc7c3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d146d79a128617240dbeac63586ce167.mp4"
+  },
+  {
+    "product_id": "B07GYM1SX1",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "nail polish"
+    },
+    "label": "Pad",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/403c2834-10a5-5943-b4dc-51ddbb0dc7c3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d146d79a128617240dbeac63586ce167.mp4"
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Five Stars"
+    },
+    "label": "Lospu HY",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/98ed5474-5f5c-5372-84d2-113b969ec129/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ce22882511ee73a6d395ebe45edea47d.mp4"
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Pink golden",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/98ed5474-5f5c-5372-84d2-113b969ec129/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ce22882511ee73a6d395ebe45edea47d.mp4"
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "plastic"
+    },
+    "label": "Synthetic Fiber",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/98ed5474-5f5c-5372-84d2-113b969ec129/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ce22882511ee73a6d395ebe45edea47d.mp4"
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/98ed5474-5f5c-5372-84d2-113b969ec129/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ce22882511ee73a6d395ebe45edea47d.mp4"
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "set"
+    },
+    "label": "Powder",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/98ed5474-5f5c-5372-84d2-113b969ec129/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ce22882511ee73a6d395ebe45edea47d.mp4"
+  },
+  {
+    "product_id": "B0739HDVNN",
+    "category": "beauty",
+    "attr_name": "Skin Tone",
+    "pred": {
+      "Skin Tone": "light"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/98ed5474-5f5c-5372-84d2-113b969ec129/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ce22882511ee73a6d395ebe45edea47d.mp4"
+  },
+  {
+    "product_id": "B07FDQF129",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "theBalm"
+    },
+    "label": "JAF",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/66f0a3a0-4aae-56e8-b585-45ff297a8730/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8ea7b142dff74b314cc3d136232fee59.mp4"
+  },
+  {
+    "product_id": "B07FDQF129",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "Pink",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/66f0a3a0-4aae-56e8-b585-45ff297a8730/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8ea7b142dff74b314cc3d136232fee59.mp4"
+  },
+  {
+    "product_id": "B07FDQF129",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "oily"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/66f0a3a0-4aae-56e8-b585-45ff297a8730/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8ea7b142dff74b314cc3d136232fee59.mp4"
+  },
+  {
+    "product_id": "B07FDQF129",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "powder"
+    },
+    "label": "Wand",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/66f0a3a0-4aae-56e8-b585-45ff297a8730/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8ea7b142dff74b314cc3d136232fee59.mp4"
+  },
+  {
+    "product_id": "B07NXY9HKL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Flawless tape"
+    },
+    "label": "BHF",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/acacc885-aba4-5767-a6cd-90783cfa7a43/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/66aa24d789289793156727692c734328.mp4"
+  },
+  {
+    "product_id": "B07NXY9HKL",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "green"
+    },
+    "label": "White",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/acacc885-aba4-5767-a6cd-90783cfa7a43/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/66aa24d789289793156727692c734328.mp4"
+  },
+  {
+    "product_id": "B004AJ5DMC",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "style code"
+    },
+    "label": "NYX PROFESSIONAL MAKEUP",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/bb971f53-a960-58df-bc89-37c4b306c110/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/aeb1221bbf715fc54fcfdf237881cf3e.mp4"
+  },
+  {
+    "product_id": "B004AJ5DMC",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "eyebrow marker"
+    },
+    "label": "Marker",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/bb971f53-a960-58df-bc89-37c4b306c110/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/aeb1221bbf715fc54fcfdf237881cf3e.mp4"
+  },
+  {
+    "product_id": "B004AJ5DMC",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "natural"
+    },
+    "label": "Natural",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/bb971f53-a960-58df-bc89-37c4b306c110/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/aeb1221bbf715fc54fcfdf237881cf3e.mp4"
+  },
+  {
+    "product_id": "B0BW2TZVH3",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "L'Occitane"
+    },
+    "label": "Dermalogica",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8fb295de-3d9d-54c1-8de6-97267cc5badf/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/707aa47d6f92ac07c0ac0895ab65517d.mp4"
+  },
+  {
+    "product_id": "B0BW2TZVH3",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "cream"
+    },
+    "label": "liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8fb295de-3d9d-54c1-8de6-97267cc5badf/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/707aa47d6f92ac07c0ac0895ab65517d.mp4"
+  },
+  {
+    "product_id": "B0BW2TZVH3",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "France"
+    },
+    "label": "USA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8fb295de-3d9d-54c1-8de6-97267cc5badf/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/707aa47d6f92ac07c0ac0895ab65517d.mp4"
+  },
+  {
+    "product_id": "B007JWJSBE",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Mizon"
+    },
+    "label": "MIZON",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/be64a8ba-fb92-5994-bd43-155507a80766/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/31eabf3bbef41dcf4d939b0ec86440b5.mp4"
+  },
+  {
+    "product_id": "B007JWJSBE",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "gel"
+    },
+    "label": "Powder",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/be64a8ba-fb92-5994-bd43-155507a80766/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/31eabf3bbef41dcf4d939b0ec86440b5.mp4"
+  },
+  {
+    "product_id": "B07CJW3RT3",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "long"
+    },
+    "label": "Fine",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/4caeda2e-aa12-56d7-a5cb-d1fdc0c8620a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c5660369693df2568f6d36bd60f43299.mp4"
+  },
+  {
+    "product_id": "B07CJW3RT3",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "fruity"
+    },
+    "label": "Green Tea",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/4caeda2e-aa12-56d7-a5cb-d1fdc0c8620a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c5660369693df2568f6d36bd60f43299.mp4"
+  },
+  {
+    "product_id": "B07CJW3RT3",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "boxed"
+    },
+    "label": "Spray",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/4caeda2e-aa12-56d7-a5cb-d1fdc0c8620a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c5660369693df2568f6d36bd60f43299.mp4"
+  },
+  {
+    "product_id": "B07LF4ZH7J",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "LANGSTAR"
+    },
+    "label": "LANGSTAR",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/802b25a3-0e2c-5413-99ad-5538a6172a95/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/67e6ddf143df0931dccbb64b94ec2bb7.mp4"
+  },
+  {
+    "product_id": "B07LF4ZH7J",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Pink",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/802b25a3-0e2c-5413-99ad-5538a6172a95/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/67e6ddf143df0931dccbb64b94ec2bb7.mp4"
+  },
+  {
+    "product_id": "B07VNY4B66",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "value_here"
+    },
+    "label": "WILAKON",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a5503c7e-bfe9-51a0-83c7-975077bfdccd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f94be548c63215e3284249b699761eff.mp4"
+  },
+  {
+    "product_id": "B07VNY4B66",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": {
+      "Shape": "square"
+    },
+    "label": "Rectangular",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a5503c7e-bfe9-51a0-83c7-975077bfdccd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f94be548c63215e3284249b699761eff.mp4"
+  },
+  {
+    "product_id": "B01MS84I7L",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "curly"
+    },
+    "label": "Normal",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f11a7761-d8e9-56b0-a66e-1622d194b404/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/332a19d97bd3e414bfedb10431017284.mp4"
+  },
+  {
+    "product_id": "B01MS84I7L",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": ""
+    },
+    "label": "Natural",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f11a7761-d8e9-56b0-a66e-1622d194b404/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/332a19d97bd3e414bfedb10431017284.mp4"
+  },
+  {
+    "product_id": "B01MS84I7L",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "foam"
+    },
+    "label": "Mousse",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f11a7761-d8e9-56b0-a66e-1622d194b404/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/332a19d97bd3e414bfedb10431017284.mp4"
+  },
+  {
+    "product_id": "B01MS84I7L",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": ""
+    },
+    "label": "USA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f11a7761-d8e9-56b0-a66e-1622d194b404/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/332a19d97bd3e414bfedb10431017284.mp4"
+  },
+  {
+    "product_id": "B00QYOSD00",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "philips"
+    },
+    "label": "PHILIPS",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f86c4a4e-f11f-5455-b648-fad6502e6844/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b7ef892ab832847663489fa9388b54af.mp4"
+  },
+  {
+    "product_id": "B00QYOSD00",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "blue"
+    },
+    "label": "Silver Black",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f86c4a4e-f11f-5455-b648-fad6502e6844/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b7ef892ab832847663489fa9388b54af.mp4"
+  },
+  {
+    "product_id": "B00QYOSD00",
+    "category": "beauty",
+    "attr_name": "Head Type",
+    "pred": {
+      "Head Type": "Philips"
+    },
+    "label": "Rotary",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f86c4a4e-f11f-5455-b648-fad6502e6844/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b7ef892ab832847663489fa9388b54af.mp4"
+  },
+  {
+    "product_id": "B07ZGBN4NH",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "cushion"
+    },
+    "label": "Spray",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/277ac77a-82a6-55b3-a838-2ca4a265e8ab/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/31eb46bad790892a6081743910a1a885.mp4"
+  },
+  {
+    "product_id": "B07ZGBN4NH",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Shell Beige",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/277ac77a-82a6-55b3-a838-2ca4a265e8ab/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/31eb46bad790892a6081743910a1a885.mp4"
+  },
+  {
+    "product_id": "B07ZGBN4NH",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "dry"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/277ac77a-82a6-55b3-a838-2ca4a265e8ab/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/31eb46bad790892a6081743910a1a885.mp4"
+  },
+  {
+    "product_id": "B07ZGBN4NH",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "matte"
+    },
+    "label": "Luminous",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/277ac77a-82a6-55b3-a838-2ca4a265e8ab/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/31eb46bad790892a6081743910a1a885.mp4"
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "jane iredale"
+    },
+    "label": "Jane iredale",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b798444-ac8f-501b-bb78-69619976da21/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9ec6bb29eb9bcf23867f1d0922fdbe6e.mp4"
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "gold"
+    },
+    "label": "Graphite",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b798444-ac8f-501b-bb78-69619976da21/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9ec6bb29eb9bcf23867f1d0922fdbe6e.mp4"
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b798444-ac8f-501b-bb78-69619976da21/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9ec6bb29eb9bcf23867f1d0922fdbe6e.mp4"
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "tube"
+    },
+    "label": "Wand",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b798444-ac8f-501b-bb78-69619976da21/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9ec6bb29eb9bcf23867f1d0922fdbe6e.mp4"
+  },
+  {
+    "product_id": "B0040T4N7S",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": ""
+    },
+    "label": "USA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b798444-ac8f-501b-bb78-69619976da21/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9ec6bb29eb9bcf23867f1d0922fdbe6e.mp4"
+  },
+  {
+    "product_id": "B00TPR5FEA",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Silk'n"
+    },
+    "label": "Silk'n",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/cb3d9320-2e1a-5267-8110-98daffa4bf1c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d06c6ba6f3fb84e14ecdbad719cb5248.mp4"
+  },
+  {
+    "product_id": "B00TPR5FEA",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "purple"
+    },
+    "label": "Green",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/cb3d9320-2e1a-5267-8110-98daffa4bf1c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d06c6ba6f3fb84e14ecdbad719cb5248.mp4"
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "acrylic"
+    },
+    "label": "Plastic",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/61ee420f-d9d4-5b59-aac8-86fedf04fed7/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/37cfec221a373d40b713b977eb5b88cc.mp4"
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "clear"
+    },
+    "label": "Clear",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/61ee420f-d9d4-5b59-aac8-86fedf04fed7/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/37cfec221a373d40b713b977eb5b88cc.mp4"
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Cq"
+    },
+    "label": "Sooyee",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/61ee420f-d9d4-5b59-aac8-86fedf04fed7/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/37cfec221a373d40b713b977eb5b88cc.mp4"
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "clear"
+    },
+    "label": "Clear",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/61ee420f-d9d4-5b59-aac8-86fedf04fed7/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/37cfec221a373d40b713b977eb5b88cc.mp4"
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": {
+      "Shape": "square"
+    },
+    "label": "Rectangular",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/61ee420f-d9d4-5b59-aac8-86fedf04fed7/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/37cfec221a373d40b713b977eb5b88cc.mp4"
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Package Type",
+    "pred": {
+      "Package Type": "extra large"
+    },
+    "label": "Standard Packaging",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/61ee420f-d9d4-5b59-aac8-86fedf04fed7/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/37cfec221a373d40b713b977eb5b88cc.mp4"
+  },
+  {
+    "product_id": "B09BZ8K4DF",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "China"
+    },
+    "label": "China",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/61ee420f-d9d4-5b59-aac8-86fedf04fed7/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/37cfec221a373d40b713b977eb5b88cc.mp4"
+  },
+  {
+    "product_id": "B07CZ8JGTX",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "The Best"
+    },
+    "label": "MEIHOU",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/085e6ee9-cc61-5984-bbc3-3f474205744f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/507d42242e2c9114a4e1a7a0c1d115b6.mp4"
+  },
+  {
+    "product_id": "B07CZ8JGTX",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "black"
+    },
+    "label": "Human Hair",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/085e6ee9-cc61-5984-bbc3-3f474205744f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/507d42242e2c9114a4e1a7a0c1d115b6.mp4"
+  },
+  {
+    "product_id": "B07CZ8JGTX",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "wavy"
+    },
+    "label": "Wavy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/085e6ee9-cc61-5984-bbc3-3f474205744f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/507d42242e2c9114a4e1a7a0c1d115b6.mp4"
+  },
+  {
+    "product_id": "B00CS708M8",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Moroccan keratin"
+    },
+    "label": "KERATIN RESEARCH",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/658e33ef-40ef-508f-b0db-fe10c96050fe/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/62177f46058a15ab6ca8052fdf3691ba.mp4"
+  },
+  {
+    "product_id": "B00CS708M8",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "brown"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/658e33ef-40ef-508f-b0db-fe10c96050fe/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/62177f46058a15ab6ca8052fdf3691ba.mp4"
+  },
+  {
+    "product_id": "B00CS708M8",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "hair"
+    },
+    "label": "Lotion",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/658e33ef-40ef-508f-b0db-fe10c96050fe/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/62177f46058a15ab6ca8052fdf3691ba.mp4"
+  },
+  {
+    "product_id": "B0085ROS4Y",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "nude"
+    },
+    "label": "Raisin",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/1c21a673-3b68-52eb-ac00-72a6d8d015bb/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ed30fe192e4896fc54b7277889eaafa2.mp4"
+  },
+  {
+    "product_id": "B0085ROS4Y",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "lipstick"
+    },
+    "label": "Sticks",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/1c21a673-3b68-52eb-ac00-72a6d8d015bb/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ed30fe192e4896fc54b7277889eaafa2.mp4"
+  },
+  {
+    "product_id": "B0085ROS4Y",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "nude"
+    },
+    "label": "Glossy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/1c21a673-3b68-52eb-ac00-72a6d8d015bb/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/ed30fe192e4896fc54b7277889eaafa2.mp4"
+  },
+  {
+    "product_id": "B013SRBONI",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "aussie"
+    },
+    "label": "Aussie",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/58d0a9ef-a78d-5be9-bf4f-1c8369002684/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/73568141ab152cee6548af8f27523e13.mp4"
+  },
+  {
+    "product_id": "B013SRBONI",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "purple"
+    },
+    "label": "Liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/58d0a9ef-a78d-5be9-bf4f-1c8369002684/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/73568141ab152cee6548af8f27523e13.mp4"
+  },
+  {
+    "product_id": "B013SRBONI",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "blonde"
+    },
+    "label": "Dry",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/58d0a9ef-a78d-5be9-bf4f-1c8369002684/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/73568141ab152cee6548af8f27523e13.mp4"
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "VINCENT LONGO"
+    },
+    "label": "VINCENT LONGO",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac968b84-298e-5c17-a13b-c30cae4f911e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/06cd9b30c5afaba1b9ea7d74ab778a9b.mp4"
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Neo Aura",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac968b84-298e-5c17-a13b-c30cae4f911e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/06cd9b30c5afaba1b9ea7d74ab778a9b.mp4"
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "Sensitive",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac968b84-298e-5c17-a13b-c30cae4f911e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/06cd9b30c5afaba1b9ea7d74ab778a9b.mp4"
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "gel"
+    },
+    "label": "Gel",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac968b84-298e-5c17-a13b-c30cae4f911e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/06cd9b30c5afaba1b9ea7d74ab778a9b.mp4"
+  },
+  {
+    "product_id": "B00IOVOHBU",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "gel"
+    },
+    "label": "Sheer",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac968b84-298e-5c17-a13b-c30cae4f911e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/06cd9b30c5afaba1b9ea7d74ab778a9b.mp4"
+  },
+  {
+    "product_id": "B0899M2ZNY",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Kemei"
+    },
+    "label": "USonline911",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/11679fdf-afd7-5e40-814a-b9f2cfbbf0e4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/59287a6abb328471e23f457159ea0897.mp4"
+  },
+  {
+    "product_id": "B0899M2ZNY",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": {
+      "Power Source": "electric"
+    },
+    "label": "Battery Powered",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/11679fdf-afd7-5e40-814a-b9f2cfbbf0e4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/59287a6abb328471e23f457159ea0897.mp4"
+  },
+  {
+    "product_id": "B07DK66ZHL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Gillette"
+    },
+    "label": "Kirkland Signature",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/edbd5c33-8858-51a9-8b18-f53d2aa6dc90/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/51ff18aaedcd25e2be095b45b239826b.mp4"
+  },
+  {
+    "product_id": "B07DK66ZHL",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "blue"
+    },
+    "label": "As Shown",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/edbd5c33-8858-51a9-8b18-f53d2aa6dc90/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/51ff18aaedcd25e2be095b45b239826b.mp4"
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Moodmatcher"
+    },
+    "label": "MOODmatcher",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/d384b545-0a6f-5520-bfee-536823fce4b9/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5de4d22555bb9113e44395c46b709725.mp4"
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Orange/Yellow",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/d384b545-0a6f-5520-bfee-536823fce4b9/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5de4d22555bb9113e44395c46b709725.mp4"
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/d384b545-0a6f-5520-bfee-536823fce4b9/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5de4d22555bb9113e44395c46b709725.mp4"
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "lipstick"
+    },
+    "label": "Stick",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/d384b545-0a6f-5520-bfee-536823fce4b9/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5de4d22555bb9113e44395c46b709725.mp4"
+  },
+  {
+    "product_id": "B0786RPGNB",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "color changing"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/d384b545-0a6f-5520-bfee-536823fce4b9/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5de4d22555bb9113e44395c46b709725.mp4"
+  },
+  {
+    "product_id": "B07C9ND7H7",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "liquid"
+    },
+    "label": "Liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/6992bca1-a1eb-5a70-b574-41657b2634d0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/26e0843f7f94c76e62f7772e4c679080.mp4"
+  },
+  {
+    "product_id": "B07C9ND7H7",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "matte"
+    },
+    "label": "Natural",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/6992bca1-a1eb-5a70-b574-41657b2634d0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/26e0843f7f94c76e62f7772e4c679080.mp4"
+  },
+  {
+    "product_id": "B07C9ND7H7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Covergirl"
+    },
+    "label": "COVERGIRL",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/6992bca1-a1eb-5a70-b574-41657b2634d0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/26e0843f7f94c76e62f7772e4c679080.mp4"
+  },
+  {
+    "product_id": "B07CV97T9P",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "gelish"
+    },
+    "label": "BBTO",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f0a27a9a-8ad2-5da2-b1b8-d16f4d862d28/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fd39ea53309a0c768e9d3b4d2178bc32.mp4"
+  },
+  {
+    "product_id": "B07CV97T9P",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "nail polish"
+    },
+    "label": "Gel",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f0a27a9a-8ad2-5da2-b1b8-d16f4d862d28/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fd39ea53309a0c768e9d3b4d2178bc32.mp4"
+  },
+  {
+    "product_id": "B01N0O7EHN",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Eucerin"
+    },
+    "label": "Eucerin",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/aee82c1a-a110-59f1-b18b-89fc25e4bbf4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fc3fb7d73a8e76b473611389023af059.mp4"
+  },
+  {
+    "product_id": "B01N0O7EHN",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "fragrance free"
+    },
+    "label": "Unscented",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/aee82c1a-a110-59f1-b18b-89fc25e4bbf4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fc3fb7d73a8e76b473611389023af059.mp4"
+  },
+  {
+    "product_id": "B01N0O7EHN",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "lotion"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/aee82c1a-a110-59f1-b18b-89fc25e4bbf4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fc3fb7d73a8e76b473611389023af059.mp4"
+  },
+  {
+    "product_id": "B07KFCR7LD",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "value_not_found"
+    },
+    "label": "Beyond Beauty",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/07e9de83-16b4-58f3-b4d8-fe22f78e64e0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8c4f0419723c5e4dec3486383b78f8f9.mp4"
+  },
+  {
+    "product_id": "B07KFCR7LD",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "Black",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/07e9de83-16b4-58f3-b4d8-fe22f78e64e0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8c4f0419723c5e4dec3486383b78f8f9.mp4"
+  },
+  {
+    "product_id": "B07KFCR7LD",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "plastic"
+    },
+    "label": "Synthetic",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/07e9de83-16b4-58f3-b4d8-fe22f78e64e0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8c4f0419723c5e4dec3486383b78f8f9.mp4"
+  },
+  {
+    "product_id": "B07KFCR7LD",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "black"
+    },
+    "label": "Curly",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/07e9de83-16b4-58f3-b4d8-fe22f78e64e0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/8c4f0419723c5e4dec3486383b78f8f9.mp4"
+  },
+  {
+    "product_id": "B07GKLPTL6",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "yellow"
+    },
+    "label": "Human",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ad43b8a0-6072-5ebc-9a39-1addf591be0b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/604767b2be9a5046a9244399c1d6983d.mp4"
+  },
+  {
+    "product_id": "B07GKLPTL6",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "curly"
+    },
+    "label": "Wavy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ad43b8a0-6072-5ebc-9a39-1addf591be0b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/604767b2be9a5046a9244399c1d6983d.mp4"
+  },
+  {
+    "product_id": "B009WI43LI",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Style Code Live"
+    },
+    "label": "NYX PROFESSIONAL MAKEUP",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b14e67ec-4f68-53b5-be58-17c2cd5e0258/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/08c549b78a0d84062c8eb57ea06f7e0e.mp4"
+  },
+  {
+    "product_id": "B009WI43LI",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "statement"
+    },
+    "label": "Matte",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/b14e67ec-4f68-53b5-be58-17c2cd5e0258/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/08c549b78a0d84062c8eb57ea06f7e0e.mp4"
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Neutrogena"
+    },
+    "label": "Neutrogena",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a0bffa43-889f-5737-8c6a-4c2cecb5626a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/4d754e5b06de6d580407adeb1578b2ef.mp4"
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "blue"
+    },
+    "label": "Lotion",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a0bffa43-889f-5737-8c6a-4c2cecb5626a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/4d754e5b06de6d580407adeb1578b2ef.mp4"
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "oily"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a0bffa43-889f-5737-8c6a-4c2cecb5626a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/4d754e5b06de6d580407adeb1578b2ef.mp4"
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "unspecified"
+    },
+    "label": "Unscented",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a0bffa43-889f-5737-8c6a-4c2cecb5626a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/4d754e5b06de6d580407adeb1578b2ef.mp4"
+  },
+  {
+    "product_id": "B0BNC5ZF3T",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "United States"
+    },
+    "label": "Canada",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a0bffa43-889f-5737-8c6a-4c2cecb5626a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/4d754e5b06de6d580407adeb1578b2ef.mp4"
+  },
+  {
+    "product_id": "B08JQP6QD1",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "ethique"
+    },
+    "label": "Ethique",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/491e5cea-d5a8-5d4c-95e4-1c872ec4a3c8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d38d307afb8732aeae4118815ddb152b.mp4"
+  },
+  {
+    "product_id": "B08JQP6QD1",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "bar"
+    },
+    "label": "Bar",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/491e5cea-d5a8-5d4c-95e4-1c872ec4a3c8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d38d307afb8732aeae4118815ddb152b.mp4"
+  },
+  {
+    "product_id": "B08JQP6QD1",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "Australia"
+    },
+    "label": "New Zealand",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/491e5cea-d5a8-5d4c-95e4-1c872ec4a3c8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/d38d307afb8732aeae4118815ddb152b.mp4"
+  },
+  {
+    "product_id": "B0CDPFQFB7",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Pink",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b9cc694-8d33-5d76-ba55-ce823e807d3d/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e8dfb3813e956bc3b3801e2240f91a37.mp4"
+  },
+  {
+    "product_id": "B0CDPFQFB7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "TopDirect"
+    },
+    "label": "Lucomb",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b9cc694-8d33-5d76-ba55-ce823e807d3d/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e8dfb3813e956bc3b3801e2240f91a37.mp4"
+  },
+  {
+    "product_id": "B0CDPFQFB7",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "set"
+    },
+    "label": "Individual",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0b9cc694-8d33-5d76-ba55-ce823e807d3d/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/e8dfb3813e956bc3b3801e2240f91a37.mp4"
+  },
+  {
+    "product_id": "B0C92JS5N2",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "bottle"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0e9ec1b1-375f-5193-812e-25ef9fae86aa/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/160a18195aa38a98014a8dab423723b8.mp4"
+  },
+  {
+    "product_id": "B0C92JS5N2",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "all skin types"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0e9ec1b1-375f-5193-812e-25ef9fae86aa/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/160a18195aa38a98014a8dab423723b8.mp4"
+  },
+  {
+    "product_id": "B0C92JS5N2",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Rocky Mountain Barber Company"
+    },
+    "label": "Blackstone Men's Grooming",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0e9ec1b1-375f-5193-812e-25ef9fae86aa/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/160a18195aa38a98014a8dab423723b8.mp4"
+  },
+  {
+    "product_id": "B0C92JS5N2",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "cedar spice"
+    },
+    "label": "Cedar",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/0e9ec1b1-375f-5193-812e-25ef9fae86aa/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/160a18195aa38a98014a8dab423723b8.mp4"
+  },
+  {
+    "product_id": "B0788B1HZX",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "BulbHead"
+    },
+    "label": "BulbHead",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/28f466e9-00f6-5f5e-a4e1-1bef9eb82163/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/86e035ff33399476fce931d1ddf89ad5.mp4"
+  },
+  {
+    "product_id": "B0788B1HZX",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "yellow"
+    },
+    "label": "Gold",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/28f466e9-00f6-5f5e-a4e1-1bef9eb82163/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/86e035ff33399476fce931d1ddf89ad5.mp4"
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "AnnTuk"
+    },
+    "label": "Anntuk",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/631c1c0c-8483-56b0-9bc2-633c412839ee/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9bbbcae2d161e3f76af826bb46b17efe.mp4"
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "metal"
+    },
+    "label": "Stainless Steel",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/631c1c0c-8483-56b0-9bc2-633c412839ee/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9bbbcae2d161e3f76af826bb46b17efe.mp4"
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "Black",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/631c1c0c-8483-56b0-9bc2-633c412839ee/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9bbbcae2d161e3f76af826bb46b17efe.mp4"
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {},
+    "label": "China",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/631c1c0c-8483-56b0-9bc2-633c412839ee/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9bbbcae2d161e3f76af826bb46b17efe.mp4"
+  },
+  {
+    "product_id": "B0CBX58J4F",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": {
+      "Power Source": "none"
+    },
+    "label": "Hand Powered",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/631c1c0c-8483-56b0-9bc2-633c412839ee/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9bbbcae2d161e3f76af826bb46b17efe.mp4"
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Style Code"
+    },
+    "label": "Maybelline New York",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/938da332-8cce-532d-badc-0b221f42a72a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7e77a4f0fa5eeee763ecb3b312508b97.mp4"
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "red"
+    },
+    "label": "Warm Latte 300",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/938da332-8cce-532d-badc-0b221f42a72a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7e77a4f0fa5eeee763ecb3b312508b97.mp4"
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "oily"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/938da332-8cce-532d-badc-0b221f42a72a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7e77a4f0fa5eeee763ecb3b312508b97.mp4"
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "lipstick"
+    },
+    "label": "Gel",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/938da332-8cce-532d-badc-0b221f42a72a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7e77a4f0fa5eeee763ecb3b312508b97.mp4"
+  },
+  {
+    "product_id": "B004Y9M8SA",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "matte"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/938da332-8cce-532d-badc-0b221f42a72a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7e77a4f0fa5eeee763ecb3b312508b97.mp4"
+  },
+  {
+    "product_id": "B0BQ89FCJ1",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "The Body Shop"
+    },
+    "label": "The Body Shop",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8a8cb68d-1ab0-5743-9b47-b5a2f12ee03a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/caf54040ae9ea2fa731c41a9d595c059.mp4"
+  },
+  {
+    "product_id": "B0BQ89FCJ1",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "gel"
+    },
+    "label": "Liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8a8cb68d-1ab0-5743-9b47-b5a2f12ee03a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/caf54040ae9ea2fa731c41a9d595c059.mp4"
+  },
+  {
+    "product_id": "B0BQ89FCJ1",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "blonde"
+    },
+    "label": "Dry",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8a8cb68d-1ab0-5743-9b47-b5a2f12ee03a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/caf54040ae9ea2fa731c41a9d595c059.mp4"
+  },
+  {
+    "product_id": "B0BQ89FCJ1",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "ginger"
+    },
+    "label": "Ginger",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8a8cb68d-1ab0-5743-9b47-b5a2f12ee03a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/caf54040ae9ea2fa731c41a9d595c059.mp4"
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "powder"
+    },
+    "label": "Powder",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/6ab5bce2-182c-5ba2-b614-cb67226994e4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b6fdfe28b0e95be3d601c6676deae9cb.mp4"
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "matte"
+    },
+    "label": "Matte",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/6ab5bce2-182c-5ba2-b614-cb67226994e4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b6fdfe28b0e95be3d601c6676deae9cb.mp4"
+  },
+  {
+    "product_id": "B00JAG6TB4",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "oily"
+    },
+    "label": "Sensitive",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/6ab5bce2-182c-5ba2-b614-cb67226994e4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b6fdfe28b0e95be3d601c6676deae9cb.mp4"
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "white"
+    },
+    "label": "Plastic",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ea213683-905f-5f7f-9635-e3d01514b23c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/cd30d5008aee68f4c5f7446f0e823ba0.mp4"
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Clear",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ea213683-905f-5f7f-9635-e3d01514b23c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/cd30d5008aee68f4c5f7446f0e823ba0.mp4"
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Style Code"
+    },
+    "label": "iDesign",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ea213683-905f-5f7f-9635-e3d01514b23c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/cd30d5008aee68f4c5f7446f0e823ba0.mp4"
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "white"
+    },
+    "label": "Polished",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ea213683-905f-5f7f-9635-e3d01514b23c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/cd30d5008aee68f4c5f7446f0e823ba0.mp4"
+  },
+  {
+    "product_id": "B017U12680",
+    "category": "beauty",
+    "attr_name": "Package Type",
+    "pred": {
+      "Package Type": "amazon.com/stylecodelive"
+    },
+    "label": "Standard Packaging",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ea213683-905f-5f7f-9635-e3d01514b23c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/cd30d5008aee68f4c5f7446f0e823ba0.mp4"
+  },
+  {
+    "product_id": "B077JDPKDL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Lime Crime"
+    },
+    "label": "Lime Crime",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/fd5bde63-1336-5d04-8bb9-35396c32a132/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/3627d09322e4a29c3fadf1d19a100d53.mp4"
+  },
+  {
+    "product_id": "B077JDPKDL",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "eyeshadow"
+    },
+    "label": "liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/fd5bde63-1336-5d04-8bb9-35396c32a132/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/3627d09322e4a29c3fadf1d19a100d53.mp4"
+  },
+  {
+    "product_id": "B077JDPKDL",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {
+      "Finish Type": "Iridescent"
+    },
+    "label": "Shimmery",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/fd5bde63-1336-5d04-8bb9-35396c32a132/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/3627d09322e4a29c3fadf1d19a100d53.mp4"
+  },
+  {
+    "product_id": "B0752KCTDV",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "dry"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f30f13ec-c9d9-5f8e-9e32-74cfe6c58ff0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/4754024efc55d6a94367883f28dab029.mp4"
+  },
+  {
+    "product_id": "B0752KCTDV",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "fresh"
+    },
+    "label": "Snail",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f30f13ec-c9d9-5f8e-9e32-74cfe6c58ff0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/4754024efc55d6a94367883f28dab029.mp4"
+  },
+  {
+    "product_id": "B0752KCTDV",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "organic doctor"
+    },
+    "label": "dr.organic",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f30f13ec-c9d9-5f8e-9e32-74cfe6c58ff0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/4754024efc55d6a94367883f28dab029.mp4"
+  },
+  {
+    "product_id": "B0752KCTDV",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "gel"
+    },
+    "label": "Gel",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f30f13ec-c9d9-5f8e-9e32-74cfe6c58ff0/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/4754024efc55d6a94367883f28dab029.mp4"
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "ITS GREATTTTTT!"
+    },
+    "label": "LP LivingPro",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/29c7b7f0-6b73-5cef-bc57-6ba653ce579f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/1077807b9e428496bbf5d3bdc14f34d8.mp4"
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "white"
+    },
+    "label": "Pink",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/29c7b7f0-6b73-5cef-bc57-6ba653ce579f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/1077807b9e428496bbf5d3bdc14f34d8.mp4"
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "Sensitive",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/29c7b7f0-6b73-5cef-bc57-6ba653ce579f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/1077807b9e428496bbf5d3bdc14f34d8.mp4"
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "white"
+    },
+    "label": "Oval Brush",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/29c7b7f0-6b73-5cef-bc57-6ba653ce579f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/1077807b9e428496bbf5d3bdc14f34d8.mp4"
+  },
+  {
+    "product_id": "B07648LBLR",
+    "category": "beauty",
+    "attr_name": "Skin Tone",
+    "pred": {
+      "Skin Tone": "light"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/29c7b7f0-6b73-5cef-bc57-6ba653ce579f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/1077807b9e428496bbf5d3bdc14f34d8.mp4"
+  },
+  {
+    "product_id": "B07XF6Y3F4",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "body wash"
+    },
+    "label": "LIQUID",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ebd79ed3-4b52-5c1d-b83e-2c5e16e92e1e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5338ef5b75a8378364dcb258b8d6f577.mp4"
+  },
+  {
+    "product_id": "B07XF6Y3F4",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "fresh"
+    },
+    "label": "Plum Berry",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ebd79ed3-4b52-5c1d-b83e-2c5e16e92e1e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/5338ef5b75a8378364dcb258b8d6f577.mp4"
+  },
+  {
+    "product_id": "B08669WGPS",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "AVANI"
+    },
+    "label": "BioMarine",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/48070856-3d37-5ffd-89e8-2981877bb0c4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9e577f2aa3d9fafdd901f732ca2ca3eb.mp4"
+  },
+  {
+    "product_id": "B08669WGPS",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "fresh"
+    },
+    "label": "Fresh",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/48070856-3d37-5ffd-89e8-2981877bb0c4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9e577f2aa3d9fafdd901f732ca2ca3eb.mp4"
+  },
+  {
+    "product_id": "B08669WGPS",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "cream"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/48070856-3d37-5ffd-89e8-2981877bb0c4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9e577f2aa3d9fafdd901f732ca2ca3eb.mp4"
+  },
+  {
+    "product_id": "B07FMV34QR",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "eHow"
+    },
+    "label": "BriLove",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/049c05f8-01bf-514e-9ef8-97dd2308f679/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a05a017b1a11f421f255faf5c57f833f.mp4"
+  },
+  {
+    "product_id": "B07FMV34QR",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "blonde"
+    },
+    "label": "Wavy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/049c05f8-01bf-514e-9ef8-97dd2308f679/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a05a017b1a11f421f255faf5c57f833f.mp4"
+  },
+  {
+    "product_id": "B07FMV34QR",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "white"
+    },
+    "label": "Silver-Tone",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/049c05f8-01bf-514e-9ef8-97dd2308f679/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a05a017b1a11f421f255faf5c57f833f.mp4"
+  },
+  {
+    "product_id": "B07JBJW2R3",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "normal"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/959f765c-fe14-5fad-8124-47fb5cf6d93f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/48e3a6a164d7ad8860fcafdccf195bc1.mp4"
+  },
+  {
+    "product_id": "B07JBJW2R3",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": ""
+    },
+    "label": "Fragrance Free",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/959f765c-fe14-5fad-8124-47fb5cf6d93f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/48e3a6a164d7ad8860fcafdccf195bc1.mp4"
+  },
+  {
+    "product_id": "B07JBJW2R3",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Vichy"
+    },
+    "label": "Vichy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/959f765c-fe14-5fad-8124-47fb5cf6d93f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/48e3a6a164d7ad8860fcafdccf195bc1.mp4"
+  },
+  {
+    "product_id": "B07JBJW2R3",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "France"
+    },
+    "label": "France",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/959f765c-fe14-5fad-8124-47fb5cf6d93f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/48e3a6a164d7ad8860fcafdccf195bc1.mp4"
+  },
+  {
+    "product_id": "B084G8F71B",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Pantene"
+    },
+    "label": "Pantene",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/d3f0cb21-346d-5c74-af0a-6e1a190641c1/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c6b522df2e91ce64d837a8405420f217.mp4"
+  },
+  {
+    "product_id": "B084G8F71B",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "tube"
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/d3f0cb21-346d-5c74-af0a-6e1a190641c1/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c6b522df2e91ce64d837a8405420f217.mp4"
+  },
+  {
+    "product_id": "B0BL2CRG8K",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "BUBM"
+    },
+    "label": "BUBM",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7f2c0d56-1b06-578a-905f-ec12716ee510/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/cb46a58aec0adfdd885a447e456fd03b.mp4"
+  },
+  {
+    "product_id": "B0BL2CRG8K",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "Black",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7f2c0d56-1b06-578a-905f-ec12716ee510/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/cb46a58aec0adfdd885a447e456fd03b.mp4"
+  },
+  {
+    "product_id": "B0BL2CRG8K",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "black"
+    },
+    "label": "Nylon",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7f2c0d56-1b06-578a-905f-ec12716ee510/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/cb46a58aec0adfdd885a447e456fd03b.mp4"
+  },
+  {
+    "product_id": "B0BL2CRG8K",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": {
+      "Power Source": ""
+    },
+    "label": "Corded Electric",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7f2c0d56-1b06-578a-905f-ec12716ee510/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/cb46a58aec0adfdd885a447e456fd03b.mp4"
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "blue"
+    },
+    "label": "Black",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/5cea816f-dab7-57a3-b357-02ac806d3b8e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/735923c386aa77c941f89c82ce39ff74.mp4"
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "TowelSelections"
+    },
+    "label": "DII",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/5cea816f-dab7-57a3-b357-02ac806d3b8e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/735923c386aa77c941f89c82ce39ff74.mp4"
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "blue"
+    },
+    "label": "Polyester",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/5cea816f-dab7-57a3-b357-02ac806d3b8e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/735923c386aa77c941f89c82ce39ff74.mp4"
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Pattern",
+    "pred": {
+      "Pattern": "solid"
+    },
+    "label": "Solid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/5cea816f-dab7-57a3-b357-02ac806d3b8e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/735923c386aa77c941f89c82ce39ff74.mp4"
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Theme",
+    "pred": {
+      "Theme": "beauty"
+    },
+    "label": "No Theme",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/5cea816f-dab7-57a3-b357-02ac806d3b8e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/735923c386aa77c941f89c82ce39ff74.mp4"
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": {
+      "Shape": "square"
+    },
+    "label": "Rectangular",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/5cea816f-dab7-57a3-b357-02ac806d3b8e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/735923c386aa77c941f89c82ce39ff74.mp4"
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Fabric Type",
+    "pred": {
+      "Fabric Type": "towel"
+    },
+    "label": "Polyester",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/5cea816f-dab7-57a3-b357-02ac806d3b8e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/735923c386aa77c941f89c82ce39ff74.mp4"
+  },
+  {
+    "product_id": "B09W7QH189",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "India"
+    },
+    "label": "China",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/5cea816f-dab7-57a3-b357-02ac806d3b8e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/735923c386aa77c941f89c82ce39ff74.mp4"
+  },
+  {
+    "product_id": "B00OUKGNJI",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "R+Co"
+    },
+    "label": "Oscar Blandi",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/eb88039d-ac1d-56cf-9980-401e80135615/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/635d831bc37d9ffb15df47e0e382d3b9.mp4"
+  },
+  {
+    "product_id": "B00OUKGNJI",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "blonde"
+    },
+    "label": "Dry",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/eb88039d-ac1d-56cf-9980-401e80135615/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/635d831bc37d9ffb15df47e0e382d3b9.mp4"
+  },
+  {
+    "product_id": "B00OUKGNJI",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "powder"
+    },
+    "label": "Spray",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/eb88039d-ac1d-56cf-9980-401e80135615/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/635d831bc37d9ffb15df47e0e382d3b9.mp4"
+  },
+  {
+    "product_id": "B09W422P5C",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "bar"
+    },
+    "label": "Bar",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a880aab1-3838-50a6-8a0d-91d2e39e9bb3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/28fc57466d46f9dfd525650dbb2945ba.mp4"
+  },
+  {
+    "product_id": "B09W422P5C",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "all"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a880aab1-3838-50a6-8a0d-91d2e39e9bb3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/28fc57466d46f9dfd525650dbb2945ba.mp4"
+  },
+  {
+    "product_id": "B09W422P5C",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Raw Apothecary"
+    },
+    "label": "Ashanti Naturals",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a880aab1-3838-50a6-8a0d-91d2e39e9bb3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/28fc57466d46f9dfd525650dbb2945ba.mp4"
+  },
+  {
+    "product_id": "B09W422P5C",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "none"
+    },
+    "label": "Lavender",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a880aab1-3838-50a6-8a0d-91d2e39e9bb3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/28fc57466d46f9dfd525650dbb2945ba.mp4"
+  },
+  {
+    "product_id": "B0BR7N5QXG",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "COSRX"
+    },
+    "label": "DERMACENTRIC",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f71cf049-5c58-5649-adf0-1173a3c44443/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/39e2a776f9d726d60b0e12bca7392bf8.mp4"
+  },
+  {
+    "product_id": "B0BR7N5QXG",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "cream"
+    },
+    "label": "Gel",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/f71cf049-5c58-5649-adf0-1173a3c44443/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/39e2a776f9d726d60b0e12bca7392bf8.mp4"
+  },
+  {
+    "product_id": "B0796QFQ15",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Great Hair"
+    },
+    "label": "U Show hair",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/4a781055-eec2-5267-b035-141a46241092/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/94b78815f735561405534ce02a52c9eb.mp4"
+  },
+  {
+    "product_id": "B0796QFQ15",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "yellow"
+    },
+    "label": "Human Hair",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/4a781055-eec2-5267-b035-141a46241092/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/94b78815f735561405534ce02a52c9eb.mp4"
+  },
+  {
+    "product_id": "B07W8TQ2QL",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Kurener"
+    },
+    "label": "SURKER",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/933ef94a-e33f-5606-9377-7778ad22d70b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b928ed46837174c074e44c6c55b09da5.mp4"
+  },
+  {
+    "product_id": "B07W8TQ2QL",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": {
+      "Power Source": "electric"
+    },
+    "label": "Battery Powered",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/933ef94a-e33f-5606-9377-7778ad22d70b/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/b928ed46837174c074e44c6c55b09da5.mp4"
+  },
+  {
+    "product_id": "B08DC1JGX7",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "all"
+    },
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/739d6863-20a1-57ac-a5b8-ec3c900c1f23/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a95140e8f09b8af7589773d4a985b6a7.mp4"
+  },
+  {
+    "product_id": "B08DC1JGX7",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Wahl"
+    },
+    "label": "WAHL",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/739d6863-20a1-57ac-a5b8-ec3c900c1f23/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/a95140e8f09b8af7589773d4a985b6a7.mp4"
+  },
+  {
+    "product_id": "B08T5T4RQQ",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Degree"
+    },
+    "label": "DEGREE",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/970b2852-363e-5478-9d9d-4bcdac30b999/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/90e446ae9b391e36982583155718d566.mp4"
+  },
+  {
+    "product_id": "B08T5T4RQQ",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "stick"
+    },
+    "label": "Stick",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/970b2852-363e-5478-9d9d-4bcdac30b999/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/90e446ae9b391e36982583155718d566.mp4"
+  },
+  {
+    "product_id": "B08T5T4RQQ",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "Adventure"
+    },
+    "label": "Woodsy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/970b2852-363e-5478-9d9d-4bcdac30b999/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/90e446ae9b391e36982583155718d566.mp4"
+  },
+  {
+    "product_id": "B08T5T4RQQ",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": "United States"
+    },
+    "label": "USA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/970b2852-363e-5478-9d9d-4bcdac30b999/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/90e446ae9b391e36982583155718d566.mp4"
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Prosper Beauty"
+    },
+    "label": "Beautella",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3e24d648-4c8e-504c-8732-986c5a3fb50a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c438812540170914bbb2e44bd4de3811.mp4"
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Shape",
+    "pred": {
+      "Shape": "black"
+    },
+    "label": "Rectangular",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3e24d648-4c8e-504c-8732-986c5a3fb50a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c438812540170914bbb2e44bd4de3811.mp4"
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Mounting Type",
+    "pred": {
+      "Mounting Type": "wall"
+    },
+    "label": "Tabletop Mount",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3e24d648-4c8e-504c-8732-986c5a3fb50a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c438812540170914bbb2e44bd4de3811.mp4"
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "White",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3e24d648-4c8e-504c-8732-986c5a3fb50a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c438812540170914bbb2e44bd4de3811.mp4"
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Theme",
+    "pred": {
+      "Theme": "beauty"
+    },
+    "label": "Modern",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3e24d648-4c8e-504c-8732-986c5a3fb50a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c438812540170914bbb2e44bd4de3811.mp4"
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "plastic"
+    },
+    "label": "Plastic",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3e24d648-4c8e-504c-8732-986c5a3fb50a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c438812540170914bbb2e44bd4de3811.mp4"
+  },
+  {
+    "product_id": "B01EVHDEKU",
+    "category": "beauty",
+    "attr_name": "Frame Type",
+    "pred": {
+      "Frame Type": "product"
+    },
+    "label": "Framed",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3e24d648-4c8e-504c-8732-986c5a3fb50a/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/c438812540170914bbb2e44bd4de3811.mp4"
+  },
+  {
+    "product_id": "B01N9OBPGB",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "cream"
+    },
+    "label": "Liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c5e8719c-7d46-5f48-ab4e-ab3ad944a1d8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9a5683fd81ba0f4e2dbca8fff7b6eb1c.mp4"
+  },
+  {
+    "product_id": "B01N9OBPGB",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {
+      "Skin Type": "all"
+    },
+    "label": "Acne Prone",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c5e8719c-7d46-5f48-ab4e-ab3ad944a1d8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9a5683fd81ba0f4e2dbca8fff7b6eb1c.mp4"
+  },
+  {
+    "product_id": "B01N9OBPGB",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "NENA"
+    },
+    "label": "C.S.M",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c5e8719c-7d46-5f48-ab4e-ab3ad944a1d8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9a5683fd81ba0f4e2dbca8fff7b6eb1c.mp4"
+  },
+  {
+    "product_id": "B01N9OBPGB",
+    "category": "beauty",
+    "attr_name": "Country of Origin",
+    "pred": {
+      "Country of Origin": ""
+    },
+    "label": "USA",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c5e8719c-7d46-5f48-ab4e-ab3ad944a1d8/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/9a5683fd81ba0f4e2dbca8fff7b6eb1c.mp4"
+  },
+  {
+    "product_id": "B0B6WLTK4H",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": "shampoo"
+    },
+    "label": "Liquid",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/e64c7b71-ffb2-5578-bafc-5c4192239e33/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fc3546e2d0fcedf55f70a70bff89b8e4.mp4"
+  },
+  {
+    "product_id": "B0B6WLTK4H",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "L'Oreal Paris"
+    },
+    "label": "L'Oreal Paris",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/e64c7b71-ffb2-5578-bafc-5c4192239e33/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fc3546e2d0fcedf55f70a70bff89b8e4.mp4"
+  },
+  {
+    "product_id": "B0B6WLTK4H",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "thick"
+    },
+    "label": "Color Treated",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/e64c7b71-ffb2-5578-bafc-5c4192239e33/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/fc3546e2d0fcedf55f70a70bff89b8e4.mp4"
+  },
+  {
+    "product_id": "B074K4BP71",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "westkissamazon"
+    },
+    "label": "West kiss",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a538c9c8-7d45-5111-a128-4d772a52cc87/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f7731832ae5c977c2d253d976335fcf7.mp4"
+  },
+  {
+    "product_id": "B074K4BP71",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "black"
+    },
+    "label": "Natural",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a538c9c8-7d45-5111-a128-4d772a52cc87/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f7731832ae5c977c2d253d976335fcf7.mp4"
+  },
+  {
+    "product_id": "B074K4BP71",
+    "category": "beauty",
+    "attr_name": "Material",
+    "pred": {
+      "Material": "synthetic"
+    },
+    "label": "Human Hair",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a538c9c8-7d45-5111-a128-4d772a52cc87/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f7731832ae5c977c2d253d976335fcf7.mp4"
+  },
+  {
+    "product_id": "B074K4BP71",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "black"
+    },
+    "label": "Wavy",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a538c9c8-7d45-5111-a128-4d772a52cc87/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/f7731832ae5c977c2d253d976335fcf7.mp4"
+  },
+  {
+    "product_id": "B017BQAFRI",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {
+      "Hair Type": "oily"
+    },
+    "label": "Normal",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8840cfee-0314-5724-b09c-f6567ba96dd2/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7f968c79ae555e49e0d1e8dd4864eede.mp4"
+  },
+  {
+    "product_id": "B017BQAFRI",
+    "category": "beauty",
+    "attr_name": "Scent",
+    "pred": {
+      "Scent": "oily"
+    },
+    "label": "Cedarwood",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8840cfee-0314-5724-b09c-f6567ba96dd2/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/7f968c79ae555e49e0d1e8dd4864eede.mp4"
+  }
+]

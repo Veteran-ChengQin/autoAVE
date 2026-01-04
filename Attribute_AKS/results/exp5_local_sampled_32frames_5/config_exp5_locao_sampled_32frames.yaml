@@ -1,0 +1,20 @@
+api_model: qwen2.5-vl-7b-instruct
+api_url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+blip_model: blip-itm-base
+description: "\u4F7F\u7528\u4E91\u7AEFQwen-VL API\uFF0C\u8F93\u5165\u4E3AAKS\u91C7\
+  \u6837\u540E\u7684\u5173\u952E\u5E27"
+device: cuda:0
+domains:
+- beauty
+eval_threshold: 0.5
+experiment_name: exp5_locao_sampled_32frames
+fps_candidate: 1
+input_mode: sampled_frames
+m_attr: 32
+max_frames: 256
+max_level: 4
+max_samples: 5
+model_mode: api
+output_dir: /data/veteran/project/dataE/Attribute_AKS/results/exp5_local_sampled_32frames
+s_threshold: 0.6
+split: test

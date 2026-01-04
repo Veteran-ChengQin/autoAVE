@@ -1,0 +1,150 @@
+[
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {},
+    "label": "White",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c30ec883-2a4d-569e-968e-074380ca8a41/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/0c7c159e4bc9282f40f8fb67a334caae.mp4"
+  },
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Hair Type",
+    "pred": {},
+    "label": "All",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c30ec883-2a4d-569e-968e-074380ca8a41/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/0c7c159e4bc9282f40f8fb67a334caae.mp4"
+  },
+  {
+    "product_id": "B07JLCR327",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {},
+    "label": "Ginity",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c30ec883-2a4d-569e-968e-074380ca8a41/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/0c7c159e4bc9282f40f8fb67a334caae.mp4"
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {
+      "Color": "pink"
+    },
+    "label": "Red",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c10b1d71-ee5c-577c-8c15-08b7a4abe489/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dc82338d6cb1bf6528708a861bed574c.mp4"
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {},
+    "label": "ZLiME",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c10b1d71-ee5c-577c-8c15-08b7a4abe489/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dc82338d6cb1bf6528708a861bed574c.mp4"
+  },
+  {
+    "product_id": "B078PBMZ72",
+    "category": "beauty",
+    "attr_name": "Power Source",
+    "pred": {},
+    "label": "Corded Electric",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c10b1d71-ee5c-577c-8c15-08b7a4abe489/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/dc82338d6cb1bf6528708a861bed574c.mp4"
+  },
+  {
+    "product_id": "B00UB79B66",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "{attr_name}": ""
+    },
+    "label": "Procter & Gamble",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/79faf507-8139-5663-b03b-1319ec4f6cc3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/841030dc514c459c4d559be03776ff2d.mp4"
+  },
+  {
+    "product_id": "B00UB79B66",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {},
+    "label": "Blue",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/79faf507-8139-5663-b03b-1319ec4f6cc3/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/841030dc514c459c4d559be03776ff2d.mp4"
+  },
+  {
+    "product_id": "B01LFUCWKO",
+    "category": "beauty",
+    "attr_name": "Brand",
+    "pred": {
+      "Brand": "Osensia"
+    },
+    "label": "Osensia",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/48a80e4e-9e25-5813-b215-778bd9c33f6f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/30d6c1220f4603aad44762dcac7fff07.mp4"
+  },
+  {
+    "product_id": "B01LFUCWKO",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {
+      "Item Form": ""
+    },
+    "label": "Cream",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/48a80e4e-9e25-5813-b215-778bd9c33f6f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/30d6c1220f4603aad44762dcac7fff07.mp4"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Item Form",
+    "pred": {},
+    "label": "Stick",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7ce7a6a3-2e4b-53d0-a230-137d19223f63/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/21cc8d6834ae80202079b205ff2bc23d.mp4"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Color",
+    "pred": {},
+    "label": "Classic Ivory",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7ce7a6a3-2e4b-53d0-a230-137d19223f63/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/21cc8d6834ae80202079b205ff2bc23d.mp4"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Skin Type",
+    "pred": {},
+    "label": "Oily",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7ce7a6a3-2e4b-53d0-a230-137d19223f63/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/21cc8d6834ae80202079b205ff2bc23d.mp4"
+  },
+  {
+    "product_id": "B0BDG3W7J5",
+    "category": "beauty",
+    "attr_name": "Finish Type",
+    "pred": {},
+    "label": "Radiant",
+    "input_mode": "video",
+    "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/7ce7a6a3-2e4b-53d0-a230-137d19223f63/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "local_video_path": "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/21cc8d6834ae80202079b205ff2bc23d.mp4"
+  }
+]
