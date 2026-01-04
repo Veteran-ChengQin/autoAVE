@@ -1,24 +1,24 @@
 # 实验1: 本地Qwen-VL模型 + 采样后的视频帧（使用AKS选择关键帧）
-experiment_name: "exp1_local_sampled_8frames_expand_candidate"
+experiment_name: "exp3_1_local_video_8frames_14domains"
 description: "使用本地Qwen-VL模型，输入为AKS采样后的关键帧"
 
 # 模型配置
 model_mode: "local"  # local 或 api
 model_path: "/data/share/qwen/Qwen2.5-VL-7B-Instruct"
-device: "cuda:0"
+device: "cuda:1"
 
 # 输入模式
-input_mode: "sampled_frames"  # sampled_frames, all_frames, 或 video
+input_mode: "video"  # sampled_frames, all_frames, 或 video
 
 # 数据集配置
 split: "test"
-domains: ["appliances", "automotive", "cellphones", "grocery", "musical", "pet", "toys", "arts", "baby", "clothing", "industry", "patio", "sports", "beauty"]
+domains: ["beauty", "appliances", "automotive", "cellphones", "grocery", "musical", "pet", "toys", "arts", "baby", "clothing", "industry", "patio", "sports"]
 max_samples: 100  # 设置为null或不设置则处理全部样本
 
 # AKS配置（仅在input_mode为sampled_frames时使用）
 fps_candidate: 1  # 候选帧提取的FPS
-max_frames: 100000000   # 最大候选帧数
-m_attr: 8        # 每个属性的目标关键帧数
+max_frames: 8   # 最大候选帧数
+m_attr: 8         # 每个属性的目标关键帧数
 max_level: 4      # Judge & Split的最大递归层级
 s_threshold: 0.6  # TOP vs BIN的分数阈值
 
@@ -29,4 +29,4 @@ blip_model: "blip-itm-base"
 eval_threshold: 0.5  # 模糊匹配阈值
 
 # 输出配置
-output_dir: "/data/veteran/project/dataE/Attribute_AKS/results/exp1_local_sampled_8frame_14domains"
+output_dir: "/data/veteran/project/dataE/Attribute_AKS/results/exp3_1_local_video_8frames_14domains"

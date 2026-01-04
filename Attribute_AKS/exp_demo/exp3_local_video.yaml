@@ -6,11 +6,11 @@ description: "使用云端Qwen-VL API，输入为所有候选帧（不经过AKS�
 model_mode: "api"  # local 或 api
 # api_key: "your-api-key-here"  # 可选，也可以通过环境变量DASHSCOPE_API_KEY设置
 api_url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
-api_model: "qwen-vl-plus"  # qwen-vl-plus, qwen-vl-max, 或 qwen-vl-turbo
+api_model: "qwen2.5-vl-7b-instruct"  # qwen-vl-plus, qwen-vl-max, 或 qwen-vl-turbo
 device: "cuda:0"  # 用于BLIP模型（虽然此模式下不使用BLIP评分，但仍需要初始化）
 
 # 输入模式
-input_mode: "all_frames"  # sampled_frames, all_frames, 或 video
+input_mode: "video"  # sampled_frames, all_frames, 或 video
 
 # 数据集配置
 split: "test"
@@ -33,4 +33,4 @@ blip_model: "blip-itm-base"
 eval_threshold: 0.5  # 模糊匹配阈值
 
 # 输出配置
-output_dir: "/data/veteran/project/dataE/Attribute_AKS/results/exp3_api_all_frames"
+output_dir: "/data/veteran/project/dataE/Attribute_AKS/results/exp3_local(api)_video_100_second"

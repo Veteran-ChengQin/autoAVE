@@ -14,7 +14,7 @@ input_mode: "video"  # sampled_frames, all_frames, 或 video
 # 数据集配置
 split: "test"
 domains: ["beauty"]
-max_samples: 5  # 设置为null或不设置则处理全部样本
+max_samples: 100  # 设置为null或不设置则处理全部样本
 
 # 注意：video模式下不需要以下参数，但为了配置文件完整性保留
 device: "cuda:0"
@@ -29,4 +29,4 @@ blip_model: "blip-itm-base"
 eval_threshold: 0.5  # 模糊匹配阈值
 
 # 输出配置
-output_dir: "/data/veteran/project/dataE/Attribute_AKS/results/exp4_api_video_url"
+output_dir: "/data/veteran/project/dataE/Attribute_AKS/results/exp4_api_video_url_100"

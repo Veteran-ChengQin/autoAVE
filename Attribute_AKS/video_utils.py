@@ -85,6 +85,8 @@ def extract_candidate_frames(video_path: str, fps: float = 1.0,
         frame_interval = max(1, int(video_fps / fps))
         
         # Generate frame indices
+        # indices = np.linspace(0, total_frames - 1, num=max_frames, dtype=int)
+
         indices = list(range(0, total_frames, frame_interval))
         
         # Limit to max_frames

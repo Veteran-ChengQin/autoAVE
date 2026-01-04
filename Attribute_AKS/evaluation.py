@@ -11,9 +11,9 @@ logger = logging.getLogger(__name__)
 
 def custom_fuzzy_match(label: str, pred: str, threshold: float = 0.5) -> bool:
     """
-    Custom fuzzy match based on common prefix rule.
+    Custom fuzzy match based on common substring rule.
     
-    A match is successful if the longest common prefix between label and pred
+    A match is successful if the longest common substring between label and pred
     is >= threshold * len(label).
     
     Args:
@@ -26,13 +26,22 @@ def custom_fuzzy_match(label: str, pred: str, threshold: float = 0.5) -> bool:
     """
     label = str(label).lower().strip()
     pred = str(pred).lower().strip()
-    
+
     if not label or not pred:
         return False
-    
-    # Calculate longest common prefix
-    match_length = len(os.path.commonprefix([label, pred]))
-    return match_length >= (len(label) * threshold)
+
+    m, n = len(label), len(pred)
+    dp = [[0] * (n + 1) for _ in range(m + 1)]
+    max_len = 0
+
+    for i in range(1, m + 1):
+        for j in range(1, n + 1):
+            if label[i - 1] == pred[j - 1]:
+                dp[i][j] = dp[i - 1][j - 1] + 1
+                max_len = max(max_len, dp[i][j])
+
+    return max_len >= threshold * len(label)
+
 
 
 def compute_fuzzy_f1_scores(predictions: List, labels: List, 
@@ -154,47 +163,51 @@ def compute_per_product_f1_scores(results: List[Dict], threshold: float = 0.5) -
         gt_dict = {}  # {attr_name: label_value}
         pred_dict = {}  # {attr_name: predicted_value}
         
-        for result in product_results:
-            attr_name = result.get("attr_name", "")
-            label = result.get("label", "")
-            pred = result.get("pred", {})
-            
-            # Extract predicted value from dict
-            if isinstance(pred, dict):
-                pred_value = pred.get(attr_name, "").strip()
-            else:
-                pred_value = str(pred).strip()
-            
-            gt_dict[attr_name] = str(label).strip()
-            pred_dict[attr_name] = pred_value
+        try:
+            for result in product_results:
+                attr_name = result.get("attr_name", "")
+                label = result.get("label", "")
+                pred = result.get("pred", {})
+                
+                # Extract predicted value from dict
+                if isinstance(pred, dict):
+                    pred_value = pred.get(attr_name, "").strip()
+                else:
+                    pred_value = str(pred).strip()
+                
+                gt_dict[attr_name] = str(label).strip()
+                pred_dict[attr_name] = pred_value
+        except Exception as e:
+            print(f"Warning: Skipping product {product_id} due to key extraction error: {e}")
+            continue
         
         # Compute TP/FP/FN for this product (following the evaluation.ipynb logic)
         product_tp, product_fp, product_fn = 0, 0, 0
         matched_keys = set()
         
-        # Check ground truth attributes
+        # Check ground truth attributes for Recall
         for attr_name, gt_value in gt_dict.items():
             if attr_name in pred_dict:
                 pred_value = pred_dict[attr_name]
                 
-                if not pred_value:
-                    # Predicted empty when ground truth is non-empty
-                    product_fn += 1
-                elif custom_fuzzy_match(gt_value, pred_value, threshold):
+                if custom_fuzzy_match(gt_value, pred_value, threshold):
                     # Correct match
                     product_tp += 1
+                    matched_keys.add(attr_name)
                 else:
                     # Incorrect match
                     product_fn += 1
                 
-                matched_keys.add(attr_name)
             else:
-                # Attribute not predicted
+                # Attribute not predicted 漏报 
                 product_fn += 1
         
-        # Check predicted attributes not in ground truth
-        for attr_name in pred_dict:
+        # Check predicted attributes not in ground truth for Precise
+        for attr_name, pred_value in pred_dict.items():
             if attr_name not in gt_dict:
+                product_fp += 1
+            elif attr_name not in matched_keys :
+                # Attribute predicted but not in ground truth 误报 (false positive)
                 product_fp += 1
         
         # Compute metrics for this product
@@ -238,6 +251,158 @@ def compute_per_product_f1_scores(results: List[Dict], threshold: float = 0.5) -
     }
     
     return per_product_metrics, overall_metrics
+
+
+def compute_per_category_f1_scores(results: List[Dict], threshold: float = 0.5) -> Tuple[Dict, Dict]:
+    """
+    Compute F1 scores aggregated by category.
+    
+    For each category, we aggregate all products and their attributes,
+    then compute F1 scores at the category level.
+    
+    Args:
+        results: List of result dictionaries from inference, each with format:
+                 {
+                     'product_id': str,
+                     'category': str,
+                     'attr_name': str,
+                     'pred': dict like {'Color': 'black'},
+                     'label': str like 'White',
+                     'num_keyframes': int,
+                     'keyframe_indices': list,
+                     ...
+                 }
+        threshold: Matching threshold for fuzzy matching (default 0.5)
+        
+    Returns:
+        Tuple of (per_category_metrics, overall_metrics)
+        - per_category_metrics: Dict[category] -> {precision, recall, f1, tp, fp, fn, product_count, attr_count}
+        - overall_metrics: {precision, recall, f1, tp, fp, fn, total_categories, total_products, total_attributes}
+    """
+    # Group results by category, then by product_id
+    categories = defaultdict(lambda: defaultdict(list))
+    for result in results:
+        if "error" not in result:
+            category = result.get("category", "unknown")
+            product_id = result.get("product_id", "unknown")
+            categories[category][product_id].append(result)
+    
+    # Compute F1 for each category
+    per_category_metrics = {}
+    total_tp, total_fp, total_fn = 0, 0, 0
+    total_categories = 0
+    total_products = 0
+    total_attributes = 0
+    
+    for category, products in categories.items():
+        category_tp, category_fp, category_fn = 0, 0, 0
+        category_products = 0
+        category_attributes = 0
+        
+        # Process each product in this category
+        for product_id, product_results in products.items():
+            # Build ground truth dict and prediction dict for this product
+            gt_dict = {}  # {attr_name: label_value}
+            pred_dict = {}  # {attr_name: predicted_value}
+            
+            try:
+                for result in product_results:
+                    attr_name = result.get("attr_name", "")
+                    label = result.get("label", "")
+                    pred = result.get("pred", {})
+                    
+                    # Extract predicted value from dict
+                    if isinstance(pred, dict):
+                        pred_value = pred.get(attr_name, "").strip()
+                    else:
+                        pred_value = str(pred).strip()
+                    
+                    gt_dict[attr_name] = str(label).strip()
+                    pred_dict[attr_name] = pred_value
+            except Exception as e:
+                print(f"Warning: Skipping product {product_id} in category {category} due to key extraction error: {e}")
+                continue
+            
+            # Compute TP/FP/FN for this product
+            product_tp, product_fp, product_fn = 0, 0, 0
+            matched_keys = set()
+            
+            # Check ground truth attributes for Recall
+            for attr_name, gt_value in gt_dict.items():
+                if attr_name in pred_dict:
+                    pred_value = pred_dict[attr_name]
+                    
+                    if custom_fuzzy_match(gt_value, pred_value, threshold):
+                        # Correct match
+                        product_tp += 1
+                        matched_keys.add(attr_name)
+                    else:
+                        # Incorrect match
+                        product_fn += 1
+                    
+                else:
+                    # Attribute not predicted 漏报 
+                    product_fn += 1
+            
+            # Check predicted attributes not in ground truth for Precise
+            for attr_name, pred_value in pred_dict.items():
+                if attr_name not in gt_dict:
+                    product_fp += 1
+                elif attr_name not in matched_keys:
+                    # Attribute predicted but not in ground truth 误报 (false positive)
+                    product_fp += 1
+            
+            # Accumulate for category metrics
+            category_tp += product_tp
+            category_fp += product_fp
+            category_fn += product_fn
+            category_products += 1
+            category_attributes += len(gt_dict)
+        
+        # Compute metrics for this category
+        category_precision = category_tp / (category_tp + category_fp) if (category_tp + category_fp) > 0 else 0.0
+        category_recall = category_tp / (category_tp + category_fn) if (category_tp + category_fn) > 0 else 0.0
+        category_f1 = 2 * category_precision * category_recall / (category_precision + category_recall) \
+                      if (category_precision + category_recall) > 0 else 0.0
+        
+        per_category_metrics[category] = {
+            "precision": round(category_precision, 4),
+            "recall": round(category_recall, 4),
+            "f1": round(category_f1, 4),
+            "tp": category_tp,
+            "fp": category_fp,
+            "fn": category_fn,
+            "product_count": category_products,
+            "attr_count": category_attributes,
+        }
+        
+        # Accumulate for overall metrics
+        total_tp += category_tp
+        total_fp += category_fp
+        total_fn += category_fn
+        total_categories += 1
+        total_products += category_products
+        total_attributes += category_attributes
+    
+    # Compute overall metrics
+    overall_precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
+    overall_recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
+    overall_f1 = 2 * overall_precision * overall_recall / (overall_precision + overall_recall) \
+                 if (overall_precision + overall_recall) > 0 else 0.0
+    
+    overall_metrics = {
+        "precision": round(overall_precision, 4),
+        "recall": round(overall_recall, 4),
+        "f1": round(overall_f1, 4),
+        "tp": total_tp,
+        "fp": total_fp,
+        "fn": total_fn,
+        "total_categories": total_categories,
+        "total_products": total_products,
+        "total_attributes": total_attributes,
+    }
+    
+    return per_category_metrics, overall_metrics
 
 
 class AttributeEvaluator:

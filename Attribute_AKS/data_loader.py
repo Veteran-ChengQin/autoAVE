@@ -110,6 +110,7 @@ class VideoAVEAttrDataset:
                             sample = {
                                 "product_id": product_id,
                                 "video_path": video_path,
+                                "video_url": video_url,  # Include video_url for video mode
                                 "category": domain,
                                 "title": title,
                                 "attr_name": attr_name,

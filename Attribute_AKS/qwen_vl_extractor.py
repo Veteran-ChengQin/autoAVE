@@ -6,7 +6,11 @@ import re
 import json
 import base64
 import io
+import os
+import time
+import pickle
 from typing import List, Dict, Optional, Literal
+from pathlib import Path
 from PIL import Image
 import torch
 import requests
@@ -27,7 +31,8 @@ class QwenVLExtractor:
                  mode: Literal["local", "api"] = "local",
                  api_key: Optional[str] = None,
                  api_url: str = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
-                 api_model: str = "qwen-vl-plus"):
+                 api_model: str = "qwen-vl-plus",
+                 cache_dir: Optional[str] = None):
         """
         Args:
             model_path: Path to Qwen2.5-VL model (required for local mode)
@@ -36,6 +41,7 @@ class QwenVLExtractor:
             api_key: API key for API mode
             api_url: API endpoint URL
             api_model: Model name for API calls
+            cache_dir: Directory to store OSS URL cache (for API mode)
         """
         self.mode = mode
         self.model_path = model_path
@@ -47,6 +53,11 @@ class QwenVLExtractor:
         self.api_key = api_key
         self.api_url = api_url
         self.api_model = api_model
+        
+        # OSS URL cache configuration
+        self.cache_dir = cache_dir or os.path.join(os.path.expanduser("~"), ".qwen_vl_cache")
+        self.oss_cache_file = os.path.join(self.cache_dir, "oss_url_cache.pkl")
+        self._oss_url_cache = self._load_oss_cache()
         
         if self.mode == "local":
             if not model_path:
@@ -105,24 +116,133 @@ class QwenVLExtractor:
         img_str = base64.b64encode(buffered.getvalue()).decode('utf-8')
         return f"data:image/jpeg;base64,{img_str}"
     
-    def _call_api(self, messages: List[Dict], stream: bool = False) -> str:
+    def _load_oss_cache(self) -> Dict[str, str]:
+        """Load OSS URL cache from disk"""
+        try:
+            if os.path.exists(self.oss_cache_file):
+                with open(self.oss_cache_file, 'rb') as f:
+                    cache = pickle.load(f)
+                logger.info(f"Loaded OSS URL cache with {len(cache)} entries")
+                return cache
+            else:
+                logger.info("No existing OSS URL cache found, starting with empty cache")
+                return {}
+        except Exception as e:
+            logger.warning(f"Failed to load OSS URL cache: {e}, starting with empty cache")
+            return {}
+    
+    def _save_oss_cache(self) -> None:
+        """Save OSS URL cache to disk"""
+        try:
+            os.makedirs(self.cache_dir, exist_ok=True)
+            with open(self.oss_cache_file, 'wb') as f:
+                pickle.dump(self._oss_url_cache, f)
+            logger.debug(f"Saved OSS URL cache with {len(self._oss_url_cache)} entries")
+        except Exception as e:
+            logger.error(f"Failed to save OSS URL cache: {e}")
+    
+    def _get_cached_oss_url(self, product_id: str) -> Optional[str]:
+        """Get cached OSS URL for a product_id"""
+        return self._oss_url_cache.get(product_id)
+    
+    def _cache_oss_url(self, product_id: str, oss_url: str) -> None:
+        """Cache OSS URL for a product_id"""
+        self._oss_url_cache[product_id] = oss_url
+        self._save_oss_cache()
+        logger.info(f"Cached OSS URL for product_id {product_id}: {oss_url}")
+    
+    def _get_upload_policy(self) -> Dict:
+        """获取文件上传凭证"""
+        url = "https://dashscope.aliyuncs.com/api/v1/uploads"
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json"
+        }
+        params = {
+            "action": "getPolicy",
+            "model": self.api_model
+        }
+        
+        response = requests.get(url, headers=headers, params=params, timeout=30)
+        if response.status_code != 200:
+            raise Exception(f"Failed to get upload policy: {response.text}")
+        
+        return response.json()['data']
+    
+    def _upload_file_to_oss(self, policy_data: Dict, file_path: str) -> str:
+        """将文件上传到临时存储OSS"""
+        file_name = Path(file_path).name
+        key = f"{policy_data['upload_dir']}/{file_name}"
+        
+        try:
+            with open(file_path, 'rb') as file:
+                files = {
+                    'OSSAccessKeyId': (None, policy_data['oss_access_key_id']),
+                    'Signature': (None, policy_data['signature']),
+                    'policy': (None, policy_data['policy']),
+                    'x-oss-object-acl': (None, policy_data['x_oss_object_acl']),
+                    'x-oss-forbid-overwrite': (None, policy_data['x_oss_forbid_overwrite']),
+                    'key': (None, key),
+                    'success_action_status': (None, '200'),
+                    'file': (file_name, file)
+                }
+                
+                response = requests.post(policy_data['upload_host'], files=files, timeout=60)
+                if response.status_code != 200:
+                    raise Exception(f"Failed to upload file: {response.text}")
+            
+            return f"oss://{key}"
+        except Exception as e:
+            logger.error(f"Failed to upload file {file_path} to OSS: {e}")
+            raise
+    
+    def _upload_video_and_get_url(self, file_path: str, product_id: Optional[str] = None) -> str:
+        """上传视频文件并获取OSS URL，支持缓存功能"""
+        # 如果提供了product_id，先检查缓存
+        if product_id:
+            cached_url = self._get_cached_oss_url(product_id)
+            if cached_url:
+                logger.info(f"Using cached OSS URL for product_id {product_id}: {cached_url}")
+                return cached_url
+        
+        try:
+            logger.info(f"Uploading video to OSS: {file_path}")
+            # 1. 获取上传凭证
+            policy_data = self._get_upload_policy()
+            # 2. 上传文件到OSS
+            oss_url = self._upload_file_to_oss(policy_data, file_path)
+            logger.info(f"Video uploaded successfully, OSS URL: {oss_url}")
+            
+            # 如果提供了product_id，缓存结果
+            if product_id:
+                self._cache_oss_url(product_id, oss_url)
+            
+            return oss_url
+        except Exception as e:
+            logger.error(f"Failed to upload video {file_path}: {e}")
+            raise
+    
+    def _call_api(self, messages: List[Dict], stream: bool = False, max_retries: int = 3) -> str:
         """
-        Call Qwen VL API.
+        Call Qwen VL API with retry logic and increased timeout.
         
         Args:
             messages: List of message dicts with role and content
             stream: Whether to use streaming mode
+            max_retries: Maximum number of retry attempts
             
         Returns:
             Generated text response
         """
         headers = {
             "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "X-DashScope-OssResourceResolve": "enable"
         }
         
         payload = {
             "model": self.api_model,
+            "temperature": 0.2,
             "messages": messages,
             "stream": stream
         }
@@ -130,72 +250,135 @@ class QwenVLExtractor:
         if stream:
             payload["stream_options"] = {"include_usage": True}
         
-        try:
-            response = requests.post(self.api_url, headers=headers, json=payload, timeout=60)
-            response.raise_for_status()
-            
-            if stream:
-                # Handle streaming response
-                full_response = ""
-                for line in response.iter_lines():
-                    if line:
-                        line_str = line.decode('utf-8')
-                        if line_str.startswith('data: '):
-                            data_str = line_str[6:]
-                            if data_str.strip() == '[DONE]':
-                                break
-                            try:
-                                data = json.loads(data_str)
-                                if 'choices' in data and len(data['choices']) > 0:
-                                    delta = data['choices'][0].get('delta', {})
-                                    content = delta.get('content', '')
-                                    full_response += content
-                            except json.JSONDecodeError:
-                                continue
-                return full_response
-            else:
-                # Handle non-streaming response
-                result = response.json()
-                return result['choices'][0]['message']['content']
+        # Increased timeout from 60 to 180 seconds
+        timeout = 180
+        
+        for attempt in range(max_retries):
+            try:
+                response = requests.post(self.api_url, headers=headers, json=payload, timeout=timeout)
+                response.raise_for_status()
                 
-        except requests.exceptions.RequestException as e:
-            logger.error(f"API call failed: {e}")
-            raise
+                if stream:
+                    # Handle streaming response
+                    full_response = ""
+                    for line in response.iter_lines():
+                        if line:
+                            line_str = line.decode('utf-8')
+                            if line_str.startswith('data: '):
+                                data_str = line_str[6:]
+                                if data_str.strip() == '[DONE]':
+                                    break
+                                try:
+                                    data = json.loads(data_str)
+                                    if 'choices' in data and len(data['choices']) > 0:
+                                        delta = data['choices'][0].get('delta', {})
+                                        content = delta.get('content', '')
+                                        full_response += content
+                                except json.JSONDecodeError:
+                                    continue
+                    return full_response
+                else:
+                    # Handle non-streaming response
+                    result = response.json()
+                    return result['choices'][0]['message']['content']
+                    
+            except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+                # Retry on timeout or connection errors
+                if attempt < max_retries - 1:
+                    wait_time = 2 ** attempt  # Exponential backoff: 1s, 2s, 4s
+                    logger.warning(f"API call timeout/connection error (attempt {attempt + 1}/{max_retries}): {e}. Retrying in {wait_time}s...")
+                    time.sleep(wait_time)
+                else:
+                    logger.error(f"API call failed after {max_retries} attempts: {e}")
+                    raise
+            except requests.exceptions.RequestException as e:
+                # Don't retry on other request exceptions
+                logger.error(f"API call failed: {e}")
+                raise
     
     def extract_single_attr_from_video(self, video_url: str, attr_name: str,
-                                       title: str, category: str) -> Dict[str, str]:
+                                       title: str, category: str, product_id: Optional[str] = None, max_frames: int = 16) -> Dict[str, str]:
         """
-        Extract value for a single attribute directly from video URL (API mode only).
+        Extract value for a single attribute directly from video URL.
+        Supports both API mode and local mode.
         
         Args:
-            video_url: URL of the video (http/https URL)
+            video_url: URL of the video (http/https URL or local file path)
             attr_name: Attribute name
             title: Product title
             category: Product category
+            product_id: Product ID for OSS URL caching (optional)
+            max_frames: Maximum number of frames to extract from video
             
         Returns:
             Dictionary with attr_name as key and extracted value as value
         """
-        if self.mode != "api":
-            raise ValueError("extract_single_attr_from_video only supports API mode")
+        if self.mode == "local":
+            # Local mode: extract frames and process them
+            return self._extract_single_attr_from_video_local(video_url, attr_name, title, category, max_frames)
+        elif self.mode == "api":
+            # API mode: use existing implementation
+            return self._extract_single_attr_from_video_api(video_url, attr_name, title, category, product_id)
+        else:
+            raise ValueError(f"Unsupported mode: {self.mode}")
+    
+    def _extract_single_attr_from_video_local(self, video_url: str, attr_name: str,
+                                            title: str, category: str, max_frames: int = 16) -> Dict[str, str]:
+        """
+        Extract value for a single attribute from video using local model.
+        """
+        try:
+            from video_utils import extract_candidate_frames
+            
+            # Extract frames from video (use reasonable defaults)
+            logger.info(f"Extracting frames from video: {video_url}")
+            frames, timestamps = extract_candidate_frames(video_url, fps=1.0, max_frames=max_frames)
+            
+            if not frames:
+                logger.warning(f"No frames extracted from video: {video_url}")
+                return {attr_name: ""}
+            
+            logger.info(f"Extracted {len(frames)} frames, processing with local model")
+            
+            # Use existing extract_single_attr method for frame processing
+            return self.extract_single_attr(frames, attr_name, title, category)
+            
+        except Exception as e:
+            logger.error(f"Error extracting {attr_name} from video in local mode: {e}", exc_info=True)
+            return {attr_name: ""}
+    
+    def _extract_single_attr_from_video_api(self, video_url: str, attr_name: str,
+                                          title: str, category: str, product_id: Optional[str] = None) -> Dict[str, str]:
+        """
+        Extract value for a single attribute from video using API mode.
+        """
         
         # Construct prompt - request JSON format response
         user_prompt = (
-            f"该视频主要用于介绍{category}类别的商品。\n"
-            f"商品标题: {title}\n"
-            f"请你从视频中提取商品的属性\"{attr_name}\"的值。\n\n"
-            f"请只返回有效的JSON格式，格式如下：\n"
-            '{"{attr_name}": "<提取的属性值>"}\n\n'
-            f"如果无法确定该属性的值，请使用空字符串。"
+            f"This video is mainly used to introduce products in the {category} category.\n"
+            f"Product title: {title}\n"
+            f"Please extract the value of the product attribute \"{attr_name}\" from the video.\n\n"
+            f"Please return only valid JSON format as follows:\n"
+            '{"{attr_name}": "<extracted attribute value>"}\n\n'
+            f"If the attribute value cannot be determined, please use an empty string."
         )
         
         try:
-            # Prepare API request with video URL
+            # Check if video_url is a local file path or remote URL
+            if os.path.exists(video_url):
+                # Local file - upload to OSS and get temporary URL (with caching)
+                logger.info(f"Processing local video file: {video_url}")
+                video_data_url = self._upload_video_and_get_url(video_url, product_id)
+            else:
+                # Remote URL - use directly
+                video_data_url = video_url
+            
+            # Prepare API request with video URL or base64 data
             content = [
                 {
                     "type": "video_url",
                     "video_url": {
-                        "url": video_url
+                        "url": video_data_url
                     }
                 },
                 {
@@ -216,25 +399,72 @@ class QwenVLExtractor:
             return result
             
         except Exception as e:
-            logger.error(f"Error extracting {attr_name} from video: {e}", exc_info=True)
+            logger.error(f"Error extracting {attr_name} from video in API mode: {e}", exc_info=True)
             return {attr_name: ""}
     
     def extract_multi_attr_from_video(self, video_url: str, attr_names: List[str],
-                                      title: str, category: str) -> Dict[str, str]:
+                                      title: str, category: str, product_id: Optional[str] = None, max_frames: int = 16) -> Dict[str, str]:
         """
-        Extract values for multiple attributes directly from video URL (API mode only).
+        Extract values for multiple attributes directly from video URL.
+        Supports both API mode and local mode.
         
         Args:
-            video_url: URL of the video (http/https URL)
+            video_url: URL of the video (http/https URL or local file path)
             attr_names: List of attribute names
             title: Product title
             category: Product category
+            product_id: Product ID for OSS URL caching (optional)
+            max_frames: Maximum number of frames to extract from video
             
         Returns:
             Dict mapping attr_name -> predicted value
         """
-        if self.mode != "api":
-            raise ValueError("extract_multi_attr_from_video only supports API mode")
+        if self.mode == "local":
+            # Local mode: extract frames and process them
+            return self._extract_multi_attr_from_video_local(video_url, attr_names, title, category, max_frames)
+        elif self.mode == "api":
+            # API mode: use existing implementation
+            return self._extract_multi_attr_from_video_api(video_url, attr_names, title, category, product_id)
+        else:
+            raise ValueError(f"Unsupported mode: {self.mode}")
+    
+    def _extract_multi_attr_from_video_local(self, video_url: str, attr_names: List[str],
+                                           title: str, category: str, max_frames: int = 16) -> Dict[str, str]:
+        """
+        Extract values for multiple attributes from video using local model.
+        """
+        if not attr_names:
+            logger.warning("No attributes provided")
+            return {}
+        
+        try:
+            from video_utils import extract_candidate_frames
+            
+            # Extract frames from video (use reasonable defaults)
+            logger.info(f"Extracting frames from video: {video_url}")
+            frames, timestamps = extract_candidate_frames(video_url, fps=1.0, max_frames=max_frames)
+            
+            if not frames:
+                logger.warning(f"No frames extracted from video: {video_url}")
+                return {name: "" for name in attr_names}
+            
+            logger.info(f"Extracted {len(frames)} frames, processing with local model")
+            
+            # Create attr_keyframes dict for multi-attribute processing
+            attr_keyframes = {attr_name: frames for attr_name in attr_names}
+            
+            # Use existing extract_multi_attr method for frame processing
+            return self.extract_multi_attr(attr_keyframes, title, category)
+            
+        except Exception as e:
+            logger.error(f"Error extracting attributes from video in local mode: {e}", exc_info=True)
+            return {name: "" for name in attr_names}
+    
+    def _extract_multi_attr_from_video_api(self, video_url: str, attr_names: List[str],
+                                         title: str, category: str, product_id: Optional[str] = None) -> Dict[str, str]:
+        """
+        Extract values for multiple attributes from video using API mode.
+        """
         
         if not attr_names:
             logger.warning("No attributes provided")
@@ -244,26 +474,35 @@ class QwenVLExtractor:
         attr_list_str = str(attr_names)
         
         # Build example JSON format
-        example_json = {name: "<值>" for name in attr_names}
+        example_json = {name: "<value>" for name in attr_names}
         example_json_str = json.dumps(example_json, ensure_ascii=False)
         
         user_prompt = (
-            f"该视频主要用于介绍{category}类别的商品。\n"
-            f"商品标题: {title}\n\n"
-            f"请你从视频中提取商品的这几个属性的值，属性列表为: {attr_list_str}\n\n"
-            f"请只返回有效的JSON格式，格式如下：\n"
+            f"This video is mainly used to introduce products in the {category} category.\n"
+            f"Product title: {title}\n\n"
+            f"Please extract the values of these product attributes from the video, attribute list: {attr_list_str}\n\n"
+            f"Please return only valid JSON format as follows:\n"
             f"{example_json_str}\n\n"
-            f"如果某个属性无法确定，请使用空字符串作为值。\n"
-            f"不要提及其他属性。"
+            f"If an attribute value cannot be determined, please use an empty string as the value.\n"
+            f"Do not mention other attributes."
         )
         
         try:
-            # Prepare API request with video URL
+            # Check if video_url is a local file path or remote URL
+            if os.path.exists(video_url):
+                # Local file - upload to OSS and get temporary URL (with caching)
+                logger.info(f"Processing local video file: {video_url}")
+                video_data_url = self._upload_video_and_get_url(video_url, product_id)
+            else:
+                # Remote URL - use directly
+                video_data_url = video_url
+            
+            # Prepare API request with video URL or base64 data
             content = [
                 {
                     "type": "video_url",
                     "video_url": {
-                        "url": video_url
+                        "url": video_data_url
                     }
                 },
                 {
@@ -284,7 +523,7 @@ class QwenVLExtractor:
             return result
             
         except Exception as e:
-            logger.error(f"Error extracting attributes from video: {e}", exc_info=True)
+            logger.error(f"Error extracting attributes from video in API mode: {e}", exc_info=True)
             return {name: "" for name in attr_names}
     
     def extract_single_attr(self, keyframes: List[Image.Image], attr_name: str,
@@ -311,10 +550,11 @@ class QwenVLExtractor:
             f"I will show you several frames from a product video.\n"
             f"Product category: {category}\n"
             f"Product title: {title}\n"
-            f"Attribute name: \"{attr_name}\"\n\n"
-            f"Extract the attribute value from the video frames.\n"
-            f"Respond ONLY with valid JSON in this exact format:\n"
-            '{"<attr_name>": "<extracted_value>"}\n\n'
+            f"Target attribute: {attr_name}\n\n"
+            f"Extract the {attr_name} value from the video frames.\n"
+            f"Respond with ONLY valid JSON using this EXACT format (no extra text, no markdown):\n"
+            f'{{"{attr_name}": "value_here"}}\n\n'
+            f"Example response: {{\"{attr_name}\": \"red\"}}\n"
         )
         
         try:
@@ -638,7 +878,56 @@ class QwenVLExtractor:
         except (AttributeError, TypeError):
             pass
         
-        # Step 4: Handle escaped quotes manually as last resort
+        # Step 4: Handle malformed JSON with manual parsing
+        try:
+            # Look for key-value patterns in the response
+            # Handle cases like: "\"Brand\"": "\"Osensia\"\""
+            # or: "\"Item Form\"": "\"box of lipsticks and eyeshadow palette"
+            
+            # Find all potential key-value pairs
+            # Pattern: optional quotes + escaped quotes + key + escaped quotes + optional quotes + colon + space + value
+            lines = response.split('\n')
+            result = {}
+            
+            for line in lines:
+                line = line.strip()
+                if ':' in line and (line.startswith('"') or line.strip().startswith('"')):
+                    # Split on the first colon
+                    parts = line.split(':', 1)
+                    if len(parts) == 2:
+                        key_part = parts[0].strip()
+                        value_part = parts[1].strip()
+                        
+                        # Clean up key: remove outer quotes and unescape inner quotes
+                        # Handle: "\"Brand\"" -> Brand
+                        key = key_part.strip('"').strip("'")
+                        if key.startswith('\\"') and key.endswith('\\"'):
+                            key = key[2:-2]  # Remove \" from both ends
+                        key = key.replace('\\"', '"')
+                        
+                        # Clean up value: remove quotes and handle malformed endings
+                        # Handle: "\"Osensia\"\"" -> Osensia
+                        # Handle: "\"box of lipsticks and eyeshadow palette" -> box of lipsticks and eyeshadow palette
+                        value = value_part.strip().rstrip(',').rstrip('}').strip()
+                        value = value.strip('"').strip("'")
+                        if value.startswith('\\"'):
+                            value = value[2:]  # Remove leading \"
+                        if value.endswith('\\"'):
+                            value = value[:-2]  # Remove trailing \"
+                        # Handle extra quotes at the end
+                        while value.endswith('"') and not value.endswith('\\"'):
+                            value = value[:-1]
+                        value = value.replace('\\"', '"')
+                        
+                        if key:  # Only add if key is not empty
+                            result[key] = value
+            
+            if result:
+                return result
+        except (AttributeError, TypeError, IndexError):
+            pass
+        
+        # Step 5: Handle escaped quotes manually as last resort
         try:
             # Replace escaped quotes with regular quotes
             response_unescaped = response.replace('\\"', '"')
@@ -649,7 +938,7 @@ class QwenVLExtractor:
         except (json.JSONDecodeError, ValueError):
             pass
         
-        # Step 5: If all JSON parsing fails, return empty value (attribute not extracted)
+        # Step 6: If all JSON parsing fails, return empty value (attribute not extracted)
         logger.warning(f"Failed to parse JSON response for {attr_name}: {response}")
         return {attr_name: ""}
     

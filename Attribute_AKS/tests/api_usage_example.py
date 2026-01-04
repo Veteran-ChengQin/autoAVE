@@ -10,13 +10,15 @@ import sys
 import os
 import logging
 from pathlib import Path
+from dotenv import load_dotenv
 
 # Add parent directory to path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from qwen_vl_extractor import QwenVLExtractor
-from video_utils import extract_frames
+from video_utils import extract_candidate_frames
 from PIL import Image
+load_dotenv('./Attribute_AKS/.env')
 
 # Setup logging
 logging.basicConfig(
@@ -59,7 +61,7 @@ def extract_attributes_from_video_api(
     
     # Extract frames from video
     # You can adjust num_frames based on video length and quality needs
-    frames = extract_frames(video_path, num_frames=8)
+    frames = extract_candidate_frames(video_path, num_frames=8)
     logger.info(f"Extracted {len(frames)} frames from video")
     
     # Method 1: Extract all attributes at once (recommended for efficiency)
@@ -98,13 +100,13 @@ def extract_single_attribute_api(
     extractor = QwenVLExtractor(
         mode="api",
         api_key=api_key,
-        api_model="qwen-vl-plus"
+        api_model="qwen2.5-vl-7b-instruct"
     )
     
     logger.info(f"Extracting attribute '{attribute_name}' from video: {video_path}")
     
     # Extract frames from video
-    frames = extract_frames(video_path, num_frames=8)
+    frames = extract_single_attr_from_video(video_path, max_frames=8)
     logger.info(f"Extracted {len(frames)} frames from video")
     
     # Extract single attribute
@@ -129,41 +131,41 @@ def main():
         return
     
     # Example video path
-    video_path = "path/to/your/product/video.mp4"
+    video_path = "/data/veteran/project/dataE/Attribute_AKS/.cache/videos/21cc8d6834ae80202079b205ff2bc23d.mp4"
     
     if not os.path.exists(video_path):
         logger.warning(f"Video file not found: {video_path}")
         logger.info("Please update the video_path variable with a valid video file")
         return
-    
+    product_title = "Neutrogena Hydro Boost Hydrating Foundation Stick with Hyaluronic Acid, Oil-Free & Non-Comedogenic Moisturizing Makeup for Smooth Coverage & Radiant-Looking Skin, Classic Ivory, 0.29 oz"
+
     # Product information
-    product_title = "Women's Synthetic Wig"
-    product_category = "Hair Extensions & Wigs"
+    product_category = "Beauty"
     
     # Attributes to extract
-    attributes = ["Color", "Hair Type", "Material"]
+    attributes = ['Item Form', 'Color', 'Skin Type', 'Finish Type']
     
     # Example 1: Extract multiple attributes at once
     logger.info("\n" + "=" * 60)
     logger.info("Example 1: Multi-attribute extraction")
     logger.info("=" * 60)
     
-    results = extract_attributes_from_video_api(
-        video_path=video_path,
-        attributes=attributes,
-        api_key=api_key,
-        product_title=product_title,
-        product_category=product_category
-    )
+    # results = extract_attributes_from_video_api(
+    #     video_path=video_path,
+    #     attributes=attributes,
+    #     api_key=api_key,
+    #     product_title=product_title,
+    #     product_category=product_category
+    # )
     
-    logger.info("\nExtraction Results:")
-    for attr, value in results.items():
-        logger.info(f"  {attr}: {value}")
+    # logger.info("\nExtraction Results:")
+    # for attr, value in results.items():
+    #     logger.info(f"  {attr}: {value}")
     
-    # Example 2: Extract single attribute
-    logger.info("\n" + "=" * 60)
-    logger.info("Example 2: Single attribute extraction")
-    logger.info("=" * 60)
+    # # Example 2: Extract single attribute
+    # logger.info("\n" + "=" * 60)
+    # logger.info("Example 2: Single attribute extraction")
+    # logger.info("=" * 60)
     
     result = extract_single_attribute_api(
         video_path=video_path,

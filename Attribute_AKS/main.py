@@ -5,6 +5,7 @@ import os
 import sys
 import logging
 import argparse
+import shutil
 from typing import Optional
 import json
 import yaml
@@ -15,7 +16,8 @@ from frame_scorer import FrameScorer
 from attr_keyframe_selector import AttrKeyframeSelector
 from qwen_vl_extractor import QwenVLExtractor
 from evaluation import AttributeEvaluator
-load_dotenv()
+from video_utils import download_video, get_video_hash
+load_dotenv('./Attribute_AKS/.env')
 # Create log directory first
 os.makedirs(Config.LOG_DIR, exist_ok=True)
 
@@ -30,6 +32,45 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 os.makedirs(Config.CACHE_DIR, exist_ok=True)
+
+
+def get_or_download_video(video_url: str, cache_dir: str) -> Optional[str]:
+    """
+    Get local video path from cache or download from URL.
+    
+    Args:
+        video_url: URL of the video
+        cache_dir: Directory to cache downloaded videos
+        
+    Returns:
+        Local path to video file, or None if download fails
+    """
+    if not video_url or video_url.strip() == "":
+        return None
+    
+    # Generate cache file path based on video URL hash
+    video_hash = get_video_hash(video_url)
+    cache_file = os.path.join(cache_dir, f"{video_hash}.mp4")
+    
+    # Check if video already cached
+    if os.path.exists(cache_file):
+        logger.info(f"Using cached video: {cache_file}")
+        return cache_file
+    
+    # Try to download and cache
+    try:
+        logger.info(f"Downloading video from {video_url}")
+        temp_path = download_video(video_url)
+        
+        # Move to cache directory (use shutil.move for cross-device support)
+        os.makedirs(cache_dir, exist_ok=True)
+        shutil.move(temp_path, cache_file)
+        logger.info(f"Cached video to {cache_file}")
+        return cache_file
+        
+    except Exception as e:
+        logger.error(f"Failed to download/cache video from {video_url}: {e}")
+        return None
 
 
 def setup_models(exp_config: dict):
@@ -59,7 +100,7 @@ def setup_models(exp_config: dict):
             m_attr=exp_config.get('m_attr', Config.M_ATTR),
             max_level=exp_config.get('max_level', Config.MAX_LEVEL),
             s_threshold=exp_config.get('s_threshold', Config.S_THRESHOLD),
-            storage_dir=os.path.join(Config.ATTRIBUTE_AKS_ROOT, "frame_storage"),
+            storage_dir=os.path.join(Config.ATTRIBUTE_AKS_ROOT, "frame_storage_v1"),
             enable_storage=True
         )
     
@@ -87,7 +128,8 @@ def setup_models(exp_config: dict):
 
 
 def infer_single_sample(sample: dict, keyframe_selector: Optional[AttrKeyframeSelector],
-                       qwen_extractor: QwenVLExtractor, input_mode: str = "sampled_frames") -> dict:
+                       qwen_extractor: QwenVLExtractor, input_mode: str = "sampled_frames",
+                       video_cache_dir: Optional[str] = None, max_frames: int = 16) -> dict:
     """
     Run inference on a single sample.
     
@@ -96,6 +138,8 @@ def infer_single_sample(sample: dict, keyframe_selector: Optional[AttrKeyframeSe
         keyframe_selector: AttrKeyframeSelector instance (can be None for video mode)
         qwen_extractor: QwenVLExtractor instance
         input_mode: Input mode - "sampled_frames", "all_frames", or "video"
+        video_cache_dir: Directory to cache downloaded videos (for video mode)
+        max_frames: Maximum number of frames to extract from video (for video mode)
         
     Returns:
         Result dictionary with prediction and ground truth
@@ -106,21 +150,39 @@ def infer_single_sample(sample: dict, keyframe_selector: Optional[AttrKeyframeSe
     attr_name = sample["attr_name"]
     attr_value = sample["attr_value"]
     product_id = sample.get("product_id", "")
-    video_url = sample.get("video_url", "")  # For video mode
     
     logger.info(f"Processing: {product_id} - {attr_name} (mode: {input_mode})")
     
     try:
         if input_mode == "video":
             # Mode 4: Direct video URL input (API only)
-            if not video_url:
-                raise ValueError(f"video_url is required for video mode, but got empty for {product_id}")
+            if not video_path or video_path.strip() == "":
+                logger.warning(f"video_path is empty for {product_id} - {attr_name}, skipping")
+                return {
+                    "product_id": product_id,
+                    "category": category,
+                    "attr_name": attr_name,
+                    "pred": {},
+                    "label": attr_value,
+                    "error": "video_path is empty",
+                    "input_mode": "video"
+                }
+            
+            # Try to get or download video to local cache
+            local_video_path = None
+            if video_cache_dir:
+                local_video_path = get_or_download_video(video_path, video_cache_dir)
+            
+            # Use local path if available, otherwise use original URL
+            video_input = local_video_path if local_video_path else video_path
             
             pred_dict = qwen_extractor.extract_single_attr_from_video(
-                video_url=video_url,
+                video_url=video_input,
                 attr_name=attr_name,
                 title=title,
-                category=category
+                category=category,
+                product_id=product_id,
+                max_frames=max_frames
             )
             
             result = {
@@ -130,7 +192,8 @@ def infer_single_sample(sample: dict, keyframe_selector: Optional[AttrKeyframeSe
                 "pred": pred_dict,
                 "label": attr_value,
                 "input_mode": "video",
-                "video_url": video_url
+                "video_url": video_path,
+                "local_video_path": local_video_path
             }
             
         else:
@@ -194,7 +257,7 @@ def infer_single_sample(sample: dict, keyframe_selector: Optional[AttrKeyframeSe
 
 def infer_batch(dataset: VideoAVEAttrDataset, keyframe_selector: Optional[AttrKeyframeSelector],
                qwen_extractor: QwenVLExtractor, input_mode: str = "sampled_frames",
-               max_samples: Optional[int] = None) -> list:
+               max_samples: Optional[int] = None, video_cache_dir: Optional[str] = None, max_frames: int = 16) -> list:
     """
     Run inference on a batch of samples.
     
@@ -204,6 +267,8 @@ def infer_batch(dataset: VideoAVEAttrDataset, keyframe_selector: Optional[AttrKe
         qwen_extractor: QwenVLExtractor instance
         input_mode: Input mode - "sampled_frames", "all_frames", or "video"
         max_samples: Maximum samples to process
+        video_cache_dir: Directory to cache downloaded videos (for video mode)
+        max_frames: Maximum number of frames to extract from video (for video mode)
         
     Returns:
         List of result dictionaries
@@ -214,7 +279,10 @@ def infer_batch(dataset: VideoAVEAttrDataset, keyframe_selector: Optional[AttrKe
     
     for i in range(num_samples):
         sample = dataset[i]
-        result = infer_single_sample(sample, keyframe_selector, qwen_extractor, input_mode)
+        product_id = sample.get("product_id", "")
+        # if product_id != "B0BDG3W7J5":
+        #     continue
+        result = infer_single_sample(sample, keyframe_selector, qwen_extractor, input_mode, video_cache_dir, max_frames)
         results.append(result)
         
         if (i + 1) % 10 == 0:
@@ -310,7 +378,7 @@ def main():
         description="Attribute-conditioned video attribute extraction with AKS"
     )
     parser.add_argument(
-        "--config", type=str, required=True,
+        "--config", type=str, default="./Attribute_AKS/exp_demo/exp1_local_sampled_frames.yaml",
         help="Path to experiment configuration YAML file"
     )
     parser.add_argument(
@@ -354,10 +422,20 @@ def main():
     # Setup models
     keyframe_selector, qwen_extractor = setup_models(exp_config)
     
-    # Run inference
+    # Setup video cache directory for video mode
     input_mode = exp_config.get('input_mode', 'sampled_frames')
+    video_cache_dir = None
+    if input_mode == "video":
+        video_cache_dir = os.path.join(Config.CACHE_DIR, "videos")
+        os.makedirs(video_cache_dir, exist_ok=True)
+        logger.info(f"Video cache directory: {video_cache_dir}")
+    
+    # Get max_frames parameter for video mode
+    max_frames = exp_config.get('max_frames', 16)
+    
+    # Run inference
     logger.info(f"Running inference with input_mode={input_mode}...")
-    results = infer_batch(dataset, keyframe_selector, qwen_extractor, input_mode, max_samples)
+    results = infer_batch(dataset, keyframe_selector, qwen_extractor, input_mode, max_samples, video_cache_dir, max_frames)
     
     # Evaluate
     logger.info("Evaluating results...")
